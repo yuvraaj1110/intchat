@@ -1,0 +1,627 @@
+{
+  "metadata": {
+    "dataset_name": "International Student Knowledge Base",
+    "version": "1.0",
+    "last_updated": "2026-01-06",
+    "source_urls": [
+      "https://studyinthestates.dhs.gov",
+      "https://educationusa.state.gov",
+      "https://travel.state.gov",
+      "https://www.uscis.gov"
+    ],
+    "description": "Comprehensive guidance for international students (F-1, M-1, J-1), including visa, SEVIS, I-20, financial aid, employment, scholarships, travel, and compliance."
+  },
+  "categories": [
+    {
+      "id": "sevis_system",
+      "title": "SEVIS System Overview",
+      "description": "Information about the Student and Exchange Visitor Information System (SEVIS) and the Student and Exchange Visitor Program (SEVP).",
+      "topics": [
+        {
+          "id": "sevis_overview",
+          "title": "SEVIS Purpose and Management",
+          "subcategory": "System Overview",
+          "content_blocks": [
+            {
+              "type": "paragraph",
+              "text": "SEVIS is the web-based system used by the U.S. Department of Homeland Security to maintain information on nonimmigrant students (F-1 and M-1) and exchange visitors (J-1)."
+            },
+            {
+              "type": "list",
+              "text": [
+                "Monitors student and exchange visitor status.",
+                "Tracks Form I-20 and DSOs.",
+                "Ensures compliance with visa regulations."
+              ]
+            },
+            {
+              "type": "note",
+              "text": "All SEVP-certified schools must use SEVIS to report student enrollment and status changes."
+            }
+          ],
+          "related_forms": ["I-20", "I-17"],
+          "related_visa_types": ["F-1", "M-1", "J-1"],
+          "source_urls": ["https://studyinthestates.dhs.gov/sevis"],
+          "last_updated": "2026-01-06",
+          "audience": ["prospective_students", "current_f1", "current_m1", "school_officials"],
+          "tags": ["SEVIS", "student_tracking", "DSO"]
+        },
+        {
+          "id": "sevp_certification",
+          "title": "SEVP-Certified Schools",
+          "subcategory": "System Overview",
+          "content_blocks": [
+            {
+              "type": "paragraph",
+              "text": "SEVP certifies U.S. schools to enroll nonimmigrant students and maintain compliance with federal regulations."
+            },
+            {
+              "type": "list",
+              "text": [
+                "Community colleges, universities, vocational schools may be certified.",
+                "DSOs are responsible for accurate reporting of student data.",
+                "Annual verification is required to maintain certification."
+              ]
+            }
+          ],
+          "related_forms": ["I-17"],
+          "related_visa_types": ["F-1", "M-1"],
+          "source_urls": ["https://studyinthestates.dhs.gov/sevp"],
+          "last_updated": "2026-01-06",
+          "audience": ["prospective_students", "school_officials"],
+          "tags": ["SEVP", "certification", "DSO"]
+        }
+      ]
+    },
+    {
+      "id": "student_visas",
+      "title": "Student Visas and Status",
+      "description": "Details on F-1, M-1, J-1 visa types and maintenance of legal status, including change of status and dependent visas.",
+      "topics": [
+        {
+          "id": "f1_status",
+          "title": "F-1 Academic Student Status",
+          "subcategory": "Visa Types",
+          "content_blocks": [
+            {
+              "type": "paragraph",
+              "text": "F-1 is the visa for academic students attending universities, colleges, or English language programs in the U.S."
+            },
+            {
+              "type": "list",
+              "text": [
+                "Requires full-time enrollment.",
+                "Eligible for on-campus employment and certain practical training.",
+                "Dependent F-2 visas for spouse and children."
+              ]
+            }
+          ],
+          "related_forms": ["I-20", "I-901"],
+          "related_visa_types": ["F-1"],
+          "source_urls": ["https://studyinthestates.dhs.gov/f-1"],
+          "last_updated": "2026-01-06",
+          "audience": ["prospective_students", "current_f1"],
+          "tags": ["F-1", "academic", "status_maintenance"]
+        },
+        {
+          "id": "m1_status",
+          "title": "M-1 Vocational Student Status",
+          "subcategory": "Visa Types",
+          "content_blocks": [
+            {
+              "type": "paragraph",
+              "text": "M-1 is the visa for students attending vocational or non-academic programs."
+            },
+            {
+              "type": "list",
+              "text": [
+                "Full-time enrollment required for the program duration.",
+                "Employment is limited; only practical training allowed after program completion.",
+                "Dependent M-2 visas for spouse and children."
+              ]
+            }
+          ],
+          "related_forms": ["I-20", "I-901"],
+          "related_visa_types": ["M-1"],
+          "source_urls": ["https://studyinthestates.dhs.gov/m-1"],
+          "last_updated": "2026-01-06",
+          "audience": ["prospective_students", "current_m1"],
+          "tags": ["M-1", "vocational", "status_maintenance"]
+        },
+        {
+          "id": "j1_status",
+          "title": "J-1 Exchange Visitor Status",
+          "subcategory": "Visa Types",
+          "content_blocks": [
+            {
+              "type": "paragraph",
+              "text": "J-1 is the visa for exchange visitors participating in approved programs such as research, teaching, or cultural exchange."
+            },
+            {
+              "type": "list",
+              "text": [
+                "Program sponsor must be approved by the U.S. Department of State.",
+                "Duration varies based on program.",
+                "Dependent J-2 visas are available for spouse and children."
+              ]
+            }
+          ],
+          "related_forms": ["DS-2019"],
+          "related_visa_types": ["J-1"],
+          "source_urls": ["https://j1visa.state.gov/"],
+          "last_updated": "2026-01-06",
+          "audience": ["prospective_students", "current_j1"],
+          "tags": ["J-1", "exchange", "cultural"]
+        },
+        {
+          "id": "change_of_status",
+          "title": "Change of Status",
+          "subcategory": "Status",
+          "content_blocks": [
+            {
+              "type": "paragraph",
+              "text": "Students in the U.S. may apply to change their visa status (e.g., B-2 to F-1) using Form I-539."
+            },
+            {
+              "type": "list",
+              "text": [
+                "F-1 and M-1 eligibility requirements must be met.",
+                "Gap bridging rules apply for M-1 students.",
+                "B-1/B-2 to F-1 change requires evidence of intent to study full-time.",
+                "H-1B status change may require additional documentation."
+              ]
+            }
+          ],
+          "related_forms": ["I-539", "I-20"],
+          "related_visa_types": ["F-1", "M-1", "B-2", "H-1B"],
+          "source_urls": ["https://studyinthestates.dhs.gov/status_change"],
+          "last_updated": "2026-01-06",
+          "audience": ["current_f1", "current_m1", "prospective_students"],
+          "tags": ["change_of_status", "B-2", "H-1B", "M-1 bridging"]
+        }
+      ]
+    }
+  ]
+}
+{
+  "categories": [
+    {
+      "id": "form_i20",
+      "title": "Form I-20",
+      "description": "Certificate of Eligibility for Nonimmigrant Student Status, required for F-1/M-1 visa and entry to the U.S.",
+      "topics": [
+        {
+          "id": "i20_overview",
+          "title": "Form I-20 Overview",
+          "subcategory": "Documentation",
+          "content_blocks": [
+            {
+              "type": "paragraph",
+              "text": "Form I-20 is issued by a SEVP-certified school to eligible F-1 or M-1 students. It allows payment of the SEVIS I-901 fee, visa application, and entry to the U.S."
+            },
+            {
+              "type": "list",
+              "text": [
+                "Contains student information, program of study, and school info.",
+                "Signed by the Designated School Official (DSO).",
+                "Required for travel, visa application, and work authorization."
+              ]
+            }
+          ],
+          "related_forms": ["I-20", "I-901"],
+          "related_visa_types": ["F-1", "M-1"],
+          "source_urls": ["https://studyinthestates.dhs.gov/i-20"],
+          "last_updated": "2026-01-06",
+          "audience": ["prospective_students", "current_f1", "current_m1"],
+          "tags": ["I-20", "DSO", "documentation"]
+        },
+        {
+          "id": "i20_request_new",
+          "title": "Requesting a New or Replacement I-20",
+          "subcategory": "Documentation",
+          "content_blocks": [
+            {
+              "type": "paragraph",
+              "text": "Students may request a new Form I-20 when changing programs, extending their study, or replacing a lost or damaged form."
+            },
+            {
+              "type": "list",
+              "text": [
+                "Submit request to your DSO.",
+                "Provide supporting documentation (new program info, updated financials).",
+                "Sign the form upon receipt, especially if traveling internationally."
+              ]
+            }
+          ],
+          "related_forms": ["I-20"],
+          "related_visa_types": ["F-1", "M-1"],
+          "source_urls": ["https://studyinthestates.dhs.gov/i-20"],
+          "last_updated": "2026-01-06",
+          "audience": ["current_f1", "current_m1"],
+          "tags": ["I-20", "replacement", "program_change"]
+        }
+      ]
+    },
+    {
+      "id": "i901_fee",
+      "title": "I-901 SEVIS Fee",
+      "description": "Payment of the SEVIS I-901 fee required for all F-1 and M-1 students.",
+      "topics": [
+        {
+          "id": "i901_payment",
+          "title": "SEVIS I-901 Fee Payment",
+          "subcategory": "Financial Obligations",
+          "content_blocks": [
+            {
+              "type": "paragraph",
+              "text": "The I-901 SEVIS Fee must be paid before applying for a visa or entering the U.S."
+            },
+            {
+              "type": "list",
+              "text": [
+                "Payment via FMJfee.com using SEVIS ID from Form I-20.",
+                "Fee varies depending on visa type: F-1 ($350), M-1 ($220).",
+                "Keep receipt for visa interview and U.S. entry."
+              ]
+            },
+            {
+              "type": "note",
+              "text": "Students exempt from the fee or changing status may have special instructions."
+            }
+          ],
+          "related_forms": ["I-901", "I-20"],
+          "related_visa_types": ["F-1", "M-1"],
+          "source_urls": ["https://fmjfee.com", "https://studyinthestates.dhs.gov/i-901"],
+          "last_updated": "2026-01-06",
+          "audience": ["prospective_students", "current_f1", "current_m1"],
+          "tags": ["I-901", "SEVIS Fee", "payment"]
+        }
+      ]
+    },
+    {
+      "id": "travel_entry",
+      "title": "Travel and Entry",
+      "description": "Guidance for entering the U.S., including required documentation, Form I-94, and reporting requirements.",
+      "topics": [
+        {
+          "id": "entry_procedure",
+          "title": "Entry to the U.S.",
+          "subcategory": "Travel",
+          "content_blocks": [
+            {
+              "type": "paragraph",
+              "text": "International students must present valid visa, passport, and Form I-20 at the port of entry."
+            },
+            {
+              "type": "list",
+              "text": [
+                "Form I-94 is issued electronically; retain for records.",
+                "Arrive within 30 days of program start date.",
+                "Secondary inspection may occur if documentation is incomplete (Form I-515A).",
+                "Report to school by program start date."
+              ]
+            }
+          ],
+          "related_forms": ["I-20", "I-94", "I-515A"],
+          "related_visa_types": ["F-1", "M-1"],
+          "source_urls": ["https://studyinthestates.dhs.gov/entry"],
+          "last_updated": "2026-01-06",
+          "audience": ["prospective_students", "current_f1", "current_m1"],
+          "tags": ["travel", "entry", "documentation"]
+        }
+      ]
+    },
+    {
+      "id": "programs_of_study",
+      "title": "Programs of Study",
+      "description": "Overview of academic and vocational programs available for international students.",
+      "topics": [
+        {
+          "id": "undergraduate_programs",
+          "title": "Undergraduate and Graduate Programs",
+          "subcategory": "Academic",
+          "content_blocks": [
+            {
+              "type": "paragraph",
+              "text": "F-1 students may enroll in community colleges, undergraduate, or graduate programs at SEVP-certified institutions."
+            },
+            {
+              "type": "list",
+              "text": [
+                "STEM programs are eligible for OPT extensions.",
+                "English language programs may be full-time or part-time.",
+                "Vocational programs fall under M-1 classification."
+              ]
+            }
+          ],
+          "related_forms": ["I-20"],
+          "related_visa_types": ["F-1", "M-1"],
+          "source_urls": ["https://studyinthestates.dhs.gov/programs"],
+          "last_updated": "2026-01-06",
+          "audience": ["prospective_students"],
+          "tags": ["programs", "STEM", "vocational", "ESL"]
+        }
+      ]
+    }
+  ]
+}
+{
+  "categories": [
+    {
+      "id": "practical_training_employment",
+      "title": "Practical Training and Employment",
+      "description": "Work authorization options for international students during and after their studies.",
+      "topics": [
+        {
+          "id": "cpt_guidance",
+          "title": "Curricular Practical Training (CPT)",
+          "subcategory": "Employment During Study",
+          "content_blocks": [
+            {
+              "type": "paragraph",
+              "text": "CPT allows F-1 students to engage in employment directly related to their major field of study before graduation."
+            },
+            {
+              "type": "list",
+              "text": [
+                "Eligibility: Must have completed one academic year (exceptions for graduate programs).",
+                "Part-time CPT: 20 hours/week or less during school session.",
+                "Full-time CPT: More than 20 hours/week, may affect eligibility for OPT.",
+                "Requires DSO authorization on Form I-20.",
+                "Employer and job must be integral to the curriculum."
+              ]
+            }
+          ],
+          "related_forms": ["I-20"],
+          "related_visa_types": ["F-1"],
+          "source_urls": ["https://studyinthestates.dhs.gov/curricular-practical-training"],
+          "last_updated": "2026-01-06",
+          "audience": ["current_f1"],
+          "tags": ["CPT", "employment", "F-1"]
+        },
+        {
+          "id": "opt_guidance",
+          "title": "Optional Practical Training (OPT)",
+          "subcategory": "Post-Graduation Employment",
+          "content_blocks": [
+            {
+              "type": "paragraph",
+              "text": "OPT allows F-1 students to work in the U.S. in their field of study for up to 12 months after graduation."
+            },
+            {
+              "type": "list",
+              "text": [
+                "Application: File Form I-765 with USCIS.",
+                "Eligibility: Must complete at least one academic year.",
+                "Timeline: Apply up to 90 days before graduation, no later than 60 days after program end.",
+                "Unemployment: Limited to 90 days for regular OPT, extended for STEM OPT.",
+                "Reporting: Must report employer information and address updates to DSO."
+              ]
+            }
+          ],
+          "related_forms": ["I-20", "I-765"],
+          "related_visa_types": ["F-1"],
+          "source_urls": ["https://studyinthestates.dhs.gov/optional-practical-training"],
+          "last_updated": "2026-01-06",
+          "audience": ["current_f1", "graduating"],
+          "tags": ["OPT", "employment", "F-1"]
+        },
+        {
+          "id": "stem_opt",
+          "title": "STEM OPT Extension",
+          "subcategory": "Post-Graduation Employment",
+          "content_blocks": [
+            {
+              "type": "paragraph",
+              "text": "STEM OPT allows eligible STEM graduates to extend their OPT by 24 months."
+            },
+            {
+              "type": "list",
+              "text": [
+                "Eligibility: Degree in approved STEM fields, employer must be E-Verify registered.",
+                "Form I-983 Training Plan required.",
+                "Application: File Form I-765 before regular OPT expires.",
+                "Second extension: Only if another qualifying STEM degree is earned.",
+                "Reporting: Regular validation reports every 6 months and annual self-evaluation."
+              ]
+            }
+          ],
+          "related_forms": ["I-20", "I-765", "I-983"],
+          "related_visa_types": ["F-1"],
+          "source_urls": ["https://studyinthestates.dhs.gov/stem-opt-extension"],
+          "last_updated": "2026-01-06",
+          "audience": ["current_f1", "graduating"],
+          "tags": ["STEM OPT", "employment", "F-1"]
+        }
+      ]
+    },
+    {
+      "id": "scholarships_financial_aid",
+      "title": "Scholarships and Financial Aid",
+      "description": "Financial resources for international students, including merit-based, country-specific, and institutional programs.",
+      "topics": [
+        {
+          "id": "scholarship_list",
+          "title": "Scholarship Opportunities",
+          "subcategory": "Funding",
+          "content_blocks": [
+            {
+              "type": "paragraph",
+              "text": "A curated list of 137 scholarship opportunities for international students covering multiple degree levels and countries."
+            },
+            {
+              "type": "note",
+              "text": "Details include eligibility, award amount, application deadlines, and provider contact information wherever available."
+            }
+          ],
+          "related_forms": [],
+          "related_visa_types": ["F-1", "M-1", "J-1"],
+          "source_urls": ["https://www.educationusa.state.gov/scholarships"],
+          "last_updated": "2026-01-06",
+          "audience": ["prospective_students"],
+          "tags": ["scholarships", "financial_aid"]
+        },
+        {
+          "id": "financial_aid_types",
+          "title": "Other Financial Aid Options",
+          "subcategory": "Funding",
+          "content_blocks": [
+            {
+              "type": "list",
+              "text": [
+                "Assistantships and fellowships for graduate students.",
+                "Grants from universities or governments.",
+                "Loans available for international students from select institutions.",
+                "Need-based institutional aid."
+              ]
+            }
+          ],
+          "related_forms": [],
+          "related_visa_types": ["F-1", "M-1", "J-1"],
+          "source_urls": ["https://www.educationusa.state.gov/financial-aid"],
+          "last_updated": "2026-01-06",
+          "audience": ["prospective_students", "current_f1", "current_m1"],
+          "tags": ["financial_aid", "grants", "loans"]
+        }
+      ]
+    },
+    {
+      "id": "student_lifecycle_compliance",
+      "title": "Student Life Cycle and Compliance",
+      "description": "Guidance on maintaining status, reporting, and other obligations throughout the student lifecycle.",
+      "topics": [
+        {
+          "id": "maintaining_status",
+          "title": "Maintaining Legal Status",
+          "subcategory": "Compliance",
+          "content_blocks": [
+            {
+              "type": "paragraph",
+              "text": "Maintaining F-1 or M-1 status is critical for lawful presence and future benefits."
+            },
+            {
+              "type": "list",
+              "text": [
+                "Enroll full-time every semester (exceptions require DSO authorization).",
+                "Report changes of address or personal information within 10 days.",
+                "Apply for program extensions before current end date.",
+                "Reinstatement: If status is violated, file Form I-539 and follow USCIS procedures.",
+                "Grace periods: 60 days for F-1, 30 days for M-1 post-completion."
+              ]
+            }
+          ],
+          "related_forms": ["I-20", "I-539"],
+          "related_visa_types": ["F-1", "M-1"],
+          "source_urls": ["https://studyinthestates.dhs.gov/maintaining-status"],
+          "last_updated": "2026-01-06",
+          "audience": ["current_f1", "current_m1"],
+          "tags": ["status", "compliance", "DSO"]
+        },
+        {
+          "id": "ssn_guidance",
+          "title": "Social Security Number (SSN)",
+          "subcategory": "Employment/Identification",
+          "content_blocks": [
+            {
+              "type": "paragraph",
+              "text": "International students working on-campus or authorized off-campus must obtain an SSN for tax and employment purposes."
+            },
+            {
+              "type": "list",
+              "text": [
+                "Apply at local SSA office with passport, I-94, visa, and I-20.",
+                "Provide job offer letter if on-campus employment.",
+                "Processing may take 2–4 weeks.",
+                "Use SSN for payroll, banking, and tax purposes."
+              ]
+            }
+          ],
+          "related_forms": ["I-20"],
+          "related_visa_types": ["F-1", "M-1"],
+          "source_urls": ["https://www.ssa.gov/ssnumber/"],
+          "last_updated": "2026-01-06",
+          "audience": ["current_f1", "current_m1"],
+          "tags": ["SSN", "employment", "tax"]
+        },
+        {
+          "id": "tax_obligations",
+          "title": "Tax Obligations",
+          "subcategory": "Compliance",
+          "content_blocks": [
+            {
+              "type": "paragraph",
+              "text": "International students may have federal and state tax obligations, even if income is limited."
+            },
+            {
+              "type": "list",
+              "text": [
+                "File Form 8843 for all F/M visa holders.",
+                "File Form 1040NR if earned U.S. income.",
+                "Use ITIN if SSN is unavailable.",
+                "Check for tax treaties between home country and U.S."
+              ]
+            }
+          ],
+          "related_forms": ["8843", "1040NR"],
+          "related_visa_types": ["F-1", "M-1"],
+          "source_urls": ["https://www.irs.gov/individuals/international-taxpayers"],
+          "last_updated": "2026-01-06",
+          "audience": ["current_f1", "current_m1"],
+          "tags": ["tax", "ITIN", "compliance"]
+        },
+        {
+          "id": "health_insurance",
+          "title": "Health Insurance for International Students",
+          "subcategory": "Compliance & Safety",
+          "content_blocks": [
+            {
+              "type": "paragraph",
+              "text": "Health insurance is often mandatory and ensures access to medical care."
+            },
+            {
+              "type": "list",
+              "text": [
+                "Check if school provides a plan; enroll if required.",
+                "Private insurance is allowed if coverage meets minimum standards.",
+                "ACA marketplace plans may not satisfy requirements.",
+                "Keep documentation for visa compliance and emergencies."
+              ]
+            }
+          ],
+          "related_forms": [],
+          "related_visa_types": ["F-1", "M-1"],
+          "source_urls": ["https://studyinthestates.dhs.gov/health-insurance"],
+          "last_updated": "2026-01-06",
+          "audience": ["current_f1", "current_m1"],
+          "tags": ["health insurance", "compliance"]
+        },
+        {
+          "id": "emergency_reinstatement",
+          "title": "Emergency Procedures and Reinstatement",
+          "subcategory": "Compliance & Crisis Management",
+          "content_blocks": [
+            {
+              "type": "paragraph",
+              "text": "Students may face emergencies affecting status, legal issues, or health."
+            },
+            {
+              "type": "list",
+              "text": [
+                "Status violations: Contact DSO immediately.",
+                "Reinstatement: File Form I-539 if out of status.",
+                "Emergency contacts: School, embassy, local authorities.",
+                "Keep records of all communications and documentation."
+              ]
+            }
+          ],
+          "related_forms": ["I-539"],
+          "related_visa_types": ["F-1", "M-1"],
+          "source_urls": ["https://studyinthestates.dhs.gov/emergency-procedures"],
+          "last_updated": "2026-01-06",
+          "audience": ["current_f1", "current_m1"],
+          "tags": ["emergency", "reinstatement", "status"]
+        }
+      ]
+    }
+  ]
+}
