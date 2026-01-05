@@ -1,0 +1,402 @@
+{
+  "metadata": {
+    "dataset_name": "F1 Critical Employment & Status Knowledge",
+    "version": "1.0",
+    "generated_date": "2025-01-05",
+    "sources_verified": true
+  },
+  "topics": [
+    {
+      "topic_id": "opt_optional_practical_training",
+      "title": "Optional Practical Training (OPT)",
+      "category": "OPT",
+      "summary": "OPT allows F-1 students to engage in temporary employment directly related to their major area of study, available before or after program completion.",
+      "eligibility": [
+        "F-1 students who have been lawfully enrolled full-time for at least one academic year",
+        "Employment must be directly related to the student's major field of study",
+        "Student must be in valid F-1 status at the time of application"
+      ],
+      "process_steps": [
+        "Request OPT recommendation from Designated School Official (DSO)",
+        "DSO endorses Form I-20 and updates SEVIS record with OPT recommendation",
+        "File Form I-765, Application for Employment Authorization, with USCIS within 30 days of DSO recommendation",
+        "Include required fee, supporting documents, and copy of endorsed Form I-20",
+        "Await approval and receive Employment Authorization Document (EAD) before commencing employment",
+        "Report employment information to DSO and update SEVIS records as required"
+      ],
+      "required_forms": [
+        "I-20",
+        "I-765"
+      ],
+      "key_rules": [
+        "Pre-completion OPT: Part-time (up to 20 hours per week) during academic sessions; full-time during breaks",
+        "Post-completion OPT: Full-time employment permitted after program completion",
+        "Maximum of 12 months of OPT per educational level (bachelor's, master's, doctorate)",
+        "Unemployment limit: 90 days total during the 12-month post-completion OPT period",
+        "Employment must be directly related to the student's major field of study",
+        "Cannot begin employment until EAD is received and valid",
+        "Must apply for post-completion OPT no later than 60 days after program completion date"
+      ],
+      "timelines": {
+        "earliest": "90 days before program completion date for post-completion OPT",
+        "latest": "60 days after program completion date for post-completion OPT"
+      },
+      "common_mistakes": [
+        "Applying for OPT more than 30 days after DSO recommendation in SEVIS",
+        "Engaging in employment before receiving the EAD",
+        "Exceeding the 90-day unemployment limit during post-completion OPT",
+        "Engaging in employment not directly related to the major field of study",
+        "Failing to report employment changes to DSO within required timeframes",
+        "Not maintaining valid F-1 status during OPT period"
+      ],
+      "consequences_of_violation": [
+        "Loss of F-1 status",
+        "Termination of OPT authorization",
+        "Accrual of unlawful presence",
+        "Possible removal from the United States",
+        "Ineligibility for future immigration benefits"
+      ],
+      "audience": [
+        "Current F-1 students"
+      ],
+      "source_urls": [
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-opt-for-f-1-students",
+        "https://studyinthestates.dhs.gov/students/work/applying-for-practical-training",
+        "https://www.ice.gov/sevis/practical-training"
+      ],
+      "last_verified": "2025-01-05"
+    },
+    {
+      "topic_id": "cpt_curricular_practical_training",
+      "title": "Curricular Practical Training (CPT)",
+      "category": "CPT",
+      "summary": "CPT allows F-1 students to engage in off-campus employment that is an integral part of the established curriculum, such as internships or cooperative education programs.",
+      "eligibility": [
+        "F-1 students who have been lawfully enrolled full-time for at least one academic year",
+        "Employment must be an integral part of the established curriculum",
+        "Employment must be directly related to the student's major field of study",
+        "Student must be in valid F-1 status"
+      ],
+      "process_steps": [
+        "Obtain a job offer related to the major field of study",
+        "Request CPT authorization from DSO with job offer details",
+        "DSO verifies employment is integral to curriculum and updates SEVIS",
+        "DSO issues new Form I-20 with CPT authorization on page 2",
+        "Begin employment on or after the CPT start date listed on Form I-20",
+        "Report any changes in employment to DSO immediately"
+      ],
+      "required_forms": [
+        "I-20"
+      ],
+      "key_rules": [
+        "Part-time CPT: Up to 20 hours per week during academic sessions",
+        "Full-time CPT: More than 20 hours per week, typically during breaks or if required by program",
+        "12 months or more of full-time CPT eliminates eligibility for post-completion OPT",
+        "Part-time CPT does not affect OPT eligibility",
+        "CPT authorization is employer-specific and date-specific",
+        "Cannot work before the CPT start date or after the end date on Form I-20",
+        "Must maintain full-time enrollment while on part-time CPT during academic sessions",
+        "No separate application to USCIS required - DSO authorization is sufficient"
+      ],
+      "timelines": {
+        "earliest": "After completing one full academic year (9 months) of full-time enrollment",
+        "latest": "Before the program end date listed on Form I-20"
+      },
+      "common_mistakes": [
+        "Engaging in CPT employment without prior DSO authorization",
+        "Working before the CPT start date or after the end date",
+        "Exceeding authorized work hours during academic sessions",
+        "Accumulating 12 months or more of full-time CPT, which eliminates OPT eligibility",
+        "Failing to report employment changes or termination to DSO",
+        "Working for a different employer than authorized on Form I-20"
+      ],
+      "consequences_of_violation": [
+        "Loss of F-1 status",
+        "Termination of CPT authorization",
+        "Ineligibility for post-completion OPT",
+        "Accrual of unlawful presence",
+        "Possible removal from the United States"
+      ],
+      "audience": [
+        "Current F-1 students"
+      ],
+      "source_urls": [
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/curricular-practical-training",
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment",
+        "https://www.ice.gov/sevis/practical-training"
+      ],
+      "last_verified": "2025-01-05"
+    },
+    {
+      "topic_id": "stem_opt_extension_24month",
+      "title": "STEM OPT Extension (24-month)",
+      "category": "STEM_OPT",
+      "summary": "F-1 students who have earned degrees in designated STEM fields may apply for a 24-month extension of post-completion OPT, allowing up to 36 months total of practical training.",
+      "eligibility": [
+        "F-1 students who have completed a degree in a STEM field listed on the STEM Designated Degree Program List",
+        "Currently in a valid period of post-completion OPT",
+        "Employment with an employer enrolled in E-Verify",
+        "Employment must be directly related to the STEM degree",
+        "Previous STEM degree must be from an accredited, SEVP-certified school"
+      ],
+      "process_steps": [
+        "Obtain job offer from E-Verify-enrolled employer",
+        "Complete Form I-983, Training Plan for STEM OPT Students, with employer",
+        "Request STEM OPT recommendation from DSO",
+        "DSO reviews Form I-983 and endorses Form I-20 with STEM OPT recommendation",
+        "DSO updates SEVIS record",
+        "File Form I-765 with USCIS before current OPT expires, including Form I-983",
+        "USCIS must receive application before current OPT expiration date",
+        "Await approval and receive new EAD",
+        "Report employment changes to DSO within 10 days",
+        "Submit self-evaluations via Form I-983 at 12 months and 24 months to DSO"
+      ],
+      "required_forms": [
+        "I-20",
+        "I-765",
+        "I-983"
+      ],
+      "key_rules": [
+        "Must apply before current post-completion OPT expires",
+        "Employment must be directly related to the STEM degree",
+        "Employer must be enrolled in E-Verify and provide E-Verify company ID number",
+        "Must work at least 20 hours per week for the E-Verify employer",
+        "Self-employment is not permitted during STEM OPT",
+        "Unemployment limit: 150 days total (90 days from initial OPT plus 60 additional days during STEM OPT)",
+        "Must report changes in employment, address, or personal information to DSO within 10 days",
+        "Must submit self-evaluations at 12 and 24 months using Form I-983",
+        "DSO must validate student's SEVIS record every 6 months"
+      ],
+      "timelines": {
+        "earliest": "90 days before current OPT expiration date",
+        "latest": "USCIS must receive application before current OPT expiration date"
+      },
+      "common_mistakes": [
+        "Failing to submit Form I-983 with the application",
+        "Applying after current OPT has expired",
+        "Working for a non-E-Verify employer",
+        "Not reporting employment changes to DSO within 10 days",
+        "Missing self-evaluation deadlines at 12 and 24 months",
+        "Exceeding the 150-day total unemployment limit",
+        "Engaging in self-employment",
+        "Working less than 20 hours per week"
+      ],
+      "consequences_of_violation": [
+        "Loss of F-1 status",
+        "Termination of STEM OPT authorization",
+        "Accrual of unlawful presence",
+        "Possible removal from the United States",
+        "Ineligibility for future immigration benefits"
+      ],
+      "audience": [
+        "Current F-1 students with STEM degrees on post-completion OPT"
+      ],
+      "source_urls": [
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-extension-for-stem-students-stem-opt",
+        "https://studyinthestates.dhs.gov/stem-opt-hub/for-students/students-stem-opt-reporting-requirements",
+        "https://www.ice.gov/sevis/stem-opt"
+      ],
+      "last_verified": "2025-01-05"
+    },
+    {
+      "topic_id": "maintaining_f1_status",
+      "title": "Maintaining F-1 Status",
+      "category": "MAINTAINING_STATUS",
+      "summary": "F-1 students must comply with specific requirements throughout their program to maintain lawful nonimmigrant student status in the United States.",
+      "eligibility": [
+        "All F-1 students admitted to the United States",
+        "Enrollment in a SEVP-certified school",
+        "Valid Form I-20 and passport"
+      ],
+      "process_steps": [
+        "Enroll full-time each academic term (minimum credit hours as defined by school)",
+        "Attend all classes and maintain satisfactory academic progress",
+        "Keep Form I-20 valid and request new I-20 for any program changes",
+        "Maintain valid passport at all times",
+        "Report address changes to DSO within 10 days",
+        "Obtain DSO authorization before dropping below full-time enrollment",
+        "Obtain proper authorization before engaging in any employment",
+        "Request program extension before program end date if needed",
+        "Depart United States within 60 days of program completion unless authorized for OPT or continuing studies"
+      ],
+      "required_forms": [
+        "I-20"
+      ],
+      "key_rules": [
+        "Must maintain full-time enrollment each academic term (exceptions require DSO approval)",
+        "Cannot engage in unauthorized employment",
+        "On-campus employment limited to 20 hours per week during academic sessions",
+        "Must report address changes to DSO within 10 days of moving",
+        "Must report changes in program, major, or personal information to DSO",
+        "Cannot exceed 5 months of online/distance learning courses per academic year",
+        "Must attend the school listed on Form I-20",
+        "Must depart United States within 60 days after program completion unless continuing studies or on OPT",
+        "Must maintain valid passport (renew at least 6 months before expiration)",
+        "Cannot work off-campus without proper authorization (CPT, OPT, or economic hardship)"
+      ],
+      "timelines": {
+        "earliest": "Upon initial entry to United States in F-1 status",
+        "latest": "Throughout duration of F-1 program until completion or status change"
+      },
+      "common_mistakes": [
+        "Dropping below full-time enrollment without DSO authorization",
+        "Engaging in unauthorized employment",
+        "Failing to report address changes within 10 days",
+        "Exceeding allowed work hours during academic sessions",
+        "Not maintaining valid passport",
+        "Failing to request program extension before program end date",
+        "Not reporting changes in program or personal information to DSO",
+        "Remaining in United States more than 60 days after program completion without authorization"
+      ],
+      "consequences_of_violation": [
+        "Loss of F-1 status",
+        "Accrual of unlawful presence",
+        "Termination of SEVIS record",
+        "Ineligibility for benefits (OPT, CPT, program extension)",
+        "Possible removal from the United States",
+        "Bar from re-entry for 3 or 10 years depending on unlawful presence",
+        "Ineligibility for future nonimmigrant or immigrant visas"
+      ],
+      "audience": [
+        "Current F-1 students"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/students/maintaining-status",
+        "https://studyinthestates.dhs.gov/students/study/maintaining-status",
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment"
+      ],
+      "last_verified": "2025-01-05"
+    },
+    {
+      "topic_id": "employment_authorization_f1",
+      "title": "Employment Authorization for F-1 Students",
+      "category": "EMPLOYMENT",
+      "summary": "F-1 students may engage in employment only with proper authorization. Types include on-campus employment, CPT, OPT, and off-campus employment due to severe economic hardship.",
+      "eligibility": [
+        "F-1 students maintaining valid status",
+        "On-campus: Available immediately upon enrollment",
+        "CPT/OPT: After completing one full academic year",
+        "Economic hardship: Must demonstrate severe economic hardship due to unforeseen circumstances"
+      ],
+      "process_steps": [
+        "Determine type of employment authorization needed",
+        "For on-campus: Obtain DSO authorization and job offer",
+        "For CPT: Request CPT authorization from DSO with job offer",
+        "For OPT: Request OPT recommendation from DSO, then file Form I-765 with USCIS",
+        "For economic hardship: File Form I-765 with USCIS, including evidence of severe economic hardship",
+        "Wait for authorization before beginning employment",
+        "Report employment information to DSO as required"
+      ],
+      "required_forms": [
+        "I-20",
+        "I-765"
+      ],
+      "key_rules": [
+        "On-campus employment: Up to 20 hours per week during academic sessions; full-time during breaks. No USCIS application required - DSO authorization sufficient",
+        "CPT employment: Must be authorized by DSO on Form I-20 before employment begins. Must be integral to curriculum and related to major field of study",
+        "OPT employment: Requires EAD from USCIS before employment begins. Must be related to major field of study. 90-day unemployment limit for post-completion OPT",
+        "Economic hardship employment: Requires Form I-765 approval from USCIS. Must demonstrate severe economic hardship due to unforeseen circumstances beyond student's control. Limited to 20 hours per week during academic sessions",
+        "Unauthorized employment is a violation of F-1 status and results in loss of status",
+        "All off-campus employment (except on-campus) requires prior authorization",
+        "Employment authorization is specific to the type granted and cannot be interchanged",
+        "Must maintain valid F-1 status to retain employment authorization"
+      ],
+      "timelines": {
+        "earliest": "On-campus: Upon enrollment. CPT/OPT: After one full academic year. Economic hardship: After one full academic year and demonstration of hardship",
+        "latest": "Before beginning any employment"
+      },
+      "common_mistakes": [
+        "Beginning employment before receiving proper authorization",
+        "Exceeding 20 hours per week during academic sessions for on-campus employment",
+        "Working off-campus without authorization",
+        "Using one type of employment authorization for a different type of employment",
+        "Failing to report employment changes to DSO",
+        "Continuing employment after authorization expires",
+        "Not maintaining valid F-1 status while on employment authorization"
+      ],
+      "consequences_of_violation": [
+        "Loss of F-1 status",
+        "Termination of employment authorization",
+        "Accrual of unlawful presence",
+        "Possible removal from the United States",
+        "Ineligibility for future employment authorization",
+        "Ineligibility for future immigration benefits"
+      ],
+      "audience": [
+        "Current F-1 students"
+      ],
+      "source_urls": [
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment",
+        "https://studyinthestates.dhs.gov/students/work/working-in-the-united-states",
+        "https://www.ice.gov/sevis/practical-training",
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/employment-authorization"
+      ],
+      "last_verified": "2025-01-05"
+    },
+    {
+      "topic_id": "social_security_number_f1_students",
+      "title": "Social Security Number (SSN) for F-1 Students",
+      "category": "SSN",
+      "summary": "F-1 students with authorized employment may apply for a Social Security Number, which is required for employment and tax reporting purposes in the United States.",
+      "eligibility": [
+        "F-1 students with authorized employment (on-campus, CPT, or OPT)",
+        "Must have a job offer or current employment",
+        "Must have valid F-1 status and Form I-20"
+      ],
+      "process_steps": [
+        "Obtain employment authorization (on-campus job offer, CPT authorization on I-20, or EAD for OPT)",
+        "Wait at least 10 days after entry to United States or after DSO updates SEVIS (for SSA system verification)",
+        "Request SSN support letter from DSO (some schools provide this automatically)",
+        "Complete Form SS-5, Application for a Social Security Card",
+        "Gather required documents: valid passport, Form I-20, Form I-94 (print from CBP website), employment authorization document (EAD for OPT, or employment letter for on-campus/CPT)",
+        "Visit local Social Security Administration office with all documents",
+        "Submit application and wait for SSN card to arrive by mail (typically 2-4 weeks)"
+      ],
+      "required_forms": [
+        "SS-5",
+        "I-20",
+        "I-94"
+      ],
+      "key_rules": [
+        "SSN is issued only for employment purposes - not required for non-employment activities like opening bank accounts",
+        "Must have authorized employment before applying",
+        "Must wait at least 10 days after entry or SEVIS update for SSA to verify status in system",
+        "SSN is permanent and does not expire",
+        "Cannot begin employment without SSN if employer requires it for payroll",
+        "Must present original documents (not copies) at SSA office",
+        "SSN is required for tax reporting and filing tax returns",
+        "Unauthorized employment does not qualify for SSN"
+      ],
+      "timelines": {
+        "earliest": "10 days after entry to United States or after DSO updates SEVIS record, and after receiving employment authorization",
+        "latest": "As soon as possible after obtaining employment authorization to avoid payroll delays"
+      },
+      "common_mistakes": [
+        "Applying for SSN without employment authorization or job offer",
+        "Applying too soon after entry (before 10-day waiting period)",
+        "Not bringing all required original documents to SSA office",
+        "Applying without valid F-1 status",
+        "Thinking SSN is required for non-employment purposes like bank accounts",
+        "Not waiting for SSA system to update after SEVIS changes"
+      ],
+      "consequences_of_violation": [
+        "Delay or denial of SSN issuance",
+        "Inability to receive wages from employer",
+        "Issues with tax reporting and filing",
+        "Potential problems with employment eligibility verification",
+        "Need to reapply with correct documentation"
+      ],
+      "audience": [
+        "Current F-1 students with authorized employment"
+      ],
+      "source_urls": [
+        "https://www.ssa.gov/pubs/EN-05-10181.pdf",
+        "https://studyinthestates.dhs.gov/students/work/obtaining-a-social-security-number",
+        "https://www.ssa.gov/ssnumber/ss5doc.htm",
+        "https://secure.ssa.gov/apps10/poms.nsf/lnx/0110211255"
+      ],
+      "last_verified": "2025-01-05"
+    }
+  ]
+}
+
