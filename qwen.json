@@ -1,0 +1,175 @@
+{
+  "structured_summary": {
+    "categories": {
+      "SEVIS_and_SEVP": {
+        "description": "Information related to the Student and Exchange Visitor Information System (SEVIS) and the Student and Exchange Visitor Program (SEVP).",
+        "subtopics": [
+          "Purpose and scope of SEVIS",
+          "SEVP-certified schools",
+          "Form I-17 (Petition for School Certification)",
+          "Annual verification for schools",
+          "Designated School Officials (DSOs) responsibilities",
+          "Record maintenance and updates in SEVIS",
+          "SEVIS Help Hub and resources"
+        ],
+        "item_count": 2,
+        "source_types": ["webpage markdown", "structured object"]
+      },
+      "Student_Visas_and_Status": {
+        "description": "Details on U.S. nonimmigrant student visa types and maintenance of legal status.",
+        "subtopics": [
+          "F-1 Academic Student Status",
+          "M-1 Vocational Student Status",
+          "J-1 Exchange Visitor Status",
+          "Change of Status procedures (e.g., B-2 to F-1)",
+          "Visa application process",
+          "Status violations and consequences",
+          "Grace periods post-completion",
+          "Dependent visas (F-2, M-2, J-2)"
+        ],
+        "item_count": 4,
+        "source_types": ["webpage markdown", "structured object (F1/M1 comparison)"]
+      },
+      "Form_I-20": {
+        "description": "Comprehensive guidance on the Form I-20, 'Certificate of Eligibility for Nonimmigrant Student Status.'",
+        "subtopics": [
+          "Issuance by DSOs",
+          "Use for SEVIS fee payment",
+          "Use for visa application",
+          "Use for U.S. entry",
+          "Use for applying for benefits (e.g., SSN, driver's license)",
+          "When to request a new/replacement Form I-20",
+          "Redesign of Form I-20 (2016 update)",
+          "Signing requirements (including for minors)"
+        ],
+        "item_count": 2,
+        "source_types": ["webpage markdown", "embedded in other pages"]
+      },
+      "Travel_and_Entry_Procedures": {
+        "description": "Guidance on entering the U.S., port of entry processes, and required documentation.",
+        "subtopics": [
+          "Documents to carry (passport, visa, Form I-20)",
+          "Form I-94 (Arrival/Departure Record) – paper vs electronic",
+          "Secondary inspection",
+          "Form I-515A (incomplete documentation at entry)",
+          "30-day entry window before program start",
+          "Reporting to school by program start date"
+        ],
+        "item_count": 2,
+        "source_types": ["webpage markdown"]
+      },
+      "Financial_Obligations": {
+        "description": "Information about mandatory and optional financial aspects of studying in the U.S.",
+        "subtopics": [
+          "I-901 SEVIS Fee (who must pay, when, how via FMJfee.com)",
+          "Fee exemptions and re-payment scenarios",
+          "Proof of payment for visa interviews and entry"
+        ],
+        "item_count": 3,
+        "source_types": ["webpage markdown", "blog post (dated 2012)"]
+      },
+      "Scholarships_and_Financial_Aid": {
+        "description": "List of external scholarship opportunities for international students.",
+        "subtopics": [
+          "Merit-based scholarships",
+          "Country-specific scholarships",
+          "Institutional aid programs",
+          "Government-sponsored programs (e.g., Fulbright)"
+        ],
+        "item_count": 1,
+        "entry_count": 137,
+        "source_types": ["structured list with URLs"]
+      },
+      "Programs_of_Study": {
+        "description": "Overview of academic and training program options for international students.",
+        "subtopics": [
+          "Community colleges",
+          "Undergraduate and graduate programs",
+          "STEM programs",
+          "English language training (stand-alone and combined)",
+          "Higher Education vs Vocational distinction"
+        ],
+        "item_count": 2,
+        "source_types": ["structured object"]
+      },
+      "Practical_Training_and_Employment": {
+        "description": "Work authorization options during and after studies.",
+        "subtopics": [
+          "On-campus employment (F-1 only)",
+          "Curricular Practical Training (CPT)",
+          "Optional Practical Training (OPT)",
+          "STEM OPT extension (Form I-983)",
+          "H-1B Cap-Gap extension",
+          "Employment restrictions for M-1 students"
+        ],
+        "item_count": 2,
+        "source_types": ["blog post", "webpage markdown"]
+      },
+      "Student_Life_Cycle_and_Compliance": {
+        "description": "End-to-end guidance for international students from acceptance to program completion.",
+        "subtopics": [
+          "Maintaining full course of study",
+          "Transferring between schools (F-1 vs M-1 rules)",
+          "Reporting address changes",
+          "Driving in the U.S.",
+          "Social Security Number application",
+          "Emergency event accommodations"
+        ],
+        "item_count": 3,
+        "source_types": ["webpage markdown", "structured object"]
+      }
+    },
+    "missing_or_incomplete_areas": [
+      "Detailed cost of living estimates by region or city",
+      "Health insurance requirements and options for international students",
+      "Tax obligations and filing guidance (beyond ITIN mention)",
+      "Housing resources or on/off-campus living guidance",
+      "Cultural adjustment or mental health support resources",
+      "Post-OPT/H-1B long-term career pathways",
+      "Accreditation vs SEVP certification distinction (often confused by students)",
+      "Detailed comparison of public vs private institution considerations",
+      "No clear guidance on part-time vs full-time enrollment exceptions",
+      "Limited information on appeal or reinstatement processes after status violations"
+    ],
+    "suggested_schema": {
+      "description": "Recommended normalized JSON schema for building a student guidance knowledge base or FAQ system.",
+      "structure": {
+        "topics": [
+          {
+            "id": "string (UUID or slug)",
+            "category": "string",
+            "subcategory": "string (optional)",
+            "title": "string",
+            "summary": "string",
+            "content_blocks": [
+              {
+                "type": "paragraph | list | note | warning",
+                "text": "string | array"
+              }
+            ],
+            "related_forms": ["string"], // e.g., ["I-20", "I-901"]
+            "related_visa_types": ["string"], // e.g., ["F-1", "M-1"]
+            "source_urls": ["string"],
+            "last_updated": "ISO 8601 date",
+            "audience": ["prospective", "current", "graduating", "school_officials"],
+            "tags": ["string"]
+          }
+        ],
+        "metadata": {
+          "total_topics": "integer",
+          "categories": ["string"],
+          "visa_types_covered": ["string"],
+          "language": "string",
+          "publisher": "string"
+        }
+      },
+      "advantages": [
+        "Decouples content from source format (markdown vs structured data)",
+        "Enables tagging and filtering by visa type, audience, or topic",
+        "Supports versioning via last_updated field",
+        "Facilitates multilingual expansion",
+        "Allows linking related topics (e.g., I-20 → SEVIS fee → visa application)"
+      ]
+    }
+  }
+}
