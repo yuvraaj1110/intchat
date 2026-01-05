@@ -1,0 +1,638 @@
+{
+  "analysis_metadata": {
+    "analyst": "AI Assistant",
+    "date_completed": "2026-01-06",
+    "files_analyzed": [
+      "https://raw.githubusercontent.com/yuvraaj1110/intchat/main/jsonraw/combined.json",
+      "https://raw.githubusercontent.com/yuvraaj1110/intchat/refs/heads/main/jsonraw/temp.json"
+    ],
+    "total_documents_processed": 12,
+    "analysis_status": "complete_eof_reached"
+  },
+  "file_structure": {
+    "total_objects": 12,
+    "valid_documents": 11,
+    "empty_objects": 1,
+    "truncated_objects": 0,
+    "data_sources": [
+      "Study in the States (DHS)",
+      "EducationUSA (State Department)"
+    ],
+    "content_types": {
+      "web_scrapes": 8,
+      "structured_documents": 3,
+      "data_lists": 1
+    }
+  },
+  "complete_category_analysis": {
+    "categories": [
+      {
+        "category_id": "sevis_system",
+        "category_name": "SEVIS System Overview",
+        "document_count": 1,
+        "primary_sources": ["Study in the States"],
+        "subtopics": [
+          "SEVIS purpose and management",
+          "SEVP-certified schools",
+          "Exchange Visitor Programs",
+          "Form I-17 petition process",
+          "SEVIS help resources"
+        ],
+        "coverage_quality": "good",
+        "notes": "Good foundational overview; lacks detailed student reporting requirements"
+      },
+      {
+        "category_id": "change_of_status",
+        "category_name": "Change of Status",
+        "document_count": 1,
+        "primary_sources": ["Study in the States"],
+        "subtopics": [
+          "General eligibility requirements",
+          "Changing to F/M status (step-by-step)",
+          "B-1/B-2 to F-1/M-1 special instructions",
+          "F-1 status bridging the gap rules",
+          "M-1 status bridging the gap rules",
+          "H-1B status change",
+          "M-1 to F-1 restrictions",
+          "Alternative option (leave and re-enter)"
+        ],
+        "coverage_quality": "excellent",
+        "notes": "Most detailed section; particularly strong on B-1/B-2 conversions"
+      },
+      {
+        "category_id": "i901_sevis_fee",
+        "category_name": "I-901 SEVIS Fee",
+        "document_count": 2,
+        "primary_sources": ["Study in the States"],
+        "subtopics": [
+          "Payment requirements",
+          "Who must pay (multiple scenarios)",
+          "Required information for payment",
+          "Payment process and receipt handling",
+          "SEVP Response Center contact"
+        ],
+        "coverage_quality": "excellent",
+        "notes": "Comprehensive; covers all payment scenarios"
+      },
+      {
+        "category_id": "programs_of_study",
+        "category_name": "Programs of Study",
+        "document_count": 1,
+        "primary_sources": ["Study in the States"],
+        "subtopics": [
+          "Community colleges",
+          "STEM programs",
+          "Undergraduate and graduate schools",
+          "English language training (ESL/ESOL/Intensive English)",
+          "SEVP certification requirement"
+        ],
+        "coverage_quality": "good",
+        "notes": "Missing vocational program details relevant to M-1 students"
+      },
+      {
+        "category_id": "college_guidance",
+        "category_name": "College Student Guidance",
+        "document_count": 1,
+        "primary_sources": ["Study in the States"],
+        "subtopics": [
+          "SEVP certification requirement",
+          "Higher education search filters",
+          "Multiple campus considerations",
+          "Downloadable school list"
+        ],
+        "coverage_quality": "basic",
+        "notes": "Mostly informational; limited actionable guidance"
+      },
+      {
+        "category_id": "student_lifecycle",
+        "category_name": "International Student Life Cycle",
+        "document_count": 1,
+        "primary_sources": ["Study in the States"],
+        "subtopics": [
+          "F-1/F-2 status overview",
+          "Getting started process",
+          "Pre-arrival preparation (I-20, fee, visa)",
+          "Entering the US (30-day rule, port of entry)",
+          "Document preparation checklist"
+        ],
+        "coverage_quality": "good",
+        "notes": "Strong arrival focus; limited to Bachelor's degree students"
+      },
+      {
+        "category_id": "form_i20",
+        "category_name": "Form I-20",
+        "document_count": 1,
+        "primary_sources": ["Study in the States"],
+        "subtopics": [
+          "Purpose and importance",
+          "Obtaining from DSO",
+          "Uses (visa, entry, benefits, status change)",
+          "When to get a new I-20",
+          "Redesigned Form I-20 (post-2016)"
+        ],
+        "coverage_quality": "excellent",
+        "notes": "Very comprehensive coverage"
+      },
+      {
+        "category_id": "scholarships",
+        "category_name": "Scholarships",
+        "document_count": 1,
+        "primary_sources": ["EducationUSA"],
+        "subtopics": [
+          "137 scholarship URLs"
+        ],
+        "coverage_quality": "incomplete",
+        "notes": "Only URLs provided; missing amounts, eligibility, deadlines, application details"
+      },
+      {
+        "category_id": "visa_application",
+        "category_name": "Visa Application",
+        "document_count": 1,
+        "primary_sources": ["Study in the States"],
+        "subtopics": [
+          "When to apply after I-901 payment",
+          "Visa type verification",
+          "External resource links"
+        ],
+        "coverage_quality": "basic",
+        "notes": "Brief overview; mostly navigational"
+      },
+      {
+        "category_id": "travel_entry",
+        "category_name": "Travel and Entry",
+        "document_count": 1,
+        "primary_sources": ["Study in the States"],
+        "subtopics": [
+          "Pre-arrival document checklist",
+          "Form I-94 (paper vs electronic)",
+          "Secondary inspection",
+          "Form I-515A",
+          "30-day entry rule",
+          "School reporting requirement"
+        ],
+        "coverage_quality": "excellent",
+        "notes": "Outstanding arrival guidance"
+      },
+      {
+        "category_id": "visa_comparison",
+        "category_name": "F-1 vs M-1 Visa Comparison",
+        "document_count": 1,
+        "primary_sources": ["Study in the States"],
+        "subtopics": [
+          "Definition and purpose",
+          "Duration and grace periods",
+          "Employment rules (on/off campus)",
+          "Program change flexibility",
+          "School transfer rules",
+          "Dependent visa types",
+          "School certification requirements"
+        ],
+        "coverage_quality": "excellent",
+        "notes": "Outstanding comparison matrix; very clear differences"
+      }
+    ]
+  },
+  "comprehensive_missing_topics_analysis": [
+    {
+      "topic": "optional_practical_training",
+      "importance": "critical",
+      "impact": "essential for post-graduation employment",
+      "details_needed": [
+        "12-month post-completion OPT eligibility",
+        "Application process (Form I-765)",
+        "Timeline and deadlines",
+        "Unemployment rules",
+        "Reporting requirements"
+      ],
+      "current_coverage": "not mentioned"
+    },
+    {
+      "topic": "curricular_practical_training",
+      "importance": "critical",
+      "impact": "essential for internship/work during study",
+      "details_needed": [
+        "CPT eligibility criteria",
+        "Authorization process",
+        "Full-time vs part-time CPT",
+        "Impact on OPT eligibility"
+      ],
+      "current_coverage": "not mentioned"
+    },
+    {
+      "topic": "stem_opt_extension",
+      "importance": "critical",
+      "impact": "extends work authorization for STEM graduates",
+      "details_needed": [
+        "24-month extension requirements",
+        "Form I-983 training plan",
+        "E-Verify employer requirement",
+        "Prior degree eligibility",
+        "Second STEM OPT extension rules"
+      ],
+      "current_coverage": "only in navigation links"
+    },
+    {
+      "topic": "maintaining_status",
+      "importance": "critical",
+      "impact": "legal compliance and program success",
+      "details_needed": [
+        "Full course of study requirements",
+        "Address reporting rules",
+        "Program completion timelines",
+        "Grace periods",
+        "Reinstatement process"
+      ],
+      "current_coverage": "mentioned but not detailed"
+    },
+    {
+      "topic": "employment_regulations",
+      "importance": "high",
+      "impact": "financial support and career development",
+      "details_needed": [
+        "On-campus work eligibility and limits",
+        "Off-campus work authorization (economic hardship)",
+        "OPT/CPT employment restrictions",
+        "Multiple employers rules",
+        "Unemployment limits"
+      ],
+      "current_coverage": "vague mentions in visa comparison"
+    },
+    {
+      "topic": "social_security_number",
+      "importance": "high",
+      "impact": "required for employment and taxes",
+      "details_needed": [
+        "SSN application process",
+        "Required documents",
+        "On-campus vs off-campus requirements",
+        "Denial letter process"
+      ],
+      "current_coverage": "not mentioned"
+    },
+    {
+      "topic": "h1b_cap_gap",
+      "importance": "high",
+      "impact": "bridges status while H-1B petition pending",
+      "details_needed": [
+        "Eligibility requirements",
+        "Extension duration",
+        "Work authorization during cap-gap",
+        "STEM OPT cap-gap extension"
+      ],
+      "current_coverage": "only in navigation"
+    },
+    {
+      "topic": "scholarship_details",
+      "importance": "high",
+      "impact": "financial planning and affordability",
+      "details_needed": [
+        "Award amounts",
+        "Eligibility criteria",
+        "Application deadlines",
+        "Application process",
+        "Contact information"
+      ],
+      "current_coverage": "only URLs provided"
+    },
+    {
+      "topic": "financial_aid_types",
+      "importance": "medium",
+      "impact": "broader funding options",
+      "details_needed": [
+        "Assistantships",
+        "Fellowships",
+        "Grants",
+        "Student loans for international students"
+      ],
+      "current_coverage": "not mentioned"
+    },
+    {
+      "topic": "tax_obligations",
+      "importance": "medium",
+      "impact": "legal compliance",
+      "details_needed": [
+        "Federal tax requirements",
+        "State tax requirements",
+        "Tax treaties",
+        "ITIN application"
+      ],
+      "current_coverage": "ITIN mentioned briefly"
+    },
+    {
+      "topic": "health_insurance",
+      "importance": "medium",
+      "impact": "healthcare access and compliance",
+      "details_needed": [
+        "Insurance requirements",
+        "School-sponsored plans",
+        "Private options",
+        "Affordable Care Act implications"
+      ],
+      "current_coverage": "not mentioned"
+    },
+    {
+      "topic": "transfer_process",
+      "importance": "medium",
+      "impact": "school change flexibility",
+      "details_needed": [
+        "SEVIS record transfer process",
+        "Timing requirements",
+        "Transfer-out vs transfer-in procedures"
+      ],
+      "current_coverage": "only in navigation"
+    },
+    {
+      "topic": "test_requirements",
+      "importance": "medium",
+      "impact": "admission preparation",
+      "details_needed": [
+        "TOEFL/IELTS requirements",
+        "GRE/GMAT requirements",
+        "Waiver options"
+      ],
+      "current_coverage": "not mentioned"
+    },
+    {
+      "topic": "dependent_visas",
+      "importance": "low",
+      "impact": "family accompaniment",
+      "details_needed": [
+        "F-2/M-2/J-2 eligibility",
+        "Work/study restrictions",
+        "Application process"
+      ],
+      "current_coverage": "mentioned only in visa comparison"
+    },
+    {
+      "topic": "emergency_procedures",
+      "importance": "low",
+      "impact": "crisis management",
+      "details_needed": [
+        "Status violations",
+        "Reinstatement",
+        "Legal issues",
+        "Emergency contacts"
+      ],
+      "current_coverage": "not mentioned"
+    }
+  ],
+  "recommended_knowledge_base_schema": {
+    "schema_version": "2.0",
+    "last_updated": "2026-01-06",
+    "collections": {
+      "core_topics": {
+        "description": "Main guidance articles on US study process",
+        "structure": {
+          "topic_id": "string (unique)",
+          "title": "string",
+          "category": "enum",
+          "content": {
+            "overview": "string",
+            "sections": "array",
+            "process_steps": "array",
+            "eligibility_criteria": "array",
+            "required_documents": "array",
+            "deadlines": "object",
+            "faqs": "array"
+          },
+          "metadata": {
+            "source": "string",
+            "last_updated": "date",
+            "verified_by": "string",
+            "review_date": "date"
+          },
+          "target_audience": ["enum"],
+          "visa_categories": ["enum"],
+          "related_topics": ["array"],
+          "related_forms": ["array"],
+          "priority_level": "enum"
+        },
+        "categories": [
+          "visa_types",
+          "sevis_system",
+          "i20_form",
+          "i901_fee",
+          "opt_cpt",
+          "stem_opt",
+          "financial_aid",
+          "scholarships",
+          "maintaining_status",
+          "employment",
+          "travel_entry",
+          "life_in_us",
+          "post_graduation",
+          "emergency"
+        ],
+        "audience_types": [
+          "prospective_students",
+          "current_f1",
+          "current_m1",
+          "current_j1",
+          "dependents",
+          "school_officials"
+        ],
+        "visa_types": [
+          "F-1",
+          "M-1",
+          "J-1",
+          "F-2",
+          "M-2",
+          "J-2"
+        ]
+      },
+      "scholarships": {
+        "description": "Detailed scholarship information",
+        "structure": {
+          "scholarship_id": "string (unique)",
+          "name": "string",
+          "provider": "string",
+          "description": "string",
+          "eligibility": {
+            "nationality": "array",
+            "degree_level": "array",
+            "field_of_study": "array",
+            "gpa_requirement": "string",
+            "other_requirements": "array"
+          },
+          "award": {
+            "type": "enum [full_tuition, partial, stipend, loan]",
+            "value": "string",
+            "currency": "string",
+            "renewable": "boolean",
+            "duration": "string"
+          },
+          "application": {
+            "deadline": "date",
+            "open_date": "date",
+            "documents_required": "array",
+            "process_steps": "array",
+            "url": "string"
+          },
+          "contact": {
+            "email": "string",
+            "phone": "string",
+            "website": "string",
+            "address": "string"
+          },
+          "metadata": {
+            "last_updated": "date",
+            "source": "string"
+          }
+        }
+      },
+      "glossary": {
+        "description": "Terminology definitions",
+        "structure": {
+          "term": "string",
+          "definition": "string",
+          "category": "string",
+          "related_terms": "array",
+          "aliases": "array"
+        }
+      },
+      "checklists": {
+        "description": "Actionable task lists",
+        "structure": {
+          "checklist_id": "string (unique)",
+          "title": "string",
+          "description": "string",
+          "applicable_visa_types": ["enum"],
+          "items": [
+            {
+              "item_id": "string",
+              "step_number": "integer",
+              "description": "string",
+              "required": "boolean",
+              "timeline": "string",
+              "estimated_time": "string",
+              "resources": "array"
+            }
+          ]
+        }
+      },
+      "resources": {
+        "description": "External links and references",
+        "structure": {
+          "resource_id": "string (unique)",
+          "title": "string",
+          "description": "string",
+          "url": "string",
+          "resource_type": "enum [form, guide, video, official_website]",
+          "source_organization": "string",
+          "last_verified": "date"
+        }
+      }
+    },
+    "schema_notes": [
+      "Use consistent enum values for filtering and search",
+      "Store content in modular sections for AI retrieval",
+      "Include eligibility criteria for personalized filtering",
+      "Cross-reference related topics for navigation",
+      "Timestamp all content for freshness tracking",
+      "Include verification status for accuracy",
+      "Support multiple visa categories per topic",
+      "Add priority levels for content development"
+    ]
+  },
+  "content_quality_assessment": {
+    "overall_rating": "6.5/10",
+    "strengths": [
+      "100% government-source content (high accuracy)",
+      "Excellent change of status guidance",
+      "Comprehensive I-20 and fee information",
+      "Detailed arrival procedures",
+      "Clear F-1 vs M-1 comparison",
+      "Good document preparation guidance"
+    ],
+    "weaknesses": [
+      "No OPT/CPT/STEM OPT details (critical gap)",
+      "Scholarship data is just URLs (137 entries need expansion)",
+      "Limited employment authorization information",
+      "No status maintenance rules",
+      "Missing SSN and tax guidance",
+      "No emergency procedures",
+      "Limited depth on financial aid types"
+    ],
+    "completeness_by_phase": {
+      "pre_arrival": "80% (strong on docs, weak on tests)",
+      "arrival": "90% (excellent guidance)",
+      "during_study": "40% (no status maintenance, limited employment)",
+      "post_graduation": "20% (no OPT/CPT details)",
+      "financial_planning": "30% (scholarships incomplete, no aid types)"
+    }
+  },
+  "priority_recommendations": {
+    "critical_priority": [
+      {
+        "topic": "OPT Application Process",
+        "action": "Create comprehensive guide covering 12-month post-completion OPT",
+        "estimated_effort": "high",
+        "impact": "essential for post-grad employment"
+      },
+      {
+        "topic": "CPT Authorization",
+        "action": "Add complete CPT guidance including full-time/part-time rules",
+        "estimated_effort": "medium",
+        "impact": "essential for internship opportunities"
+      },
+      {
+        "topic": "STEM OPT Extension",
+        "action": "Add detailed 24-month extension requirements and Form I-983",
+        "estimated_effort": "high",
+        "impact": "critical for STEM students"
+      },
+      {
+        "topic": "Maintaining Status",
+        "action": "Create comprehensive status maintenance guide",
+        "estimated_effort": "high",
+        "impact": "legal compliance"
+      }
+    ],
+    "high_priority": [
+      {
+        "topic": "Scholarship Data Expansion",
+        "action": "Enrich 137 URLs with amounts, eligibility, deadlines, contacts",
+        "estimated_effort": "very_high",
+        "impact": "financial planning"
+      },
+      {
+        "topic": "Employment Regulations",
+        "action": "Add on-campus work, off-campus authorization, economic hardship",
+        "estimated_effort": "medium",
+        "impact": "financial support"
+      },
+      {
+        "topic": "Social Security Number",
+        "action": "Create SSN application guide",
+        "estimated_effort": "low",
+        "impact": "employment necessity"
+      },
+      {
+        "topic": "H-1B Cap-Gap Extension",
+        "action": "Add cap-gap guidance",
+        "estimated_effort": "medium",
+        "impact": "status continuity"
+      }
+    ],
+    "medium_priority": [
+      {
+        "topic": "Tax Obligations",
+        "action": "Add federal/state tax and ITIN information",
+        "estimated_effort": "medium",
+        "impact": "legal compliance"
+      },
+      {
+        "topic": "Health Insurance",
+        "action": "Add insurance requirements and options",
+        "estimated_effort": "medium",
+        "impact": "healthcare access"
+      },
+      {
+        "topic": "Transfer Process",
+        "action": "Add SEVIS transfer procedures",
+        "estimated_effort": "medium",
+        "impact": "school change flexibility"
+      }
+    ]
+  }
+}
