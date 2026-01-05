@@ -1,0 +1,88 @@
+{
+  "topic":"student visa types, application process, documentation, fees, entry rules, OPT, extensions, change of status, and guidance for dependents and Canadian/Bermuda citizens"
+  {
+  "topic": "U.S. Student Visa Guidance",
+  "step": 4,
+  "title": "Applying for Your U.S. Student Visa",
+  "visa_types": ["F", "J", "M"],
+  "resources": {
+    "us_department_of_state": "Bureau of Consular Affairs website",
+    "homeland_security": "Study in the States",
+    "uscis": "U.S. Citizenship and Immigration Services",
+    "cbp": "U.S. Customs and Border Protection",
+    "canadian_visitors": "U.S. Embassy and Consulate websites in Canada"
+  },
+  "good_to_know": {
+    "interview_tips": "Explain why you want to study in the U.S., how you will support yourself, and your plans after graduation.",
+    "entry_restrictions": "F or M visa students cannot enter earlier than 30 days before program start; early entry requires B visa and change of status.",
+    "new_students": "F and M visas can be issued up to 365 days before the course starts. Entry allowed no more than 30 days before start date.",
+    "continuing_students": "Visas may be issued anytime if enrolled at a SEVP-approved school and in SEVIS. Entry allowed anytime before classes start.",
+    "canada_bermuda": "Citizens generally do not require a visa but must present a valid Form I-20 at admission"
+  },
+  "prepare_for_interview": {
+    "fees": {
+      "application_fee": 185,
+      "issuance_fee": "Varies by nationality",
+      "instructions": "Check the U.S. Embassy/Consulate website for details on fee payment"
+    },
+    "required_documents": [
+      "Valid passport (at least 6 months beyond stay unless exempt)",
+      "Form DS-160 confirmation page",
+      "Application fee receipt if prepayment required",
+      "Photo (uploaded to DS-160 or printed if upload fails)",
+      "Form I-20 (signed by student and school official, issued via SEVIS)",
+      "Separate Form I-20 for spouse/minor children if accompanying"
+    ],
+    "additional_documents_may_include": [
+      "Academic transcripts, diplomas, certificates",
+      "Standardized test scores required by U.S. school",
+      "Proof of intent to depart after studies",
+      "Proof of funding for tuition, living, and travel costs"
+    ]
+  },
+  "visa_interview": {
+    "purpose": "Determine qualification for student visa under U.S. law",
+    "fingerprints": "Ink-free digital scans usually taken during interview",
+    "administrative_processing": "May be required; consular officer will inform",
+    "post_approval": "May require issuance fee payment and passport/visa return arrangements",
+    "fraud_warning": "Misrepresentation or fraud may result in permanent visa refusal or denial of entry"
+  },
+  "entry_to_us": {
+    "note": "Visa does not guarantee entry; DHS/CBP officials at port-of-entry decide",
+    "documents_needed": ["Passport", "Visa", "Form I-20"],
+    "admission": "CBP official provides stamp or Form I-94",
+    "procedures": "Check CBP website for arrival procedures, restricted/prohibited items",
+    "b_visa_option": "Students may enter early on B visa and apply for change of status to F or M; may also depart and re-enter on student visa"
+  },
+  "optional_practical_training": {
+    "description": "Temporary employment directly related to F-1 student's area of study",
+    "requirements": [
+      "Form I-20 endorsed for OPT",
+      "Employment Authorization Document (EAD) from USCIS"
+    ],
+    "resources": ["USCIS Website", "ICE International Students webpage"]
+  },
+  "extending_stay": {
+    "f_visa_departure": "Must leave within 60 days after program end date (including authorized training)",
+    "extension": "Request through USCIS. Check SEVP website for maintaining status",
+    "consequence_of_overstay": "Visa voided, future visa eligibility may be affected"
+  },
+  "change_of_status": {
+    "possibility": "May request change in nonimmigrant status through USCIS while in the U.S.",
+    "note": "Change of status does not require a new visa; new visa needed upon departure"
+  },
+  "additional_information": {
+    "visa_guarantee": "No guarantee of visa issuance. Do not make final travel plans without a visa.",
+    "working_in_us": "See Students and Employment and Form I-765 instructions on USCIS website",
+    "temporary_absences": "Check SEVP for guidance on returning students",
+    "spouse_children": {
+      "visa_types": ["F-2", "M-2"],
+      "SEVIS_fee": "Not required",
+      "documents_needed": ["Individual Form I-20", "Proof of relationship"],
+      "schooling": "Minor children can attend U.S. school",
+      "same_sex_spouses": "Adjudicated same as opposite sex spouses"
+    },
+    "expired_passport": "Valid visa in expired passport remains valid unless canceled/revoked; use with new passport for travel"
+  }
+}
+}
