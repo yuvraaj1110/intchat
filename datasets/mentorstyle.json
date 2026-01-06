@@ -1,0 +1,278 @@
+{
+  "phase": "phase_1_beginner",
+  "audience": "first_time_international_students_17_18",
+  "tone": "reassuring_practical_non_legal",
+  "categories": [
+    {
+      "category": "What Being an International Student Really Means",
+      "entries": [
+        {
+          "id": "p1_meaning_001",
+          "question": "What does it mean to be an international student in the US?",
+          "answer": "Being an international student means you're coming to study in the United States on a student visa. Think of it like this: you're a guest student who's been invited to learn at an American university. You're not a tourist, and you're not moving here permanently - you're here to study, grow, and then return home with new knowledge and experiences. It's a special status that gives you the right to be here as long as you're enrolled and following the rules. The most important thing to remember is that you belong here, you've earned your spot, and thousands of students do this successfully every year."
+        },
+        {
+          "id": "p1_meaning_002",
+          "question": "Will I feel different from American students?",
+          "answer": "You might feel different at first, and that's completely normal. You're coming from a different country with different customs, maybe a different language, and definitely a different perspective. But here's the thing: American students are often really curious about where you're from and want to learn about your culture. Your international background isn't a disadvantage - it's something interesting that makes you unique. Many international students find that their differences become conversation starters and help them make friends. You'll also meet other international students who understand exactly what you're going through."
+        },
+        {
+          "id": "p1_meaning_003",
+          "question": "What if I make mistakes or don't understand something?",
+          "answer": "You will make mistakes, and that's okay. Everyone does - even American students who grew up here. Making mistakes is how you learn. If you don't understand something about how things work in the US, ask questions. People generally appreciate when you ask rather than guess. Your university has staff specifically to help international students - they've seen every question and every mistake before. Nothing you can do will surprise them. The only real mistake is being too afraid to ask for help when you need it."
+        }
+      ]
+    },
+    {
+      "category": "Understanding Your Admission & I-20 (High-Level Only)",
+      "entries": [
+        {
+          "id": "p1_i20_001",
+          "question": "What is the Form I-20 and why do I need it?",
+          "answer": "The Form I-20 is like your official invitation letter from the US government that says 'Yes, this student is allowed to come study here.' It's issued by your university after you're admitted. Think of it as your student ID card for immigration purposes. You'll need it to get your student visa, to enter the United States, and to prove you're a legitimate student throughout your time here. Keep it safe - you'll need to show it at the airport, when you open a bank account, and sometimes for other official things. It's not complicated, just important to keep track of."
+        },
+        {
+          "id": "p1_i20_002",
+          "question": "Who signs the I-20 and what does that mean?",
+          "answer": "Your Designated School Official (DSO) at your university signs the I-20. This person works in the international student office and is basically your official contact person with the US government. When they sign it, they're saying 'Yes, I've verified this student is admitted and eligible.' You also need to sign it. It's not a contract - it's just confirming that you understand you're coming to study. Don't stress about the signature - it's a simple formality, but it does need to be done before you travel."
+        },
+        {
+          "id": "p1_i20_003",
+          "question": "What if I lose my I-20 or it gets damaged?",
+          "answer": "Don't panic - this happens all the time. Your university can print you a new one. Just contact your international student office (they're usually called something like 'International Student Services' or 'Office of Global Education'). They'll issue you a new I-20, usually within a day or two. It's a common request, so they know exactly how to handle it. Just make sure you have your passport and student ID number when you contact them. The important thing is to get a replacement before you need to travel or do anything official."
+        },
+        {
+          "id": "p1_i20_004",
+          "question": "What information is on the I-20 and why does it matter?",
+          "answer": "Your I-20 has basic information like your name, your program of study, when your program starts and ends, and how much money you've shown you have for tuition and living expenses. The dates are important - they tell you when you can enter the US (30 days before your program starts) and when your program officially ends. The financial information shows that you've proven you can afford to study here. It's all pretty straightforward information that confirms you're a real student with a real plan. You don't need to memorize it, just keep the document safe."
+        }
+      ]
+    },
+    {
+      "category": "Before You Leave Home",
+      "entries": [
+        {
+          "id": "p1_preleave_001",
+          "question": "What documents should I bring with me?",
+          "answer": "Bring your passport (make sure it's valid for at least 6 months into the future), your student visa, your Form I-20, your admission letter from the university, proof that you paid the SEVIS fee, and your high school transcripts. Also bring copies of everything - keep one set in your carry-on bag and leave another set at home with your family. It's also smart to have digital copies on your phone or in cloud storage. Don't pack these documents in checked luggage - always keep them with you in your carry-on. You'll need them at the airport when you arrive."
+        },
+        {
+          "id": "p1_preleave_002",
+          "question": "How much money should I bring when I first arrive?",
+          "answer": "Don't bring too much cash - it's not safe and you don't need it. Bring maybe $200-500 in US dollars for your first few days (for food, transportation, small emergencies). The rest of your money should be in a bank account that you can access, or you can open a US bank account once you arrive. Most places in the US accept credit and debit cards, so you won't need much cash. Your university will help you set up banking once you're on campus. The important thing is to have a way to access your money, not to carry it all with you."
+        },
+        {
+          "id": "p1_preleave_003",
+          "question": "What should I pack and what should I leave behind?",
+          "answer": "Pack clothes for the weather where you're going (check the climate), important personal items, any medications you need (with prescriptions), and things that remind you of home. Don't pack things you can easily buy in the US - things like basic toiletries, school supplies, and common household items are cheaper to buy here. Also, don't pack food items unless they're sealed and you've checked customs rules. Most importantly, pack an open mind and patience with yourself. You'll figure out what you need once you're there, and you can always have things shipped from home later if you really need them."
+        },
+        {
+          "id": "p1_preleave_004",
+          "question": "Should I be nervous about leaving home?",
+          "answer": "It's completely normal to be nervous, excited, scared, and happy all at the same time. Leaving home for the first time is a big deal, and feeling nervous doesn't mean you're not ready or that you made the wrong choice. Almost every international student feels this way. The first few weeks might be challenging, but you'll adjust faster than you think. Remember: you're not alone, thousands of students do this every year, and your university has people specifically to help you through this transition. It's okay to miss home - that just means you have a home worth missing."
+        }
+      ]
+    },
+    {
+      "category": "Arrival in the U.S. (Airport, Immigration, First Week)",
+      "entries": [
+        {
+          "id": "p1_arrival_001",
+          "question": "What happens when I arrive at the US airport?",
+          "answer": "When you land, you'll go through immigration (also called customs and border protection). There will be lines for different types of travelers - look for the line that says 'Visitors' or 'Non-US Citizens.' When it's your turn, an officer will ask to see your passport, visa, and I-20. They might ask you a few simple questions like 'What school are you attending?' or 'What will you study?' Just answer honestly and calmly. They're not trying to trick you - they just want to confirm you're a real student. The whole process usually takes 30 minutes to an hour, sometimes longer if it's busy. Stay calm, have your documents ready, and you'll be fine."
+        },
+        {
+          "id": "p1_arrival_002",
+          "question": "What if the immigration officer asks me questions I don't understand?",
+          "answer": "It's totally okay to ask them to repeat the question or speak more slowly. You can say 'I'm sorry, could you repeat that?' or 'Could you speak a bit slower, please?' Immigration officers deal with international students all the time and understand that English might not be your first language. They're usually patient. Don't guess at answers - if you're not sure what they're asking, it's better to ask for clarification than to give a wrong answer. Remember, you have every right to be here as a student, so there's no reason to be afraid."
+        },
+        {
+          "id": "p1_arrival_003",
+          "question": "What is the I-94 and do I need to worry about it?",
+          "answer": "The I-94 is your electronic arrival record that the US government creates when you enter the country. You don't need to do anything special to get it - it's automatically created when you go through immigration. It's basically proof of when you entered and in what status (F-1 student). You can look it up online later if you need it for something. For now, just know it exists and that it's connected to your passport. You might need to show it when you apply for things like a driver's license or Social Security Number later, but your university will help you with that when the time comes."
+        },
+        {
+          "id": "p1_arrival_004",
+          "question": "What should I do in my first week at the university?",
+          "answer": "Your first week will be busy but organized. There will be orientation events where you'll learn about campus, meet other students, and get important information. Go to everything you can - even if you're tired or overwhelmed. This is when you'll meet people, learn where things are, and start feeling comfortable. You'll probably get your student ID, set up your email and online accounts, maybe open a bank account, and learn about campus resources. Don't try to do everything perfectly - just show up, be friendly, and ask questions. Everyone else is new too, so you're all in the same boat."
+        },
+        {
+          "id": "p1_arrival_005",
+          "question": "What if I feel lost or overwhelmed when I first arrive?",
+          "answer": "Feeling lost and overwhelmed is completely normal - almost everyone feels this way. You're in a new country, maybe a new language, definitely a new culture, and everything is unfamiliar. That's a lot to handle at once. The good news is that your university expects this and has people ready to help. Find the international student office on your first day and introduce yourself. They'll give you a checklist of things to do and can answer your questions. Also, remember that you don't have to figure everything out in the first day or even the first week. Give yourself time to adjust, and be patient with yourself."
+        }
+      ]
+    },
+    {
+      "category": "Living on Campus vs Off Campus",
+      "entries": [
+        {
+          "id": "p1_housing_001",
+          "question": "Should I live on campus or off campus my first year?",
+          "answer": "Most universities require first-year students to live on campus, and honestly, that's usually the best choice for international students. Living on campus means you're close to everything - classes, dining halls, the library, and other students. You'll meet people more easily, feel more connected to campus life, and have less to worry about (no utility bills, no finding an apartment, no dealing with landlords). Off-campus housing can be cheaper in some places, but it also means more responsibility and more isolation, especially in your first year when you're still adjusting. If you have the choice, start on campus."
+        },
+        {
+          "id": "p1_housing_002",
+          "question": "What is dorm life really like?",
+          "answer": "Dorm life is like living in a small community. You'll have a room (maybe shared with a roommate, maybe your own depending on your university), and you'll share bathrooms, common areas, and maybe a kitchen with other students on your floor. It can be noisy sometimes, and you'll need to learn to live with other people's habits, but it's also where you'll make some of your closest friends. There are usually Resident Advisors (RAs) who are older students trained to help with problems and organize activities. It's not always perfect, but it's a real experience of American college life and a great way to meet people."
+        },
+        {
+          "id": "p1_housing_003",
+          "question": "What if I don't like my roommate?",
+          "answer": "Roommate conflicts happen, and they're usually not as big a deal as they feel at the time. Most problems can be solved by talking honestly about expectations - things like quiet hours, visitors, sharing space. Your RA can help mediate if you need it. If things really don't work out, you can usually request a room change, though this might take some time. Remember that your roommate is probably also nervous and adjusting, just like you. Give it some time - many roommate relationships that start awkwardly turn into great friendships. And if it doesn't work out, that's okay too - you're not stuck forever."
+        },
+        {
+          "id": "p1_housing_004",
+          "question": "What should I know about living off campus?",
+          "answer": "If you do live off campus, you'll need to handle things like rent, utilities (electricity, water, internet), finding roommates, signing leases, and getting to campus. It's more independent but also more responsibility. You'll need to budget carefully, learn about tenant rights, and make sure you can get to campus easily (public transportation or a car). Many international students find it easier to start on campus and move off campus later once they're more comfortable with the area and have made friends who might want to be roommates. There's no rush - take your time to figure out what works for you."
+        }
+      ]
+    },
+    {
+      "category": "Understanding Classes, Credits, and Professors",
+      "entries": [
+        {
+          "id": "p1_classes_001",
+          "question": "How do American university classes work?",
+          "answer": "American classes are usually more interactive than classes in many other countries. Professors expect you to participate - to ask questions, share your thoughts, and engage in discussions. Classes might be large lectures with hundreds of students, or small seminars with just 15-20 people. You'll have assignments throughout the semester (not just one big exam at the end), and your grade will be based on multiple things: homework, quizzes, papers, presentations, and exams. Attendance usually matters. The pace can feel fast, but there's help available - office hours with professors, tutoring centers, study groups. Don't be afraid to ask for help if you're struggling."
+        },
+        {
+          "id": "p1_classes_002",
+          "question": "What are credits and how many do I need?",
+          "answer": "Credits are like points that measure how much work a class requires. Most classes are worth 3 credits, which usually means about 3 hours of class time per week. Full-time students typically take 12-15 credits per semester (that's 4-5 classes). You need a certain number of credits to graduate - usually around 120 for a bachelor's degree, which takes about 4 years if you take a full course load each semester. Don't worry about the exact numbers right now - your academic advisor will help you plan your schedule. The important thing is to stay full-time (usually 12 credits minimum) to maintain your student status."
+        },
+        {
+          "id": "p1_classes_003",
+          "question": "How do I talk to professors?",
+          "answer": "Professors are people, and most of them want to help you succeed. You can call them 'Professor [Last Name]' or 'Dr. [Last Name]' if they have a doctorate. They have office hours (specific times when they're available to meet with students) - use these! Go with questions about assignments, ask for clarification on concepts, or just introduce yourself. Sending emails is fine too, but be polite and professional. Don't be intimidated - they chose to teach because they like students and want to help you learn. Building relationships with professors can lead to research opportunities, recommendation letters, and mentorship."
+        },
+        {
+          "id": "p1_classes_004",
+          "question": "What if I'm struggling with my classes?",
+          "answer": "Struggling is normal, especially in your first semester when you're adjusting to a new language, new teaching style, and new expectations. The important thing is to get help early, not wait until you're failing. Your university has tutoring centers, writing centers, and academic support services - use them. Talk to your professors during office hours. Form study groups with classmates. Your academic advisor can help you figure out if you're taking too many hard classes at once. Remember, asking for help is a sign of strength, not weakness. Many successful students struggled in their first semester - what matters is that you don't give up and that you use the resources available to you."
+        },
+        {
+          "id": "p1_classes_005",
+          "question": "What does 'full-time enrollment' mean and why does it matter?",
+          "answer": "Full-time enrollment means taking enough credits each semester - usually 12 credits for undergraduates. This matters because as an international student, you need to maintain full-time status to keep your student visa valid. It's not just about academics - it's a requirement of your immigration status. If you drop below full-time without permission (like for medical reasons), you could lose your student status. But don't worry - as long as you're taking a normal course load, you'll be fine. Your academic advisor and international student office will help make sure you're on track."
+        }
+      ]
+    },
+    {
+      "category": "Making Friends & Culture Shock",
+      "entries": [
+        {
+          "id": "p1_social_001",
+          "question": "How do I make friends as an international student?",
+          "answer": "Making friends takes time, but it will happen. Start by being open and friendly - say hello to people in your classes, in your dorm, at campus events. Join clubs or organizations that interest you (sports, music, cultural groups, academic clubs). Go to orientation events and social activities, even if you feel shy. Remember that many American students are also looking to make friends and are curious about international students. Don't be afraid to ask questions about American culture, and be ready to share about your own culture. Also, connect with other international students - they understand what you're going through and can become some of your closest friends."
+        },
+        {
+          "id": "p1_social_002",
+          "question": "What is culture shock and will I experience it?",
+          "answer": "Culture shock is the feeling of disorientation and discomfort when you're in a new culture where things work differently than you're used to. You'll probably experience it - most international students do. It might hit you right away, or it might come in waves over your first few months. You might feel homesick, frustrated, confused, or like you don't fit in. This is completely normal and temporary. It doesn't mean you made a mistake or that you don't belong. Give yourself time to adjust, stay connected with family and friends back home, and remember that it gets easier. Most students start feeling more comfortable after a few months."
+        },
+        {
+          "id": "p1_social_003",
+          "question": "What if I feel lonely or isolated?",
+          "answer": "Feeling lonely is really common, especially in your first few weeks or months. You're far from home, maybe in a different time zone, and everything is new. This doesn't mean there's something wrong with you. Reach out to people - join study groups, go to campus events, talk to your roommate or people in your dorm. Many universities have international student organizations or mentorship programs. Also, it's okay to stay connected with friends and family back home through video calls - just make sure you're also building new connections where you are. If you're really struggling, your university's counseling center can help. You're not alone in feeling this way."
+        },
+        {
+          "id": "p1_social_004",
+          "question": "How do I handle differences in communication styles?",
+          "answer": "American communication can feel very direct compared to many cultures. People might seem informal (calling professors by first names in some cases, casual greetings), or they might be very direct in giving feedback. This doesn't mean they're being rude - it's just a different style. Also, Americans often use a lot of small talk and ask 'How are you?' as a greeting (they don't always want a detailed answer). Don't take things personally if the communication style feels different. You'll get used to it, and people will understand that you're adjusting. When in doubt, be polite and ask questions - most people appreciate the effort to understand."
+        },
+        {
+          "id": "p1_social_005",
+          "question": "Should I only hang out with other international students?",
+          "answer": "It's natural to gravitate toward other international students because you share similar experiences and challenges. These friendships are valuable and important. But also try to make friends with American students and students from other countries. This will help you practice English, learn about American culture, and feel more integrated into campus life. You don't have to choose one or the other - you can have both types of friendships. The best approach is to be open to connecting with all kinds of people. Everyone has something interesting to share, and diverse friendships will enrich your experience."
+        }
+      ]
+    },
+    {
+      "category": "Money Basics (Banking, Cards, Everyday Costs)",
+      "entries": [
+        {
+          "id": "p1_money_001",
+          "question": "How do I open a bank account in the US?",
+          "answer": "Opening a bank account is pretty straightforward. Most universities have a relationship with a local bank and can help you set one up during orientation. You'll need your passport, your I-20, your I-94 (which you can print online), and sometimes proof of address (like a letter from your university with your dorm address). Many banks have special accounts for students with low or no fees. Once you have an account, you'll get a debit card that you can use almost everywhere. Your university's international student office can guide you through this process - it's something they help students with all the time."
+        },
+        {
+          "id": "p1_money_002",
+          "question": "What's the difference between a debit card and credit card?",
+          "answer": "A debit card takes money directly from your bank account - when you spend $20, that $20 comes out of your account right away. A credit card lets you borrow money that you pay back later (usually monthly). As an international student, you'll probably start with just a debit card, which is fine for everyday needs. Credit cards can be harder to get without a credit history in the US, and they can lead to debt if you're not careful. Start with a debit card and learn to manage your money well. You can always consider a credit card later if you need one and can get approved."
+        },
+        {
+          "id": "p1_money_003",
+          "question": "How much money do I need for everyday expenses?",
+          "answer": "This depends a lot on where you are and your lifestyle, but here's a general idea: food (if not on a meal plan) might be $200-400 per month, transportation $50-100, phone plan $30-60, personal items and entertainment $100-200. Textbooks can be expensive ($100-300 per class, though you can often buy used or rent). The good news is that many universities include meals and housing in their costs, so your main expenses might already be covered. Create a simple budget, track your spending for the first month to see what things actually cost, and adjust from there. Don't be afraid to ask other students what they spend - people are usually happy to share."
+        },
+        {
+          "id": "p1_money_004",
+          "question": "How do I send money back home or receive money from home?",
+          "answer": "There are several ways to transfer money internationally. Banks can do wire transfers, but they often have high fees. Services like Wise (formerly TransferWise), Remitly, or Western Union are often cheaper and easier. You can also use apps like PayPal or Venmo for smaller amounts. Your family can send money to your US bank account, or you can use international money transfer services. Ask your bank about their international transfer options and fees. Also, check exchange rates - they change daily, so timing can matter. Your international student office might have recommendations for services that other students use successfully."
+        },
+        {
+          "id": "p1_money_005",
+          "question": "What if I run out of money or have financial problems?",
+          "answer": "If you're having money problems, talk to someone right away - don't wait until it's a crisis. Your international student office can help you understand your options. Some universities have emergency funds for students in difficult situations. You might be able to find on-campus jobs (which are allowed for international students), though there are limits on how much you can work. The important thing is to be honest about your situation and ask for help early. Financial stress is really common for students, and there are usually resources available. Don't let embarrassment prevent you from getting the help you need."
+        }
+      ]
+    },
+    {
+      "category": "Health Insurance & Staying Healthy",
+      "entries": [
+        {
+          "id": "p1_health_001",
+          "question": "Do I need health insurance and how do I get it?",
+          "answer": "Yes, you absolutely need health insurance. Medical care in the US is very expensive without insurance - a simple doctor visit can cost hundreds of dollars, and an emergency can cost thousands. Most universities require international students to have health insurance and often offer a student health insurance plan. This is usually the easiest option - you just sign up and pay the fee with your tuition. The university's plan is designed for students and is usually affordable. You can also get private insurance, but make sure it meets your university's requirements. Your international student office will explain your options during orientation."
+        },
+        {
+          "id": "p1_health_002",
+          "question": "What if I get sick or need to see a doctor?",
+          "answer": "If you get sick, your university likely has a student health center on campus where you can see a doctor, usually for free or a small fee. For minor illnesses, this is your best first stop. For emergencies, go to the hospital emergency room (but be aware this can be expensive even with insurance). If you have a regular medication you need, bring a prescription from home and have your doctor write a note explaining what it is. A US doctor can then prescribe it here. Keep your insurance card with you, and don't be afraid to seek medical help when you need it - your health is important."
+        },
+        {
+          "id": "p1_health_003",
+          "question": "How do I take care of my mental health?",
+          "answer": "Taking care of your mental health is just as important as physical health. Adjusting to a new country, being away from home, and dealing with academic pressure can be really stressful. Most universities have free or low-cost counseling services for students - use them. There's no shame in talking to a counselor about stress, homesickness, anxiety, or any other concerns. Also, make sure you're getting enough sleep, eating well, exercising, and taking breaks from studying. Stay connected with people - isolation makes everything harder. If you're really struggling, reach out for help. Your university wants you to succeed and has resources to support you."
+        },
+        {
+          "id": "p1_health_004",
+          "question": "What about medications I take regularly?",
+          "answer": "If you take regular medications, bring enough for your first few months, along with copies of your prescriptions and a letter from your doctor explaining what the medications are for. Once you're in the US, you'll need to see a US doctor to get new prescriptions. Your student health center can usually help with this. Some medications available in your home country might not be available in the US (or might have different names), so research this ahead of time if possible. Also, make sure your health insurance covers prescription medications. Don't skip medications because you're worried about cost - there are usually ways to make it work."
+        }
+      ]
+    },
+    {
+      "category": "Who Helps You When You're Confused (DSO, Advisors, RAs)",
+      "entries": [
+        {
+          "id": "p1_help_001",
+          "question": "What is a DSO and when should I talk to them?",
+          "answer": "DSO stands for Designated School Official - these are staff members in your international student office who are authorized to help with immigration and visa matters. They're your main resource for questions about your student status, travel, documents, employment rules, and anything related to being an international student. You should talk to them whenever you have questions about your visa status, need to update your address, want to travel outside the US, have questions about working, or are confused about any immigration-related rules. They're there to help you, and no question is too small or too silly. It's better to ask than to guess and make a mistake."
+        },
+        {
+          "id": "p1_help_002",
+          "question": "What is an academic advisor and what do they do?",
+          "answer": "An academic advisor helps you plan your classes, choose your major, understand degree requirements, and make sure you're on track to graduate. They're usually a professor or staff member in your department or college. You'll meet with them regularly (maybe once a semester) to plan your course schedule. They can help you understand which classes to take, when to take them, and how to balance your workload. If you're struggling academically or thinking about changing your major, they're a great resource. Don't be afraid to ask them questions - that's literally their job."
+        },
+        {
+          "id": "p1_help_003",
+          "question": "What is an RA and how can they help me?",
+          "answer": "RA stands for Resident Advisor - these are older students who live in your dorm and are trained to help with dorm life. They organize activities, help resolve conflicts (like roommate problems), enforce dorm rules, and are generally there to support you. If you have questions about campus, need someone to talk to, or have problems in your dorm, your RA is a good first person to reach out to. They're students too, so they understand what you're going through and can give practical advice. They're not there to get you in trouble - they're there to help make your dorm experience positive."
+        },
+        {
+          "id": "p1_help_004",
+          "question": "Who else can help me on campus?",
+          "answer": "Your university has lots of people ready to help. There are tutoring centers for academic support, writing centers to help with papers, career centers for job and internship advice, counseling centers for mental health support, and student organizations for social connections. There are also usually international student clubs or associations. Don't try to figure everything out alone - universities are set up to support students, and there are resources for almost everything you might need. If you're not sure who to ask, start with your international student office - they can point you in the right direction. Remember, asking for help is smart, not weak."
+        },
+        {
+          "id": "p1_help_005",
+          "question": "What if I'm too embarrassed to ask for help?",
+          "answer": "It's really common to feel embarrassed about asking for help, especially if you're used to being independent or if you feel like you should know something. But here's the truth: everyone needs help sometimes, and the people whose job it is to help students have seen every question and every situation before. Nothing you can ask will surprise them or make them think less of you. In fact, asking for help shows maturity and intelligence - it means you know when you don't know something. The people on campus who help students chose those jobs because they want to help. Let them do their job by asking your questions. You'll feel better once you do."
+        }
+      ]
+    }
+  ]
+}
+
