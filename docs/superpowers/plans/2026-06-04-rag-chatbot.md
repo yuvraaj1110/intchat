@@ -49,6 +49,7 @@ langchain>=0.3.0,<0.4
 langchain-groq>=0.2.0,<0.3
 langchain-chroma>=0.2.0,<0.3
 langchain-huggingface>=0.1.0,<0.3
+groq>=0.11.0,<1
 langchain-community>=0.3.0,<0.4
 chromadb>=0.5.0,<0.6
 sentence-transformers>=3.0.0,<4
@@ -107,7 +108,9 @@ from app import config
 
 def test_config_has_expected_constants():
     assert config.EMBEDDING_MODEL == "all-MiniLM-L6-v2"
-    assert config.GROQ_MODEL == "llama-3.3-70b-versatile"
+    # Preferred model is first in the preference list (self-healing fallback)
+    assert config.GROQ_MODEL_PREFERENCES[0] == "llama-3.3-70b-versatile"
+    assert len(config.GROQ_MODEL_PREFERENCES) >= 2
     assert config.TOP_K == 5
     assert config.SEMANTIC_K == 8
     assert config.MEMORY_WINDOW == 10
@@ -171,9 +174,16 @@ SEMANTIC_K = 8   # candidates pulled by semantic search before merge
 TOP_K = 5        # final documents passed to the LLM as context
 
 # ── LLM ──────────────────────────────────────────────────────────────────
-# NOTE: verify this model name against Groq's live model list at build time;
-# Groq deprecates models periodically. See https://console.groq.com/docs/models
-GROQ_MODEL = "llama-3.3-70b-versatile"
+# Groq hosts third-party open models and deprecates them periodically, so no
+# single model name is permanently valid. Instead of hardcoding one, we keep a
+# preference list and select the first one Groq actually serves at startup
+# (see app/llm.py). Update/reorder this list as Groq's catalog changes.
+# See https://console.groq.com/docs/models
+GROQ_MODEL_PREFERENCES = [
+    "llama-3.3-70b-versatile",   # preferred: strong reasoning
+    "llama-3.1-8b-instant",      # fallback: faster, smaller
+    "llama3-70b-8192",           # fallback: older 70B
+]
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 LLM_MAX_RETRIES = 3
 LLM_TEMPERATURE = 0.2
@@ -846,10 +856,30 @@ def test_build_llm_requires_api_key(monkeypatch):
         llm.build_llm()
 
 
-def test_build_llm_uses_configured_model(monkeypatch):
+def test_select_model_returns_first_available(monkeypatch):
+    # Groq offers the 2nd and 3rd preferences but not the 1st
+    monkeypatch.setattr(
+        llm, "list_available_models",
+        lambda: {"llama-3.1-8b-instant", "llama3-70b-8192"},
+    )
+    chosen = llm.select_model(
+        ["llama-3.3-70b-versatile", "llama-3.1-8b-instant", "llama3-70b-8192"]
+    )
+    assert chosen == "llama-3.1-8b-instant"
+
+
+def test_select_model_raises_when_none_available(monkeypatch):
+    monkeypatch.setattr(llm, "list_available_models", lambda: {"some-other-model"})
+    with pytest.raises(RuntimeError, match="None of the preferred Groq models"):
+        llm.select_model(["llama-3.3-70b-versatile"])
+
+
+def test_build_llm_uses_selected_model(monkeypatch):
     monkeypatch.setattr(llm.config, "GROQ_API_KEY", "test-key")
+    monkeypatch.setattr(llm, "select_model", lambda prefs: "llama-3.3-70b-versatile")
     model = llm.build_llm()
-    assert model.model_name == llm.config.GROQ_MODEL
+    # langchain-groq exposes the configured model as `.model_name`
+    assert model.model_name == "llama-3.3-70b-versatile"
     assert model.max_retries == llm.config.LLM_MAX_RETRIES
 ```
 
@@ -861,16 +891,42 @@ Expected: FAIL with `ModuleNotFoundError: No module named 'app.llm'`
 - [ ] **Step 3: Write `app/llm.py`**
 
 ```python
-"""Groq chat model construction with built-in retry/backoff.
+"""Groq chat model construction with self-healing model selection + retry.
 
-`ChatGroq` retries transient errors (including HTTP 429 rate limits) up to
-`max_retries` times with exponential backoff, satisfying the resilience
-requirement without custom retry code.
+Groq hosts third-party open models and retires them on its own schedule, so no
+hardcoded model name stays valid forever. At startup we query Groq's live model
+list and pick the first entry from `config.GROQ_MODEL_PREFERENCES` that Groq
+actually serves. `ChatGroq` then retries transient errors (including HTTP 429
+rate limits) up to `max_retries` times with exponential backoff.
 """
 
+from groq import Groq
 from langchain_groq import ChatGroq
 
 from app import config
+
+
+def list_available_models() -> set[str]:
+    """Return the set of model ids Groq currently serves for this account."""
+    client = Groq(api_key=config.GROQ_API_KEY)
+    return {m.id for m in client.models.list().data}
+
+
+def select_model(preferences: list[str]) -> str:
+    """Pick the first preferred model Groq actually offers.
+
+    Falls back through the preference list; raises if none are available.
+    """
+    available = list_available_models()
+    for name in preferences:
+        if name in available:
+            return name
+    raise RuntimeError(
+        "None of the preferred Groq models are available. "
+        f"Preferences: {preferences}. Available: {sorted(available)}. "
+        "Update config.GROQ_MODEL_PREFERENCES — see "
+        "https://console.groq.com/docs/models"
+    )
 
 
 def build_llm(streaming: bool = True) -> ChatGroq:
@@ -880,8 +936,9 @@ def build_llm(streaming: bool = True) -> ChatGroq:
             "GROQ_API_KEY is not set. Copy .env.example to .env and add your "
             "free key from https://console.groq.com/keys"
         )
+    model_name = select_model(config.GROQ_MODEL_PREFERENCES)
     return ChatGroq(
-        model=config.GROQ_MODEL,
+        model=model_name,
         api_key=config.GROQ_API_KEY,
         temperature=config.LLM_TEMPERATURE,
         max_retries=config.LLM_MAX_RETRIES,
@@ -892,17 +949,18 @@ def build_llm(streaming: bool = True) -> ChatGroq:
 - [ ] **Step 4: Run test to verify it passes**
 
 Run: `pytest tests/test_llm.py -v`
-Expected: PASS (2 passed)
+Expected: PASS (4 passed)
 
 > If `model.model_name` raises an attribute error on the installed
-> `langchain-groq` version, use `model.model` instead and update the test
-> assertion to match — both refer to the same configured model string.
+> `langchain-groq` version, use `model.model` instead and update the assertion
+> in `test_build_llm_uses_selected_model` to match — both refer to the same
+> configured model string.
 
 - [ ] **Step 5: Commit**
 
 ```bash
 git add app/llm.py tests/test_llm.py
-git commit -m "feat: add Groq LLM client with retry/backoff"
+git commit -m "feat: add Groq LLM client with self-healing model selection and retry"
 ```
 
 ---
@@ -1189,9 +1247,10 @@ Run: `python3 -m app.chat`
 Then type: `Do I need to file form I-765 for OPT?`
 Expected: an answer that references OPT and I-765, cites the topic, and ends with the legal-advice disclaimer. Type `exit` to quit.
 
-> If the first call returns a model error, the Groq model name has likely been
-> rotated. Check https://console.groq.com/docs/models and update `GROQ_MODEL`
-> in `app/config.py`.
+> The app auto-selects the first available model from
+> `config.GROQ_MODEL_PREFERENCES`. If it raises "None of the preferred Groq
+> models are available", Groq has retired all of them — check
+> https://console.groq.com/docs/models and add a current model to the list.
 
 - [ ] **Step 5: Write `README.md` quickstart**
 
@@ -1238,10 +1297,13 @@ git commit -m "docs: add quickstart README"
 - Hybrid retrieval (semantic + metadata/known-term filter) → Task 6.
 - Guard-railed prompt (context-only, citations, disclaimer) → Task 7.
 - Groq LLM + retry/backoff → Task 8 (via `ChatGroq.max_retries`).
+- Self-healing model selection (live `/models` check + preference fallback) → Task 8.
 - Conversation window memory → Task 9.
 - CLI + startup validation + error handling → Task 10.
 - Config-driven swaps + pinned deps → Tasks 1–2.
 - Testing strategy → Tasks 4–10 tests; full run in Task 11.
 
-**Known build-time check:** Groq model name (`llama-3.3-70b-versatile`) must be
-verified against the live model list — called out in `config.py` and Task 11.
+**Model resilience:** rather than a hardcoded model name, the app keeps a
+preference list (`config.GROQ_MODEL_PREFERENCES`) and selects the first one Groq
+serves at startup (Task 8). It only fails if Groq has retired every preferred
+model — and then it prints the available list so the fix is one edit away.
