@@ -11,6 +11,12 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 from app import config
 
+import argparse
+
+from langchain_chroma import Chroma
+from langchain_core.documents import Document
+from langchain_huggingface import HuggingFaceEmbeddings
+
 
 def load_docs() -> list[dict[str, Any]]:
     """Load the normalized dataset from disk."""
@@ -50,3 +56,74 @@ def chunk_docs(docs: list[dict[str, Any]]) -> list[dict[str, Any]]:
                 "chunk_index": i,
             })
     return out
+
+
+def _get_embeddings() -> HuggingFaceEmbeddings:
+    return HuggingFaceEmbeddings(model_name=config.EMBEDDING_MODEL)
+
+
+def _to_documents(docs: list[dict[str, Any]]) -> list[Document]:
+    """Convert our dicts to LangChain Documents with flattened metadata.
+
+    Chroma metadata values must be str/int/float/bool, so the nested
+    `metadata` dict is dropped from the stored metadata (its useful fields —
+    category, topic, type, source — are already top-level).
+    """
+    documents = []
+    for d in docs:
+        documents.append(Document(
+            page_content=d["text"],
+            metadata={
+                "doc_id": d["id"],
+                "category": d.get("category", ""),
+                "topic": d.get("topic", ""),
+                "type": d.get("type", ""),
+                "source": d.get("source", ""),
+                "chunk_index": d.get("chunk_index", 0),
+            },
+        ))
+    return documents
+
+
+def build_store(docs, persist_dir=None, reset=False):
+    """Dedup → chunk → embed → write a persisted Chroma collection.
+
+    `docs` is the raw list of normalized dicts. Returns the Chroma store.
+    """
+    persist_dir = persist_dir or str(config.CHROMA_DIR)
+    prepared = chunk_docs(deduplicate(docs))
+    documents = _to_documents(prepared)
+
+    if reset:
+        # Fresh build: Chroma.from_documents overwrites the collection contents.
+        store = Chroma.from_documents(
+            documents=documents,
+            embedding=_get_embeddings(),
+            collection_name=config.COLLECTION_NAME,
+            persist_directory=persist_dir,
+        )
+    else:
+        store = Chroma(
+            collection_name=config.COLLECTION_NAME,
+            embedding_function=_get_embeddings(),
+            persist_directory=persist_dir,
+        )
+        store.add_documents(documents)
+    return store
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Ingest knowledge base into ChromaDB")
+    parser.add_argument("--reset", action="store_true",
+                        help="Rebuild the collection from scratch")
+    args = parser.parse_args()
+
+    docs = load_docs()
+    print(f"Loaded {len(docs)} docs")
+    store = build_store(docs, reset=args.reset)
+    count = store._collection.count()
+    print(f"✅ Ingested into '{config.COLLECTION_NAME}' — {count} chunks stored")
+
+
+if __name__ == "__main__":
+    main()
