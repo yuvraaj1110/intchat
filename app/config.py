@@ -23,7 +23,12 @@ COLLECTION_NAME = "intchat_knowledge"
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 
 # ── Chunking (for future large documents) ────────────────────────────────
-CHUNK_SIZE = 500
+# CHUNK_SIZE is tuned to the embedding model's window. all-MiniLM-L6-v2
+# truncates input past ~256 tokens (~1000 chars), so 800 chars keeps every
+# chunk safely inside the window (no silent truncation) while leaving the
+# curated docs — already coherent units, max 1067 chars — almost entirely
+# intact. Only genuinely oversized docs (e.g. future multi-page PDFs) split.
+CHUNK_SIZE = 800
 CHUNK_OVERLAP = 50
 
 # ── Retrieval ────────────────────────────────────────────────────────────
