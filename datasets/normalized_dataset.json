@@ -1,0 +1,2832 @@
+[
+  {
+    "id": "dataset_A__sevis_overview__0",
+    "text": "SEVIS is the web-based system used by the U.S. Department of Homeland Security to maintain information on nonimmigrant students (F-1 and M-1) and exchange visitors (J-1).",
+    "category": "SEVIS System Overview",
+    "topic": "SEVIS Purpose and Management",
+    "type": "paragraph",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "I-20",
+        "I-17"
+      ],
+      "related_visa_types": [
+        "F-1",
+        "M-1",
+        "J-1"
+      ],
+      "audience": [
+        "prospective_students",
+        "current_f1",
+        "current_m1",
+        "school_officials"
+      ],
+      "tags": [
+        "SEVIS",
+        "student_tracking",
+        "DSO"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/sevis"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__sevis_overview__1",
+    "text": "• Monitors student and exchange visitor status.\n• Tracks Form I-20 and DSOs.\n• Ensures compliance with visa regulations.",
+    "category": "SEVIS System Overview",
+    "topic": "SEVIS Purpose and Management",
+    "type": "list",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "I-20",
+        "I-17"
+      ],
+      "related_visa_types": [
+        "F-1",
+        "M-1",
+        "J-1"
+      ],
+      "audience": [
+        "prospective_students",
+        "current_f1",
+        "current_m1",
+        "school_officials"
+      ],
+      "tags": [
+        "SEVIS",
+        "student_tracking",
+        "DSO"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/sevis"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__sevis_overview__2",
+    "text": "All SEVP-certified schools must use SEVIS to report student enrollment and status changes.",
+    "category": "SEVIS System Overview",
+    "topic": "SEVIS Purpose and Management",
+    "type": "note",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "I-20",
+        "I-17"
+      ],
+      "related_visa_types": [
+        "F-1",
+        "M-1",
+        "J-1"
+      ],
+      "audience": [
+        "prospective_students",
+        "current_f1",
+        "current_m1",
+        "school_officials"
+      ],
+      "tags": [
+        "SEVIS",
+        "student_tracking",
+        "DSO"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/sevis"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__sevp_certification__0",
+    "text": "SEVP certifies U.S. schools to enroll nonimmigrant students and maintain compliance with federal regulations.",
+    "category": "SEVIS System Overview",
+    "topic": "SEVP-Certified Schools",
+    "type": "paragraph",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "I-17"
+      ],
+      "related_visa_types": [
+        "F-1",
+        "M-1"
+      ],
+      "audience": [
+        "prospective_students",
+        "school_officials"
+      ],
+      "tags": [
+        "SEVP",
+        "certification",
+        "DSO"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/sevp"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__sevp_certification__1",
+    "text": "• Community colleges, universities, vocational schools may be certified.\n• DSOs are responsible for accurate reporting of student data.\n• Annual verification is required to maintain certification.",
+    "category": "SEVIS System Overview",
+    "topic": "SEVP-Certified Schools",
+    "type": "list",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "I-17"
+      ],
+      "related_visa_types": [
+        "F-1",
+        "M-1"
+      ],
+      "audience": [
+        "prospective_students",
+        "school_officials"
+      ],
+      "tags": [
+        "SEVP",
+        "certification",
+        "DSO"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/sevp"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__f1_status__0",
+    "text": "F-1 is the visa for academic students attending universities, colleges, or English language programs in the U.S.",
+    "category": "Student Visas and Status",
+    "topic": "F-1 Academic Student Status",
+    "type": "paragraph",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "I-20",
+        "I-901"
+      ],
+      "related_visa_types": [
+        "F-1"
+      ],
+      "audience": [
+        "prospective_students",
+        "current_f1"
+      ],
+      "tags": [
+        "F-1",
+        "academic",
+        "status_maintenance"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/f-1"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__f1_status__1",
+    "text": "• Requires full-time enrollment.\n• Eligible for on-campus employment and certain practical training.\n• Dependent F-2 visas for spouse and children.",
+    "category": "Student Visas and Status",
+    "topic": "F-1 Academic Student Status",
+    "type": "list",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "I-20",
+        "I-901"
+      ],
+      "related_visa_types": [
+        "F-1"
+      ],
+      "audience": [
+        "prospective_students",
+        "current_f1"
+      ],
+      "tags": [
+        "F-1",
+        "academic",
+        "status_maintenance"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/f-1"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__m1_status__0",
+    "text": "M-1 is the visa for students attending vocational or non-academic programs.",
+    "category": "Student Visas and Status",
+    "topic": "M-1 Vocational Student Status",
+    "type": "paragraph",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "I-20",
+        "I-901"
+      ],
+      "related_visa_types": [
+        "M-1"
+      ],
+      "audience": [
+        "prospective_students",
+        "current_m1"
+      ],
+      "tags": [
+        "M-1",
+        "vocational",
+        "status_maintenance"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/m-1"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__m1_status__1",
+    "text": "• Full-time enrollment required for the program duration.\n• Employment is limited; only practical training allowed after program completion.\n• Dependent M-2 visas for spouse and children.",
+    "category": "Student Visas and Status",
+    "topic": "M-1 Vocational Student Status",
+    "type": "list",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "I-20",
+        "I-901"
+      ],
+      "related_visa_types": [
+        "M-1"
+      ],
+      "audience": [
+        "prospective_students",
+        "current_m1"
+      ],
+      "tags": [
+        "M-1",
+        "vocational",
+        "status_maintenance"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/m-1"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__j1_status__0",
+    "text": "J-1 is the visa for exchange visitors participating in approved programs such as research, teaching, or cultural exchange.",
+    "category": "Student Visas and Status",
+    "topic": "J-1 Exchange Visitor Status",
+    "type": "paragraph",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "DS-2019"
+      ],
+      "related_visa_types": [
+        "J-1"
+      ],
+      "audience": [
+        "prospective_students",
+        "current_j1"
+      ],
+      "tags": [
+        "J-1",
+        "exchange",
+        "cultural"
+      ],
+      "source_urls": [
+        "https://j1visa.state.gov/"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__j1_status__1",
+    "text": "• Program sponsor must be approved by the U.S. Department of State.\n• Duration varies based on program.\n• Dependent J-2 visas are available for spouse and children.",
+    "category": "Student Visas and Status",
+    "topic": "J-1 Exchange Visitor Status",
+    "type": "list",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "DS-2019"
+      ],
+      "related_visa_types": [
+        "J-1"
+      ],
+      "audience": [
+        "prospective_students",
+        "current_j1"
+      ],
+      "tags": [
+        "J-1",
+        "exchange",
+        "cultural"
+      ],
+      "source_urls": [
+        "https://j1visa.state.gov/"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__change_of_status__0",
+    "text": "Students in the U.S. may apply to change their visa status (e.g., B-2 to F-1) using Form I-539.",
+    "category": "Student Visas and Status",
+    "topic": "Change of Status",
+    "type": "paragraph",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "I-539",
+        "I-20"
+      ],
+      "related_visa_types": [
+        "F-1",
+        "M-1",
+        "B-2",
+        "H-1B"
+      ],
+      "audience": [
+        "current_f1",
+        "current_m1",
+        "prospective_students"
+      ],
+      "tags": [
+        "change_of_status",
+        "B-2",
+        "H-1B",
+        "M-1 bridging"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/status_change"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__change_of_status__1",
+    "text": "• F-1 and M-1 eligibility requirements must be met.\n• Gap bridging rules apply for M-1 students.\n• B-1/B-2 to F-1 change requires evidence of intent to study full-time.\n• H-1B status change may require additional documentation.",
+    "category": "Student Visas and Status",
+    "topic": "Change of Status",
+    "type": "list",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "I-539",
+        "I-20"
+      ],
+      "related_visa_types": [
+        "F-1",
+        "M-1",
+        "B-2",
+        "H-1B"
+      ],
+      "audience": [
+        "current_f1",
+        "current_m1",
+        "prospective_students"
+      ],
+      "tags": [
+        "change_of_status",
+        "B-2",
+        "H-1B",
+        "M-1 bridging"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/status_change"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__i20_overview__0",
+    "text": "Form I-20 is issued by a SEVP-certified school to eligible F-1 or M-1 students. It allows payment of the SEVIS I-901 fee, visa application, and entry to the U.S.",
+    "category": "Form I-20",
+    "topic": "Form I-20 Overview",
+    "type": "paragraph",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "I-20",
+        "I-901"
+      ],
+      "related_visa_types": [
+        "F-1",
+        "M-1"
+      ],
+      "audience": [
+        "prospective_students",
+        "current_f1",
+        "current_m1"
+      ],
+      "tags": [
+        "I-20",
+        "DSO",
+        "documentation"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/i-20"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__i20_overview__1",
+    "text": "• Contains student information, program of study, and school info.\n• Signed by the Designated School Official (DSO).\n• Required for travel, visa application, and work authorization.",
+    "category": "Form I-20",
+    "topic": "Form I-20 Overview",
+    "type": "list",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "I-20",
+        "I-901"
+      ],
+      "related_visa_types": [
+        "F-1",
+        "M-1"
+      ],
+      "audience": [
+        "prospective_students",
+        "current_f1",
+        "current_m1"
+      ],
+      "tags": [
+        "I-20",
+        "DSO",
+        "documentation"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/i-20"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__i20_request_new__0",
+    "text": "Students may request a new Form I-20 when changing programs, extending their study, or replacing a lost or damaged form.",
+    "category": "Form I-20",
+    "topic": "Requesting a New or Replacement I-20",
+    "type": "paragraph",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "I-20"
+      ],
+      "related_visa_types": [
+        "F-1",
+        "M-1"
+      ],
+      "audience": [
+        "current_f1",
+        "current_m1"
+      ],
+      "tags": [
+        "I-20",
+        "replacement",
+        "program_change"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/i-20"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__i20_request_new__1",
+    "text": "• Submit request to your DSO.\n• Provide supporting documentation (new program info, updated financials).\n• Sign the form upon receipt, especially if traveling internationally.",
+    "category": "Form I-20",
+    "topic": "Requesting a New or Replacement I-20",
+    "type": "list",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "I-20"
+      ],
+      "related_visa_types": [
+        "F-1",
+        "M-1"
+      ],
+      "audience": [
+        "current_f1",
+        "current_m1"
+      ],
+      "tags": [
+        "I-20",
+        "replacement",
+        "program_change"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/i-20"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__i901_payment__0",
+    "text": "The I-901 SEVIS Fee must be paid before applying for a visa or entering the U.S.",
+    "category": "I-901 SEVIS Fee",
+    "topic": "SEVIS I-901 Fee Payment",
+    "type": "paragraph",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "I-901",
+        "I-20"
+      ],
+      "related_visa_types": [
+        "F-1",
+        "M-1"
+      ],
+      "audience": [
+        "prospective_students",
+        "current_f1",
+        "current_m1"
+      ],
+      "tags": [
+        "I-901",
+        "SEVIS Fee",
+        "payment"
+      ],
+      "source_urls": [
+        "https://fmjfee.com",
+        "https://studyinthestates.dhs.gov/i-901"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__i901_payment__1",
+    "text": "• Payment via FMJfee.com using SEVIS ID from Form I-20.\n• Fee varies depending on visa type: F-1 ($350), M-1 ($220).\n• Keep receipt for visa interview and U.S. entry.",
+    "category": "I-901 SEVIS Fee",
+    "topic": "SEVIS I-901 Fee Payment",
+    "type": "list",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "I-901",
+        "I-20"
+      ],
+      "related_visa_types": [
+        "F-1",
+        "M-1"
+      ],
+      "audience": [
+        "prospective_students",
+        "current_f1",
+        "current_m1"
+      ],
+      "tags": [
+        "I-901",
+        "SEVIS Fee",
+        "payment"
+      ],
+      "source_urls": [
+        "https://fmjfee.com",
+        "https://studyinthestates.dhs.gov/i-901"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__i901_payment__2",
+    "text": "Students exempt from the fee or changing status may have special instructions.",
+    "category": "I-901 SEVIS Fee",
+    "topic": "SEVIS I-901 Fee Payment",
+    "type": "note",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "I-901",
+        "I-20"
+      ],
+      "related_visa_types": [
+        "F-1",
+        "M-1"
+      ],
+      "audience": [
+        "prospective_students",
+        "current_f1",
+        "current_m1"
+      ],
+      "tags": [
+        "I-901",
+        "SEVIS Fee",
+        "payment"
+      ],
+      "source_urls": [
+        "https://fmjfee.com",
+        "https://studyinthestates.dhs.gov/i-901"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__entry_procedure__0",
+    "text": "International students must present valid visa, passport, and Form I-20 at the port of entry.",
+    "category": "Travel and Entry",
+    "topic": "Entry to the U.S.",
+    "type": "paragraph",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "I-20",
+        "I-94",
+        "I-515A"
+      ],
+      "related_visa_types": [
+        "F-1",
+        "M-1"
+      ],
+      "audience": [
+        "prospective_students",
+        "current_f1",
+        "current_m1"
+      ],
+      "tags": [
+        "travel",
+        "entry",
+        "documentation"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/entry"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__entry_procedure__1",
+    "text": "• Form I-94 is issued electronically; retain for records.\n• Arrive within 30 days of program start date.\n• Secondary inspection may occur if documentation is incomplete (Form I-515A).\n• Report to school by program start date.",
+    "category": "Travel and Entry",
+    "topic": "Entry to the U.S.",
+    "type": "list",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "I-20",
+        "I-94",
+        "I-515A"
+      ],
+      "related_visa_types": [
+        "F-1",
+        "M-1"
+      ],
+      "audience": [
+        "prospective_students",
+        "current_f1",
+        "current_m1"
+      ],
+      "tags": [
+        "travel",
+        "entry",
+        "documentation"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/entry"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__undergraduate_programs__0",
+    "text": "F-1 students may enroll in community colleges, undergraduate, or graduate programs at SEVP-certified institutions.",
+    "category": "Programs of Study",
+    "topic": "Undergraduate and Graduate Programs",
+    "type": "paragraph",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "I-20"
+      ],
+      "related_visa_types": [
+        "F-1",
+        "M-1"
+      ],
+      "audience": [
+        "prospective_students"
+      ],
+      "tags": [
+        "programs",
+        "STEM",
+        "vocational",
+        "ESL"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/programs"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__undergraduate_programs__1",
+    "text": "• STEM programs are eligible for OPT extensions.\n• English language programs may be full-time or part-time.\n• Vocational programs fall under M-1 classification.",
+    "category": "Programs of Study",
+    "topic": "Undergraduate and Graduate Programs",
+    "type": "list",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "I-20"
+      ],
+      "related_visa_types": [
+        "F-1",
+        "M-1"
+      ],
+      "audience": [
+        "prospective_students"
+      ],
+      "tags": [
+        "programs",
+        "STEM",
+        "vocational",
+        "ESL"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/programs"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__cpt_guidance__0",
+    "text": "CPT allows F-1 students to engage in employment directly related to their major field of study before graduation.",
+    "category": "Practical Training and Employment",
+    "topic": "Curricular Practical Training (CPT)",
+    "type": "paragraph",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "I-20"
+      ],
+      "related_visa_types": [
+        "F-1"
+      ],
+      "audience": [
+        "current_f1"
+      ],
+      "tags": [
+        "CPT",
+        "employment",
+        "F-1"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/curricular-practical-training"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__cpt_guidance__1",
+    "text": "• Eligibility: Must have completed one academic year (exceptions for graduate programs).\n• Part-time CPT: 20 hours/week or less during school session.\n• Full-time CPT: More than 20 hours/week, may affect eligibility for OPT.\n• Requires DSO authorization on Form I-20.\n• Employer and job must be integral to the curriculum.",
+    "category": "Practical Training and Employment",
+    "topic": "Curricular Practical Training (CPT)",
+    "type": "list",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "I-20"
+      ],
+      "related_visa_types": [
+        "F-1"
+      ],
+      "audience": [
+        "current_f1"
+      ],
+      "tags": [
+        "CPT",
+        "employment",
+        "F-1"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/curricular-practical-training"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__opt_guidance__0",
+    "text": "OPT allows F-1 students to work in the U.S. in their field of study for up to 12 months after graduation.",
+    "category": "Practical Training and Employment",
+    "topic": "Optional Practical Training (OPT)",
+    "type": "paragraph",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "I-20",
+        "I-765"
+      ],
+      "related_visa_types": [
+        "F-1"
+      ],
+      "audience": [
+        "current_f1",
+        "graduating"
+      ],
+      "tags": [
+        "OPT",
+        "employment",
+        "F-1"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/optional-practical-training"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__opt_guidance__1",
+    "text": "• Application: File Form I-765 with USCIS.\n• Eligibility: Must complete at least one academic year.\n• Timeline: Apply up to 90 days before graduation, no later than 60 days after program end.\n• Unemployment: Limited to 90 days for regular OPT, extended for STEM OPT.\n• Reporting: Must report employer information and address updates to DSO.",
+    "category": "Practical Training and Employment",
+    "topic": "Optional Practical Training (OPT)",
+    "type": "list",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "I-20",
+        "I-765"
+      ],
+      "related_visa_types": [
+        "F-1"
+      ],
+      "audience": [
+        "current_f1",
+        "graduating"
+      ],
+      "tags": [
+        "OPT",
+        "employment",
+        "F-1"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/optional-practical-training"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__stem_opt__0",
+    "text": "STEM OPT allows eligible STEM graduates to extend their OPT by 24 months.",
+    "category": "Practical Training and Employment",
+    "topic": "STEM OPT Extension",
+    "type": "paragraph",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "I-20",
+        "I-765",
+        "I-983"
+      ],
+      "related_visa_types": [
+        "F-1"
+      ],
+      "audience": [
+        "current_f1",
+        "graduating"
+      ],
+      "tags": [
+        "STEM OPT",
+        "employment",
+        "F-1"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/stem-opt-extension"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__stem_opt__1",
+    "text": "• Eligibility: Degree in approved STEM fields, employer must be E-Verify registered.\n• Form I-983 Training Plan required.\n• Application: File Form I-765 before regular OPT expires.\n• Second extension: Only if another qualifying STEM degree is earned.\n• Reporting: Regular validation reports every 6 months and annual self-evaluation.",
+    "category": "Practical Training and Employment",
+    "topic": "STEM OPT Extension",
+    "type": "list",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "I-20",
+        "I-765",
+        "I-983"
+      ],
+      "related_visa_types": [
+        "F-1"
+      ],
+      "audience": [
+        "current_f1",
+        "graduating"
+      ],
+      "tags": [
+        "STEM OPT",
+        "employment",
+        "F-1"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/stem-opt-extension"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__scholarship_list__0",
+    "text": "A curated list of 137 scholarship opportunities for international students covering multiple degree levels and countries.",
+    "category": "Scholarships and Financial Aid",
+    "topic": "Scholarship Opportunities",
+    "type": "paragraph",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [],
+      "related_visa_types": [
+        "F-1",
+        "M-1",
+        "J-1"
+      ],
+      "audience": [
+        "prospective_students"
+      ],
+      "tags": [
+        "scholarships",
+        "financial_aid"
+      ],
+      "source_urls": [
+        "https://www.educationusa.state.gov/scholarships"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__scholarship_list__1",
+    "text": "Details include eligibility, award amount, application deadlines, and provider contact information wherever available.",
+    "category": "Scholarships and Financial Aid",
+    "topic": "Scholarship Opportunities",
+    "type": "note",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [],
+      "related_visa_types": [
+        "F-1",
+        "M-1",
+        "J-1"
+      ],
+      "audience": [
+        "prospective_students"
+      ],
+      "tags": [
+        "scholarships",
+        "financial_aid"
+      ],
+      "source_urls": [
+        "https://www.educationusa.state.gov/scholarships"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__financial_aid_types__0",
+    "text": "• Assistantships and fellowships for graduate students.\n• Grants from universities or governments.\n• Loans available for international students from select institutions.\n• Need-based institutional aid.",
+    "category": "Scholarships and Financial Aid",
+    "topic": "Other Financial Aid Options",
+    "type": "list",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [],
+      "related_visa_types": [
+        "F-1",
+        "M-1",
+        "J-1"
+      ],
+      "audience": [
+        "prospective_students",
+        "current_f1",
+        "current_m1"
+      ],
+      "tags": [
+        "financial_aid",
+        "grants",
+        "loans"
+      ],
+      "source_urls": [
+        "https://www.educationusa.state.gov/financial-aid"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__maintaining_status__0",
+    "text": "Maintaining F-1 or M-1 status is critical for lawful presence and future benefits.",
+    "category": "Student Life Cycle and Compliance",
+    "topic": "Maintaining Legal Status",
+    "type": "paragraph",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "I-20",
+        "I-539"
+      ],
+      "related_visa_types": [
+        "F-1",
+        "M-1"
+      ],
+      "audience": [
+        "current_f1",
+        "current_m1"
+      ],
+      "tags": [
+        "status",
+        "compliance",
+        "DSO"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/maintaining-status"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__maintaining_status__1",
+    "text": "• Enroll full-time every semester (exceptions require DSO authorization).\n• Report changes of address or personal information within 10 days.\n• Apply for program extensions before current end date.\n• Reinstatement: If status is violated, file Form I-539 and follow USCIS procedures.\n• Grace periods: 60 days for F-1, 30 days for M-1 post-completion.",
+    "category": "Student Life Cycle and Compliance",
+    "topic": "Maintaining Legal Status",
+    "type": "list",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "I-20",
+        "I-539"
+      ],
+      "related_visa_types": [
+        "F-1",
+        "M-1"
+      ],
+      "audience": [
+        "current_f1",
+        "current_m1"
+      ],
+      "tags": [
+        "status",
+        "compliance",
+        "DSO"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/maintaining-status"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__ssn_guidance__0",
+    "text": "International students working on-campus or authorized off-campus must obtain an SSN for tax and employment purposes.",
+    "category": "Student Life Cycle and Compliance",
+    "topic": "Social Security Number (SSN)",
+    "type": "paragraph",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "I-20"
+      ],
+      "related_visa_types": [
+        "F-1",
+        "M-1"
+      ],
+      "audience": [
+        "current_f1",
+        "current_m1"
+      ],
+      "tags": [
+        "SSN",
+        "employment",
+        "tax"
+      ],
+      "source_urls": [
+        "https://www.ssa.gov/ssnumber/"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__ssn_guidance__1",
+    "text": "• Apply at local SSA office with passport, I-94, visa, and I-20.\n• Provide job offer letter if on-campus employment.\n• Processing may take 2–4 weeks.\n• Use SSN for payroll, banking, and tax purposes.",
+    "category": "Student Life Cycle and Compliance",
+    "topic": "Social Security Number (SSN)",
+    "type": "list",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "I-20"
+      ],
+      "related_visa_types": [
+        "F-1",
+        "M-1"
+      ],
+      "audience": [
+        "current_f1",
+        "current_m1"
+      ],
+      "tags": [
+        "SSN",
+        "employment",
+        "tax"
+      ],
+      "source_urls": [
+        "https://www.ssa.gov/ssnumber/"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__tax_obligations__0",
+    "text": "International students may have federal and state tax obligations, even if income is limited.",
+    "category": "Student Life Cycle and Compliance",
+    "topic": "Tax Obligations",
+    "type": "paragraph",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "8843",
+        "1040NR"
+      ],
+      "related_visa_types": [
+        "F-1",
+        "M-1"
+      ],
+      "audience": [
+        "current_f1",
+        "current_m1"
+      ],
+      "tags": [
+        "tax",
+        "ITIN",
+        "compliance"
+      ],
+      "source_urls": [
+        "https://www.irs.gov/individuals/international-taxpayers"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__tax_obligations__1",
+    "text": "• File Form 8843 for all F/M visa holders.\n• File Form 1040NR if earned U.S. income.\n• Use ITIN if SSN is unavailable.\n• Check for tax treaties between home country and U.S.",
+    "category": "Student Life Cycle and Compliance",
+    "topic": "Tax Obligations",
+    "type": "list",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "8843",
+        "1040NR"
+      ],
+      "related_visa_types": [
+        "F-1",
+        "M-1"
+      ],
+      "audience": [
+        "current_f1",
+        "current_m1"
+      ],
+      "tags": [
+        "tax",
+        "ITIN",
+        "compliance"
+      ],
+      "source_urls": [
+        "https://www.irs.gov/individuals/international-taxpayers"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__health_insurance__0",
+    "text": "Health insurance is often mandatory and ensures access to medical care.",
+    "category": "Student Life Cycle and Compliance",
+    "topic": "Health Insurance for International Students",
+    "type": "paragraph",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [],
+      "related_visa_types": [
+        "F-1",
+        "M-1"
+      ],
+      "audience": [
+        "current_f1",
+        "current_m1"
+      ],
+      "tags": [
+        "health insurance",
+        "compliance"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/health-insurance"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__health_insurance__1",
+    "text": "• Check if school provides a plan; enroll if required.\n• Private insurance is allowed if coverage meets minimum standards.\n• ACA marketplace plans may not satisfy requirements.\n• Keep documentation for visa compliance and emergencies.",
+    "category": "Student Life Cycle and Compliance",
+    "topic": "Health Insurance for International Students",
+    "type": "list",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [],
+      "related_visa_types": [
+        "F-1",
+        "M-1"
+      ],
+      "audience": [
+        "current_f1",
+        "current_m1"
+      ],
+      "tags": [
+        "health insurance",
+        "compliance"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/health-insurance"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__emergency_reinstatement__0",
+    "text": "Students may face emergencies affecting status, legal issues, or health.",
+    "category": "Student Life Cycle and Compliance",
+    "topic": "Emergency Procedures and Reinstatement",
+    "type": "paragraph",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "I-539"
+      ],
+      "related_visa_types": [
+        "F-1",
+        "M-1"
+      ],
+      "audience": [
+        "current_f1",
+        "current_m1"
+      ],
+      "tags": [
+        "emergency",
+        "reinstatement",
+        "status"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/emergency-procedures"
+      ]
+    }
+  },
+  {
+    "id": "dataset_A__emergency_reinstatement__1",
+    "text": "• Status violations: Contact DSO immediately.\n• Reinstatement: File Form I-539 if out of status.\n• Emergency contacts: School, embassy, local authorities.\n• Keep records of all communications and documentation.",
+    "category": "Student Life Cycle and Compliance",
+    "topic": "Emergency Procedures and Reinstatement",
+    "type": "list",
+    "source": "dataset_A",
+    "metadata": {
+      "related_forms": [
+        "I-539"
+      ],
+      "related_visa_types": [
+        "F-1",
+        "M-1"
+      ],
+      "audience": [
+        "current_f1",
+        "current_m1"
+      ],
+      "tags": [
+        "emergency",
+        "reinstatement",
+        "status"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/emergency-procedures"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__opt_optional_practical_training__summary",
+    "text": "OPT allows F-1 students to engage in temporary employment directly related to their major area of study, available before or after program completion.",
+    "category": "OPT",
+    "topic": "Optional Practical Training (OPT)",
+    "type": "summary",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students"
+      ],
+      "source_urls": [
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-opt-for-f-1-students",
+        "https://studyinthestates.dhs.gov/students/work/applying-for-practical-training",
+        "https://www.ice.gov/sevis/practical-training"
+      ],
+      "required_forms": [
+        "I-20",
+        "I-765"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__opt_optional_practical_training__eligibility",
+    "text": "Eligibility for Optional Practical Training (OPT):\n• F-1 students who have been lawfully enrolled full-time for at least one academic year\n• Employment must be directly related to the student's major field of study\n• Student must be in valid F-1 status at the time of application",
+    "category": "OPT",
+    "topic": "Optional Practical Training (OPT)",
+    "type": "eligibility",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students"
+      ],
+      "source_urls": [
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-opt-for-f-1-students",
+        "https://studyinthestates.dhs.gov/students/work/applying-for-practical-training",
+        "https://www.ice.gov/sevis/practical-training"
+      ],
+      "required_forms": [
+        "I-20",
+        "I-765"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__opt_optional_practical_training__steps",
+    "text": "Steps for Optional Practical Training (OPT):\n1. Request OPT recommendation from Designated School Official (DSO)\n2. DSO endorses Form I-20 and updates SEVIS record with OPT recommendation\n3. File Form I-765, Application for Employment Authorization, with USCIS within 30 days of DSO recommendation\n4. Include required fee, supporting documents, and copy of endorsed Form I-20\n5. Await approval and receive Employment Authorization Document (EAD) before commencing employment\n6. Report employment information to DSO and update SEVIS records as required",
+    "category": "OPT",
+    "topic": "Optional Practical Training (OPT)",
+    "type": "steps",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students"
+      ],
+      "source_urls": [
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-opt-for-f-1-students",
+        "https://studyinthestates.dhs.gov/students/work/applying-for-practical-training",
+        "https://www.ice.gov/sevis/practical-training"
+      ],
+      "required_forms": [
+        "I-20",
+        "I-765"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__opt_optional_practical_training__rules",
+    "text": "Key rules for Optional Practical Training (OPT):\n• Pre-completion OPT: Part-time (up to 20 hours per week) during academic sessions; full-time during breaks\n• Post-completion OPT: Full-time employment permitted after program completion\n• Maximum of 12 months of OPT per educational level (bachelor's, master's, doctorate)\n• Unemployment limit: 90 days total during the 12-month post-completion OPT period\n• Employment must be directly related to the student's major field of study\n• Cannot begin employment until EAD is received and valid\n• Must apply for post-completion OPT no later than 60 days after program completion date",
+    "category": "OPT",
+    "topic": "Optional Practical Training (OPT)",
+    "type": "rules",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students"
+      ],
+      "source_urls": [
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-opt-for-f-1-students",
+        "https://studyinthestates.dhs.gov/students/work/applying-for-practical-training",
+        "https://www.ice.gov/sevis/practical-training"
+      ],
+      "required_forms": [
+        "I-20",
+        "I-765"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__opt_optional_practical_training__timelines",
+    "text": "Timelines for Optional Practical Training (OPT):\n• earliest: 90 days before program completion date for post-completion OPT\n• latest: 60 days after program completion date for post-completion OPT",
+    "category": "OPT",
+    "topic": "Optional Practical Training (OPT)",
+    "type": "timelines",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students"
+      ],
+      "source_urls": [
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-opt-for-f-1-students",
+        "https://studyinthestates.dhs.gov/students/work/applying-for-practical-training",
+        "https://www.ice.gov/sevis/practical-training"
+      ],
+      "required_forms": [
+        "I-20",
+        "I-765"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__opt_optional_practical_training__mistakes",
+    "text": "Common mistakes with Optional Practical Training (OPT):\n• Applying for OPT more than 30 days after DSO recommendation in SEVIS\n• Engaging in employment before receiving the EAD\n• Exceeding the 90-day unemployment limit during post-completion OPT\n• Engaging in employment not directly related to the major field of study\n• Failing to report employment changes to DSO within required timeframes\n• Not maintaining valid F-1 status during OPT period",
+    "category": "OPT",
+    "topic": "Optional Practical Training (OPT)",
+    "type": "mistakes",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students"
+      ],
+      "source_urls": [
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-opt-for-f-1-students",
+        "https://studyinthestates.dhs.gov/students/work/applying-for-practical-training",
+        "https://www.ice.gov/sevis/practical-training"
+      ],
+      "required_forms": [
+        "I-20",
+        "I-765"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__opt_optional_practical_training__consequences",
+    "text": "Consequences of violating Optional Practical Training (OPT) rules:\n• Loss of F-1 status\n• Termination of OPT authorization\n• Accrual of unlawful presence\n• Possible removal from the United States\n• Ineligibility for future immigration benefits",
+    "category": "OPT",
+    "topic": "Optional Practical Training (OPT)",
+    "type": "consequences",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students"
+      ],
+      "source_urls": [
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-opt-for-f-1-students",
+        "https://studyinthestates.dhs.gov/students/work/applying-for-practical-training",
+        "https://www.ice.gov/sevis/practical-training"
+      ],
+      "required_forms": [
+        "I-20",
+        "I-765"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__cpt_curricular_practical_training__summary",
+    "text": "CPT allows F-1 students to engage in off-campus employment that is an integral part of the established curriculum, such as internships or cooperative education programs.",
+    "category": "CPT",
+    "topic": "Curricular Practical Training (CPT)",
+    "type": "summary",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students"
+      ],
+      "source_urls": [
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/curricular-practical-training",
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment",
+        "https://www.ice.gov/sevis/practical-training"
+      ],
+      "required_forms": [
+        "I-20"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__cpt_curricular_practical_training__eligibility",
+    "text": "Eligibility for Curricular Practical Training (CPT):\n• F-1 students who have been lawfully enrolled full-time for at least one academic year\n• Employment must be an integral part of the established curriculum\n• Employment must be directly related to the student's major field of study\n• Student must be in valid F-1 status",
+    "category": "CPT",
+    "topic": "Curricular Practical Training (CPT)",
+    "type": "eligibility",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students"
+      ],
+      "source_urls": [
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/curricular-practical-training",
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment",
+        "https://www.ice.gov/sevis/practical-training"
+      ],
+      "required_forms": [
+        "I-20"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__cpt_curricular_practical_training__steps",
+    "text": "Steps for Curricular Practical Training (CPT):\n1. Obtain a job offer related to the major field of study\n2. Request CPT authorization from DSO with job offer details\n3. DSO verifies employment is integral to curriculum and updates SEVIS\n4. DSO issues new Form I-20 with CPT authorization on page 2\n5. Begin employment on or after the CPT start date listed on Form I-20\n6. Report any changes in employment to DSO immediately",
+    "category": "CPT",
+    "topic": "Curricular Practical Training (CPT)",
+    "type": "steps",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students"
+      ],
+      "source_urls": [
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/curricular-practical-training",
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment",
+        "https://www.ice.gov/sevis/practical-training"
+      ],
+      "required_forms": [
+        "I-20"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__cpt_curricular_practical_training__rules",
+    "text": "Key rules for Curricular Practical Training (CPT):\n• Part-time CPT: Up to 20 hours per week during academic sessions\n• Full-time CPT: More than 20 hours per week, typically during breaks or if required by program\n• 12 months or more of full-time CPT eliminates eligibility for post-completion OPT\n• Part-time CPT does not affect OPT eligibility\n• CPT authorization is employer-specific and date-specific\n• Cannot work before the CPT start date or after the end date on Form I-20\n• Must maintain full-time enrollment while on part-time CPT during academic sessions\n• No separate application to USCIS required - DSO authorization is sufficient",
+    "category": "CPT",
+    "topic": "Curricular Practical Training (CPT)",
+    "type": "rules",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students"
+      ],
+      "source_urls": [
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/curricular-practical-training",
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment",
+        "https://www.ice.gov/sevis/practical-training"
+      ],
+      "required_forms": [
+        "I-20"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__cpt_curricular_practical_training__timelines",
+    "text": "Timelines for Curricular Practical Training (CPT):\n• earliest: After completing one full academic year (9 months) of full-time enrollment\n• latest: Before the program end date listed on Form I-20",
+    "category": "CPT",
+    "topic": "Curricular Practical Training (CPT)",
+    "type": "timelines",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students"
+      ],
+      "source_urls": [
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/curricular-practical-training",
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment",
+        "https://www.ice.gov/sevis/practical-training"
+      ],
+      "required_forms": [
+        "I-20"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__cpt_curricular_practical_training__mistakes",
+    "text": "Common mistakes with Curricular Practical Training (CPT):\n• Engaging in CPT employment without prior DSO authorization\n• Working before the CPT start date or after the end date\n• Exceeding authorized work hours during academic sessions\n• Accumulating 12 months or more of full-time CPT, which eliminates OPT eligibility\n• Failing to report employment changes or termination to DSO\n• Working for a different employer than authorized on Form I-20",
+    "category": "CPT",
+    "topic": "Curricular Practical Training (CPT)",
+    "type": "mistakes",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students"
+      ],
+      "source_urls": [
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/curricular-practical-training",
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment",
+        "https://www.ice.gov/sevis/practical-training"
+      ],
+      "required_forms": [
+        "I-20"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__cpt_curricular_practical_training__consequences",
+    "text": "Consequences of violating Curricular Practical Training (CPT) rules:\n• Loss of F-1 status\n• Termination of CPT authorization\n• Ineligibility for post-completion OPT\n• Accrual of unlawful presence\n• Possible removal from the United States",
+    "category": "CPT",
+    "topic": "Curricular Practical Training (CPT)",
+    "type": "consequences",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students"
+      ],
+      "source_urls": [
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/curricular-practical-training",
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment",
+        "https://www.ice.gov/sevis/practical-training"
+      ],
+      "required_forms": [
+        "I-20"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__stem_opt_extension_24month__summary",
+    "text": "F-1 students who have earned degrees in designated STEM fields may apply for a 24-month extension of post-completion OPT, allowing up to 36 months total of practical training.",
+    "category": "STEM_OPT",
+    "topic": "STEM OPT Extension (24-month)",
+    "type": "summary",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students with STEM degrees on post-completion OPT"
+      ],
+      "source_urls": [
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-extension-for-stem-students-stem-opt",
+        "https://studyinthestates.dhs.gov/stem-opt-hub/for-students/students-stem-opt-reporting-requirements",
+        "https://www.ice.gov/sevis/stem-opt"
+      ],
+      "required_forms": [
+        "I-20",
+        "I-765",
+        "I-983"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__stem_opt_extension_24month__eligibility",
+    "text": "Eligibility for STEM OPT Extension (24-month):\n• F-1 students who have completed a degree in a STEM field listed on the STEM Designated Degree Program List\n• Currently in a valid period of post-completion OPT\n• Employment with an employer enrolled in E-Verify\n• Employment must be directly related to the STEM degree\n• Previous STEM degree must be from an accredited, SEVP-certified school",
+    "category": "STEM_OPT",
+    "topic": "STEM OPT Extension (24-month)",
+    "type": "eligibility",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students with STEM degrees on post-completion OPT"
+      ],
+      "source_urls": [
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-extension-for-stem-students-stem-opt",
+        "https://studyinthestates.dhs.gov/stem-opt-hub/for-students/students-stem-opt-reporting-requirements",
+        "https://www.ice.gov/sevis/stem-opt"
+      ],
+      "required_forms": [
+        "I-20",
+        "I-765",
+        "I-983"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__stem_opt_extension_24month__steps",
+    "text": "Steps for STEM OPT Extension (24-month):\n1. Obtain job offer from E-Verify-enrolled employer\n2. Complete Form I-983, Training Plan for STEM OPT Students, with employer\n3. Request STEM OPT recommendation from DSO\n4. DSO reviews Form I-983 and endorses Form I-20 with STEM OPT recommendation\n5. DSO updates SEVIS record\n6. File Form I-765 with USCIS before current OPT expires, including Form I-983\n7. USCIS must receive application before current OPT expiration date\n8. Await approval and receive new EAD\n9. Report employment changes to DSO within 10 days\n10. Submit self-evaluations via Form I-983 at 12 months and 24 months to DSO",
+    "category": "STEM_OPT",
+    "topic": "STEM OPT Extension (24-month)",
+    "type": "steps",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students with STEM degrees on post-completion OPT"
+      ],
+      "source_urls": [
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-extension-for-stem-students-stem-opt",
+        "https://studyinthestates.dhs.gov/stem-opt-hub/for-students/students-stem-opt-reporting-requirements",
+        "https://www.ice.gov/sevis/stem-opt"
+      ],
+      "required_forms": [
+        "I-20",
+        "I-765",
+        "I-983"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__stem_opt_extension_24month__rules",
+    "text": "Key rules for STEM OPT Extension (24-month):\n• Must apply before current post-completion OPT expires\n• Employment must be directly related to the STEM degree\n• Employer must be enrolled in E-Verify and provide E-Verify company ID number\n• Must work at least 20 hours per week for the E-Verify employer\n• Self-employment is not permitted during STEM OPT\n• Unemployment limit: 150 days total (90 days from initial OPT plus 60 additional days during STEM OPT)\n• Must report changes in employment, address, or personal information to DSO within 10 days\n• Must submit self-evaluations at 12 and 24 months using Form I-983\n• DSO must validate student's SEVIS record every 6 months",
+    "category": "STEM_OPT",
+    "topic": "STEM OPT Extension (24-month)",
+    "type": "rules",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students with STEM degrees on post-completion OPT"
+      ],
+      "source_urls": [
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-extension-for-stem-students-stem-opt",
+        "https://studyinthestates.dhs.gov/stem-opt-hub/for-students/students-stem-opt-reporting-requirements",
+        "https://www.ice.gov/sevis/stem-opt"
+      ],
+      "required_forms": [
+        "I-20",
+        "I-765",
+        "I-983"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__stem_opt_extension_24month__timelines",
+    "text": "Timelines for STEM OPT Extension (24-month):\n• earliest: 90 days before current OPT expiration date\n• latest: USCIS must receive application before current OPT expiration date",
+    "category": "STEM_OPT",
+    "topic": "STEM OPT Extension (24-month)",
+    "type": "timelines",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students with STEM degrees on post-completion OPT"
+      ],
+      "source_urls": [
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-extension-for-stem-students-stem-opt",
+        "https://studyinthestates.dhs.gov/stem-opt-hub/for-students/students-stem-opt-reporting-requirements",
+        "https://www.ice.gov/sevis/stem-opt"
+      ],
+      "required_forms": [
+        "I-20",
+        "I-765",
+        "I-983"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__stem_opt_extension_24month__mistakes",
+    "text": "Common mistakes with STEM OPT Extension (24-month):\n• Failing to submit Form I-983 with the application\n• Applying after current OPT has expired\n• Working for a non-E-Verify employer\n• Not reporting employment changes to DSO within 10 days\n• Missing self-evaluation deadlines at 12 and 24 months\n• Exceeding the 150-day total unemployment limit\n• Engaging in self-employment\n• Working less than 20 hours per week",
+    "category": "STEM_OPT",
+    "topic": "STEM OPT Extension (24-month)",
+    "type": "mistakes",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students with STEM degrees on post-completion OPT"
+      ],
+      "source_urls": [
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-extension-for-stem-students-stem-opt",
+        "https://studyinthestates.dhs.gov/stem-opt-hub/for-students/students-stem-opt-reporting-requirements",
+        "https://www.ice.gov/sevis/stem-opt"
+      ],
+      "required_forms": [
+        "I-20",
+        "I-765",
+        "I-983"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__stem_opt_extension_24month__consequences",
+    "text": "Consequences of violating STEM OPT Extension (24-month) rules:\n• Loss of F-1 status\n• Termination of STEM OPT authorization\n• Accrual of unlawful presence\n• Possible removal from the United States\n• Ineligibility for future immigration benefits",
+    "category": "STEM_OPT",
+    "topic": "STEM OPT Extension (24-month)",
+    "type": "consequences",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students with STEM degrees on post-completion OPT"
+      ],
+      "source_urls": [
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-extension-for-stem-students-stem-opt",
+        "https://studyinthestates.dhs.gov/stem-opt-hub/for-students/students-stem-opt-reporting-requirements",
+        "https://www.ice.gov/sevis/stem-opt"
+      ],
+      "required_forms": [
+        "I-20",
+        "I-765",
+        "I-983"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__maintaining_f1_status__summary",
+    "text": "F-1 students must comply with specific requirements throughout their program to maintain lawful nonimmigrant student status in the United States.",
+    "category": "MAINTAINING_STATUS",
+    "topic": "Maintaining F-1 Status",
+    "type": "summary",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/students/maintaining-status",
+        "https://studyinthestates.dhs.gov/students/study/maintaining-status",
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment"
+      ],
+      "required_forms": [
+        "I-20"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__maintaining_f1_status__eligibility",
+    "text": "Eligibility for Maintaining F-1 Status:\n• All F-1 students admitted to the United States\n• Enrollment in a SEVP-certified school\n• Valid Form I-20 and passport",
+    "category": "MAINTAINING_STATUS",
+    "topic": "Maintaining F-1 Status",
+    "type": "eligibility",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/students/maintaining-status",
+        "https://studyinthestates.dhs.gov/students/study/maintaining-status",
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment"
+      ],
+      "required_forms": [
+        "I-20"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__maintaining_f1_status__steps",
+    "text": "Steps for Maintaining F-1 Status:\n1. Enroll full-time each academic term (minimum credit hours as defined by school)\n2. Attend all classes and maintain satisfactory academic progress\n3. Keep Form I-20 valid and request new I-20 for any program changes\n4. Maintain valid passport at all times\n5. Report address changes to DSO within 10 days\n6. Obtain DSO authorization before dropping below full-time enrollment\n7. Obtain proper authorization before engaging in any employment\n8. Request program extension before program end date if needed\n9. Depart United States within 60 days of program completion unless authorized for OPT or continuing studies",
+    "category": "MAINTAINING_STATUS",
+    "topic": "Maintaining F-1 Status",
+    "type": "steps",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/students/maintaining-status",
+        "https://studyinthestates.dhs.gov/students/study/maintaining-status",
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment"
+      ],
+      "required_forms": [
+        "I-20"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__maintaining_f1_status__rules",
+    "text": "Key rules for Maintaining F-1 Status:\n• Must maintain full-time enrollment each academic term (exceptions require DSO approval)\n• Cannot engage in unauthorized employment\n• On-campus employment limited to 20 hours per week during academic sessions\n• Must report address changes to DSO within 10 days of moving\n• Must report changes in program, major, or personal information to DSO\n• Cannot exceed 5 months of online/distance learning courses per academic year\n• Must attend the school listed on Form I-20\n• Must depart United States within 60 days after program completion unless continuing studies or on OPT\n• Must maintain valid passport (renew at least 6 months before expiration)\n• Cannot work off-campus without proper authorization (CPT, OPT, or economic hardship)",
+    "category": "MAINTAINING_STATUS",
+    "topic": "Maintaining F-1 Status",
+    "type": "rules",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/students/maintaining-status",
+        "https://studyinthestates.dhs.gov/students/study/maintaining-status",
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment"
+      ],
+      "required_forms": [
+        "I-20"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__maintaining_f1_status__timelines",
+    "text": "Timelines for Maintaining F-1 Status:\n• earliest: Upon initial entry to United States in F-1 status\n• latest: Throughout duration of F-1 program until completion or status change",
+    "category": "MAINTAINING_STATUS",
+    "topic": "Maintaining F-1 Status",
+    "type": "timelines",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/students/maintaining-status",
+        "https://studyinthestates.dhs.gov/students/study/maintaining-status",
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment"
+      ],
+      "required_forms": [
+        "I-20"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__maintaining_f1_status__mistakes",
+    "text": "Common mistakes with Maintaining F-1 Status:\n• Dropping below full-time enrollment without DSO authorization\n• Engaging in unauthorized employment\n• Failing to report address changes within 10 days\n• Exceeding allowed work hours during academic sessions\n• Not maintaining valid passport\n• Failing to request program extension before program end date\n• Not reporting changes in program or personal information to DSO\n• Remaining in United States more than 60 days after program completion without authorization",
+    "category": "MAINTAINING_STATUS",
+    "topic": "Maintaining F-1 Status",
+    "type": "mistakes",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/students/maintaining-status",
+        "https://studyinthestates.dhs.gov/students/study/maintaining-status",
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment"
+      ],
+      "required_forms": [
+        "I-20"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__maintaining_f1_status__consequences",
+    "text": "Consequences of violating Maintaining F-1 Status rules:\n• Loss of F-1 status\n• Accrual of unlawful presence\n• Termination of SEVIS record\n• Ineligibility for benefits (OPT, CPT, program extension)\n• Possible removal from the United States\n• Bar from re-entry for 3 or 10 years depending on unlawful presence\n• Ineligibility for future nonimmigrant or immigrant visas",
+    "category": "MAINTAINING_STATUS",
+    "topic": "Maintaining F-1 Status",
+    "type": "consequences",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students"
+      ],
+      "source_urls": [
+        "https://studyinthestates.dhs.gov/students/maintaining-status",
+        "https://studyinthestates.dhs.gov/students/study/maintaining-status",
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment"
+      ],
+      "required_forms": [
+        "I-20"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__employment_authorization_f1__summary",
+    "text": "F-1 students may engage in employment only with proper authorization. Types include on-campus employment, CPT, OPT, and off-campus employment due to severe economic hardship.",
+    "category": "EMPLOYMENT",
+    "topic": "Employment Authorization for F-1 Students",
+    "type": "summary",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students"
+      ],
+      "source_urls": [
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment",
+        "https://studyinthestates.dhs.gov/students/work/working-in-the-united-states",
+        "https://www.ice.gov/sevis/practical-training",
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/employment-authorization"
+      ],
+      "required_forms": [
+        "I-20",
+        "I-765"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__employment_authorization_f1__eligibility",
+    "text": "Eligibility for Employment Authorization for F-1 Students:\n• F-1 students maintaining valid status\n• On-campus: Available immediately upon enrollment\n• CPT/OPT: After completing one full academic year\n• Economic hardship: Must demonstrate severe economic hardship due to unforeseen circumstances",
+    "category": "EMPLOYMENT",
+    "topic": "Employment Authorization for F-1 Students",
+    "type": "eligibility",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students"
+      ],
+      "source_urls": [
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment",
+        "https://studyinthestates.dhs.gov/students/work/working-in-the-united-states",
+        "https://www.ice.gov/sevis/practical-training",
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/employment-authorization"
+      ],
+      "required_forms": [
+        "I-20",
+        "I-765"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__employment_authorization_f1__steps",
+    "text": "Steps for Employment Authorization for F-1 Students:\n1. Determine type of employment authorization needed\n2. For on-campus: Obtain DSO authorization and job offer\n3. For CPT: Request CPT authorization from DSO with job offer\n4. For OPT: Request OPT recommendation from DSO, then file Form I-765 with USCIS\n5. For economic hardship: File Form I-765 with USCIS, including evidence of severe economic hardship\n6. Wait for authorization before beginning employment\n7. Report employment information to DSO as required",
+    "category": "EMPLOYMENT",
+    "topic": "Employment Authorization for F-1 Students",
+    "type": "steps",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students"
+      ],
+      "source_urls": [
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment",
+        "https://studyinthestates.dhs.gov/students/work/working-in-the-united-states",
+        "https://www.ice.gov/sevis/practical-training",
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/employment-authorization"
+      ],
+      "required_forms": [
+        "I-20",
+        "I-765"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__employment_authorization_f1__rules",
+    "text": "Key rules for Employment Authorization for F-1 Students:\n• On-campus employment: Up to 20 hours per week during academic sessions; full-time during breaks. No USCIS application required - DSO authorization sufficient\n• CPT employment: Must be authorized by DSO on Form I-20 before employment begins. Must be integral to curriculum and related to major field of study\n• OPT employment: Requires EAD from USCIS before employment begins. Must be related to major field of study. 90-day unemployment limit for post-completion OPT\n• Economic hardship employment: Requires Form I-765 approval from USCIS. Must demonstrate severe economic hardship due to unforeseen circumstances beyond student's control. Limited to 20 hours per week during academic sessions\n• Unauthorized employment is a violation of F-1 status and results in loss of status\n• All off-campus employment (except on-campus) requires prior authorization\n• Employment authorization is specific to the type granted and cannot be interchanged\n• Must maintain valid F-1 status to retain employment authorization",
+    "category": "EMPLOYMENT",
+    "topic": "Employment Authorization for F-1 Students",
+    "type": "rules",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students"
+      ],
+      "source_urls": [
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment",
+        "https://studyinthestates.dhs.gov/students/work/working-in-the-united-states",
+        "https://www.ice.gov/sevis/practical-training",
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/employment-authorization"
+      ],
+      "required_forms": [
+        "I-20",
+        "I-765"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__employment_authorization_f1__timelines",
+    "text": "Timelines for Employment Authorization for F-1 Students:\n• earliest: On-campus: Upon enrollment. CPT/OPT: After one full academic year. Economic hardship: After one full academic year and demonstration of hardship\n• latest: Before beginning any employment",
+    "category": "EMPLOYMENT",
+    "topic": "Employment Authorization for F-1 Students",
+    "type": "timelines",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students"
+      ],
+      "source_urls": [
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment",
+        "https://studyinthestates.dhs.gov/students/work/working-in-the-united-states",
+        "https://www.ice.gov/sevis/practical-training",
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/employment-authorization"
+      ],
+      "required_forms": [
+        "I-20",
+        "I-765"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__employment_authorization_f1__mistakes",
+    "text": "Common mistakes with Employment Authorization for F-1 Students:\n• Beginning employment before receiving proper authorization\n• Exceeding 20 hours per week during academic sessions for on-campus employment\n• Working off-campus without authorization\n• Using one type of employment authorization for a different type of employment\n• Failing to report employment changes to DSO\n• Continuing employment after authorization expires\n• Not maintaining valid F-1 status while on employment authorization",
+    "category": "EMPLOYMENT",
+    "topic": "Employment Authorization for F-1 Students",
+    "type": "mistakes",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students"
+      ],
+      "source_urls": [
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment",
+        "https://studyinthestates.dhs.gov/students/work/working-in-the-united-states",
+        "https://www.ice.gov/sevis/practical-training",
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/employment-authorization"
+      ],
+      "required_forms": [
+        "I-20",
+        "I-765"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__employment_authorization_f1__consequences",
+    "text": "Consequences of violating Employment Authorization for F-1 Students rules:\n• Loss of F-1 status\n• Termination of employment authorization\n• Accrual of unlawful presence\n• Possible removal from the United States\n• Ineligibility for future employment authorization\n• Ineligibility for future immigration benefits",
+    "category": "EMPLOYMENT",
+    "topic": "Employment Authorization for F-1 Students",
+    "type": "consequences",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students"
+      ],
+      "source_urls": [
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment",
+        "https://studyinthestates.dhs.gov/students/work/working-in-the-united-states",
+        "https://www.ice.gov/sevis/practical-training",
+        "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/employment-authorization"
+      ],
+      "required_forms": [
+        "I-20",
+        "I-765"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__social_security_number_f1_students__summary",
+    "text": "F-1 students with authorized employment may apply for a Social Security Number, which is required for employment and tax reporting purposes in the United States.",
+    "category": "SSN",
+    "topic": "Social Security Number (SSN) for F-1 Students",
+    "type": "summary",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students with authorized employment"
+      ],
+      "source_urls": [
+        "https://www.ssa.gov/pubs/EN-05-10181.pdf",
+        "https://studyinthestates.dhs.gov/students/work/obtaining-a-social-security-number",
+        "https://www.ssa.gov/ssnumber/ss5doc.htm",
+        "https://secure.ssa.gov/apps10/poms.nsf/lnx/0110211255"
+      ],
+      "required_forms": [
+        "SS-5",
+        "I-20",
+        "I-94"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__social_security_number_f1_students__eligibility",
+    "text": "Eligibility for Social Security Number (SSN) for F-1 Students:\n• F-1 students with authorized employment (on-campus, CPT, or OPT)\n• Must have a job offer or current employment\n• Must have valid F-1 status and Form I-20",
+    "category": "SSN",
+    "topic": "Social Security Number (SSN) for F-1 Students",
+    "type": "eligibility",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students with authorized employment"
+      ],
+      "source_urls": [
+        "https://www.ssa.gov/pubs/EN-05-10181.pdf",
+        "https://studyinthestates.dhs.gov/students/work/obtaining-a-social-security-number",
+        "https://www.ssa.gov/ssnumber/ss5doc.htm",
+        "https://secure.ssa.gov/apps10/poms.nsf/lnx/0110211255"
+      ],
+      "required_forms": [
+        "SS-5",
+        "I-20",
+        "I-94"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__social_security_number_f1_students__steps",
+    "text": "Steps for Social Security Number (SSN) for F-1 Students:\n1. Obtain employment authorization (on-campus job offer, CPT authorization on I-20, or EAD for OPT)\n2. Wait at least 10 days after entry to United States or after DSO updates SEVIS (for SSA system verification)\n3. Request SSN support letter from DSO (some schools provide this automatically)\n4. Complete Form SS-5, Application for a Social Security Card\n5. Gather required documents: valid passport, Form I-20, Form I-94 (print from CBP website), employment authorization document (EAD for OPT, or employment letter for on-campus/CPT)\n6. Visit local Social Security Administration office with all documents\n7. Submit application and wait for SSN card to arrive by mail (typically 2-4 weeks)",
+    "category": "SSN",
+    "topic": "Social Security Number (SSN) for F-1 Students",
+    "type": "steps",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students with authorized employment"
+      ],
+      "source_urls": [
+        "https://www.ssa.gov/pubs/EN-05-10181.pdf",
+        "https://studyinthestates.dhs.gov/students/work/obtaining-a-social-security-number",
+        "https://www.ssa.gov/ssnumber/ss5doc.htm",
+        "https://secure.ssa.gov/apps10/poms.nsf/lnx/0110211255"
+      ],
+      "required_forms": [
+        "SS-5",
+        "I-20",
+        "I-94"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__social_security_number_f1_students__rules",
+    "text": "Key rules for Social Security Number (SSN) for F-1 Students:\n• SSN is issued only for employment purposes - not required for non-employment activities like opening bank accounts\n• Must have authorized employment before applying\n• Must wait at least 10 days after entry or SEVIS update for SSA to verify status in system\n• SSN is permanent and does not expire\n• Cannot begin employment without SSN if employer requires it for payroll\n• Must present original documents (not copies) at SSA office\n• SSN is required for tax reporting and filing tax returns\n• Unauthorized employment does not qualify for SSN",
+    "category": "SSN",
+    "topic": "Social Security Number (SSN) for F-1 Students",
+    "type": "rules",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students with authorized employment"
+      ],
+      "source_urls": [
+        "https://www.ssa.gov/pubs/EN-05-10181.pdf",
+        "https://studyinthestates.dhs.gov/students/work/obtaining-a-social-security-number",
+        "https://www.ssa.gov/ssnumber/ss5doc.htm",
+        "https://secure.ssa.gov/apps10/poms.nsf/lnx/0110211255"
+      ],
+      "required_forms": [
+        "SS-5",
+        "I-20",
+        "I-94"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__social_security_number_f1_students__timelines",
+    "text": "Timelines for Social Security Number (SSN) for F-1 Students:\n• earliest: 10 days after entry to United States or after DSO updates SEVIS record, and after receiving employment authorization\n• latest: As soon as possible after obtaining employment authorization to avoid payroll delays",
+    "category": "SSN",
+    "topic": "Social Security Number (SSN) for F-1 Students",
+    "type": "timelines",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students with authorized employment"
+      ],
+      "source_urls": [
+        "https://www.ssa.gov/pubs/EN-05-10181.pdf",
+        "https://studyinthestates.dhs.gov/students/work/obtaining-a-social-security-number",
+        "https://www.ssa.gov/ssnumber/ss5doc.htm",
+        "https://secure.ssa.gov/apps10/poms.nsf/lnx/0110211255"
+      ],
+      "required_forms": [
+        "SS-5",
+        "I-20",
+        "I-94"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__social_security_number_f1_students__mistakes",
+    "text": "Common mistakes with Social Security Number (SSN) for F-1 Students:\n• Applying for SSN without employment authorization or job offer\n• Applying too soon after entry (before 10-day waiting period)\n• Not bringing all required original documents to SSA office\n• Applying without valid F-1 status\n• Thinking SSN is required for non-employment purposes like bank accounts\n• Not waiting for SSA system to update after SEVIS changes",
+    "category": "SSN",
+    "topic": "Social Security Number (SSN) for F-1 Students",
+    "type": "mistakes",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students with authorized employment"
+      ],
+      "source_urls": [
+        "https://www.ssa.gov/pubs/EN-05-10181.pdf",
+        "https://studyinthestates.dhs.gov/students/work/obtaining-a-social-security-number",
+        "https://www.ssa.gov/ssnumber/ss5doc.htm",
+        "https://secure.ssa.gov/apps10/poms.nsf/lnx/0110211255"
+      ],
+      "required_forms": [
+        "SS-5",
+        "I-20",
+        "I-94"
+      ]
+    }
+  },
+  {
+    "id": "dataset_B__social_security_number_f1_students__consequences",
+    "text": "Consequences of violating Social Security Number (SSN) for F-1 Students rules:\n• Delay or denial of SSN issuance\n• Inability to receive wages from employer\n• Issues with tax reporting and filing\n• Potential problems with employment eligibility verification\n• Need to reapply with correct documentation",
+    "category": "SSN",
+    "topic": "Social Security Number (SSN) for F-1 Students",
+    "type": "consequences",
+    "source": "dataset_B",
+    "metadata": {
+      "audience": [
+        "Current F-1 students with authorized employment"
+      ],
+      "source_urls": [
+        "https://www.ssa.gov/pubs/EN-05-10181.pdf",
+        "https://studyinthestates.dhs.gov/students/work/obtaining-a-social-security-number",
+        "https://www.ssa.gov/ssnumber/ss5doc.htm",
+        "https://secure.ssa.gov/apps10/poms.nsf/lnx/0110211255"
+      ],
+      "required_forms": [
+        "SS-5",
+        "I-20",
+        "I-94"
+      ]
+    }
+  },
+  {
+    "id": "mentorstyle__p1_meaning_001",
+    "text": "Q: What does it mean to be an international student in the US?\nA: Being an international student means you're coming to study in the United States on a student visa. Think of it like this: you're a guest student who's been invited to learn at an American university. You're not a tourist, and you're not moving here permanently - you're here to study, grow, and then return home with new knowledge and experiences. It's a special status that gives you the right to be here as long as you're enrolled and following the rules. The most important thing to remember is that you belong here, you've earned your spot, and thousands of students do this successfully every year.",
+    "category": "What Being an International Student Really Means",
+    "topic": "What does it mean to be an international student in the US?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "What does it mean to be an international student in the US?",
+      "answer": "Being an international student means you're coming to study in the United States on a student visa. Think of it like this: you're a guest student who's been invited to learn at an American university. You're not a tourist, and you're not moving here permanently - you're here to study, grow, and then return home with new knowledge and experiences. It's a special status that gives you the right to be here as long as you're enrolled and following the rules. The most important thing to remember is that you belong here, you've earned your spot, and thousands of students do this successfully every year."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_meaning_002",
+    "text": "Q: Will I feel different from American students?\nA: You might feel different at first, and that's completely normal. You're coming from a different country with different customs, maybe a different language, and definitely a different perspective. But here's the thing: American students are often really curious about where you're from and want to learn about your culture. Your international background isn't a disadvantage - it's something interesting that makes you unique. Many international students find that their differences become conversation starters and help them make friends. You'll also meet other international students who understand exactly what you're going through.",
+    "category": "What Being an International Student Really Means",
+    "topic": "Will I feel different from American students?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "Will I feel different from American students?",
+      "answer": "You might feel different at first, and that's completely normal. You're coming from a different country with different customs, maybe a different language, and definitely a different perspective. But here's the thing: American students are often really curious about where you're from and want to learn about your culture. Your international background isn't a disadvantage - it's something interesting that makes you unique. Many international students find that their differences become conversation starters and help them make friends. You'll also meet other international students who understand exactly what you're going through."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_meaning_003",
+    "text": "Q: What if I make mistakes or don't understand something?\nA: You will make mistakes, and that's okay. Everyone does - even American students who grew up here. Making mistakes is how you learn. If you don't understand something about how things work in the US, ask questions. People generally appreciate when you ask rather than guess. Your university has staff specifically to help international students - they've seen every question and every mistake before. Nothing you can do will surprise them. The only real mistake is being too afraid to ask for help when you need it.",
+    "category": "What Being an International Student Really Means",
+    "topic": "What if I make mistakes or don't understand something?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "What if I make mistakes or don't understand something?",
+      "answer": "You will make mistakes, and that's okay. Everyone does - even American students who grew up here. Making mistakes is how you learn. If you don't understand something about how things work in the US, ask questions. People generally appreciate when you ask rather than guess. Your university has staff specifically to help international students - they've seen every question and every mistake before. Nothing you can do will surprise them. The only real mistake is being too afraid to ask for help when you need it."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_i20_001",
+    "text": "Q: What is the Form I-20 and why do I need it?\nA: The Form I-20 is like your official invitation letter from the US government that says 'Yes, this student is allowed to come study here.' It's issued by your university after you're admitted. Think of it as your student ID card for immigration purposes. You'll need it to get your student visa, to enter the United States, and to prove you're a legitimate student throughout your time here. Keep it safe - you'll need to show it at the airport, when you open a bank account, and sometimes for other official things. It's not complicated, just important to keep track of.",
+    "category": "Understanding Your Admission & I-20 (High-Level Only)",
+    "topic": "What is the Form I-20 and why do I need it?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "What is the Form I-20 and why do I need it?",
+      "answer": "The Form I-20 is like your official invitation letter from the US government that says 'Yes, this student is allowed to come study here.' It's issued by your university after you're admitted. Think of it as your student ID card for immigration purposes. You'll need it to get your student visa, to enter the United States, and to prove you're a legitimate student throughout your time here. Keep it safe - you'll need to show it at the airport, when you open a bank account, and sometimes for other official things. It's not complicated, just important to keep track of."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_i20_002",
+    "text": "Q: Who signs the I-20 and what does that mean?\nA: Your Designated School Official (DSO) at your university signs the I-20. This person works in the international student office and is basically your official contact person with the US government. When they sign it, they're saying 'Yes, I've verified this student is admitted and eligible.' You also need to sign it. It's not a contract - it's just confirming that you understand you're coming to study. Don't stress about the signature - it's a simple formality, but it does need to be done before you travel.",
+    "category": "Understanding Your Admission & I-20 (High-Level Only)",
+    "topic": "Who signs the I-20 and what does that mean?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "Who signs the I-20 and what does that mean?",
+      "answer": "Your Designated School Official (DSO) at your university signs the I-20. This person works in the international student office and is basically your official contact person with the US government. When they sign it, they're saying 'Yes, I've verified this student is admitted and eligible.' You also need to sign it. It's not a contract - it's just confirming that you understand you're coming to study. Don't stress about the signature - it's a simple formality, but it does need to be done before you travel."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_i20_003",
+    "text": "Q: What if I lose my I-20 or it gets damaged?\nA: Don't panic - this happens all the time. Your university can print you a new one. Just contact your international student office (they're usually called something like 'International Student Services' or 'Office of Global Education'). They'll issue you a new I-20, usually within a day or two. It's a common request, so they know exactly how to handle it. Just make sure you have your passport and student ID number when you contact them. The important thing is to get a replacement before you need to travel or do anything official.",
+    "category": "Understanding Your Admission & I-20 (High-Level Only)",
+    "topic": "What if I lose my I-20 or it gets damaged?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "What if I lose my I-20 or it gets damaged?",
+      "answer": "Don't panic - this happens all the time. Your university can print you a new one. Just contact your international student office (they're usually called something like 'International Student Services' or 'Office of Global Education'). They'll issue you a new I-20, usually within a day or two. It's a common request, so they know exactly how to handle it. Just make sure you have your passport and student ID number when you contact them. The important thing is to get a replacement before you need to travel or do anything official."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_i20_004",
+    "text": "Q: What information is on the I-20 and why does it matter?\nA: Your I-20 has basic information like your name, your program of study, when your program starts and ends, and how much money you've shown you have for tuition and living expenses. The dates are important - they tell you when you can enter the US (30 days before your program starts) and when your program officially ends. The financial information shows that you've proven you can afford to study here. It's all pretty straightforward information that confirms you're a real student with a real plan. You don't need to memorize it, just keep the document safe.",
+    "category": "Understanding Your Admission & I-20 (High-Level Only)",
+    "topic": "What information is on the I-20 and why does it matter?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "What information is on the I-20 and why does it matter?",
+      "answer": "Your I-20 has basic information like your name, your program of study, when your program starts and ends, and how much money you've shown you have for tuition and living expenses. The dates are important - they tell you when you can enter the US (30 days before your program starts) and when your program officially ends. The financial information shows that you've proven you can afford to study here. It's all pretty straightforward information that confirms you're a real student with a real plan. You don't need to memorize it, just keep the document safe."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_preleave_001",
+    "text": "Q: What documents should I bring with me?\nA: Bring your passport (make sure it's valid for at least 6 months into the future), your student visa, your Form I-20, your admission letter from the university, proof that you paid the SEVIS fee, and your high school transcripts. Also bring copies of everything - keep one set in your carry-on bag and leave another set at home with your family. It's also smart to have digital copies on your phone or in cloud storage. Don't pack these documents in checked luggage - always keep them with you in your carry-on. You'll need them at the airport when you arrive.",
+    "category": "Before You Leave Home",
+    "topic": "What documents should I bring with me?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "What documents should I bring with me?",
+      "answer": "Bring your passport (make sure it's valid for at least 6 months into the future), your student visa, your Form I-20, your admission letter from the university, proof that you paid the SEVIS fee, and your high school transcripts. Also bring copies of everything - keep one set in your carry-on bag and leave another set at home with your family. It's also smart to have digital copies on your phone or in cloud storage. Don't pack these documents in checked luggage - always keep them with you in your carry-on. You'll need them at the airport when you arrive."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_preleave_002",
+    "text": "Q: How much money should I bring when I first arrive?\nA: Don't bring too much cash - it's not safe and you don't need it. Bring maybe $200-500 in US dollars for your first few days (for food, transportation, small emergencies). The rest of your money should be in a bank account that you can access, or you can open a US bank account once you arrive. Most places in the US accept credit and debit cards, so you won't need much cash. Your university will help you set up banking once you're on campus. The important thing is to have a way to access your money, not to carry it all with you.",
+    "category": "Before You Leave Home",
+    "topic": "How much money should I bring when I first arrive?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "How much money should I bring when I first arrive?",
+      "answer": "Don't bring too much cash - it's not safe and you don't need it. Bring maybe $200-500 in US dollars for your first few days (for food, transportation, small emergencies). The rest of your money should be in a bank account that you can access, or you can open a US bank account once you arrive. Most places in the US accept credit and debit cards, so you won't need much cash. Your university will help you set up banking once you're on campus. The important thing is to have a way to access your money, not to carry it all with you."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_preleave_003",
+    "text": "Q: What should I pack and what should I leave behind?\nA: Pack clothes for the weather where you're going (check the climate), important personal items, any medications you need (with prescriptions), and things that remind you of home. Don't pack things you can easily buy in the US - things like basic toiletries, school supplies, and common household items are cheaper to buy here. Also, don't pack food items unless they're sealed and you've checked customs rules. Most importantly, pack an open mind and patience with yourself. You'll figure out what you need once you're there, and you can always have things shipped from home later if you really need them.",
+    "category": "Before You Leave Home",
+    "topic": "What should I pack and what should I leave behind?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "What should I pack and what should I leave behind?",
+      "answer": "Pack clothes for the weather where you're going (check the climate), important personal items, any medications you need (with prescriptions), and things that remind you of home. Don't pack things you can easily buy in the US - things like basic toiletries, school supplies, and common household items are cheaper to buy here. Also, don't pack food items unless they're sealed and you've checked customs rules. Most importantly, pack an open mind and patience with yourself. You'll figure out what you need once you're there, and you can always have things shipped from home later if you really need them."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_preleave_004",
+    "text": "Q: Should I be nervous about leaving home?\nA: It's completely normal to be nervous, excited, scared, and happy all at the same time. Leaving home for the first time is a big deal, and feeling nervous doesn't mean you're not ready or that you made the wrong choice. Almost every international student feels this way. The first few weeks might be challenging, but you'll adjust faster than you think. Remember: you're not alone, thousands of students do this every year, and your university has people specifically to help you through this transition. It's okay to miss home - that just means you have a home worth missing.",
+    "category": "Before You Leave Home",
+    "topic": "Should I be nervous about leaving home?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "Should I be nervous about leaving home?",
+      "answer": "It's completely normal to be nervous, excited, scared, and happy all at the same time. Leaving home for the first time is a big deal, and feeling nervous doesn't mean you're not ready or that you made the wrong choice. Almost every international student feels this way. The first few weeks might be challenging, but you'll adjust faster than you think. Remember: you're not alone, thousands of students do this every year, and your university has people specifically to help you through this transition. It's okay to miss home - that just means you have a home worth missing."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_arrival_001",
+    "text": "Q: What happens when I arrive at the US airport?\nA: When you land, you'll go through immigration (also called customs and border protection). There will be lines for different types of travelers - look for the line that says 'Visitors' or 'Non-US Citizens.' When it's your turn, an officer will ask to see your passport, visa, and I-20. They might ask you a few simple questions like 'What school are you attending?' or 'What will you study?' Just answer honestly and calmly. They're not trying to trick you - they just want to confirm you're a real student. The whole process usually takes 30 minutes to an hour, sometimes longer if it's busy. Stay calm, have your documents ready, and you'll be fine.",
+    "category": "Arrival in the U.S. (Airport, Immigration, First Week)",
+    "topic": "What happens when I arrive at the US airport?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "What happens when I arrive at the US airport?",
+      "answer": "When you land, you'll go through immigration (also called customs and border protection). There will be lines for different types of travelers - look for the line that says 'Visitors' or 'Non-US Citizens.' When it's your turn, an officer will ask to see your passport, visa, and I-20. They might ask you a few simple questions like 'What school are you attending?' or 'What will you study?' Just answer honestly and calmly. They're not trying to trick you - they just want to confirm you're a real student. The whole process usually takes 30 minutes to an hour, sometimes longer if it's busy. Stay calm, have your documents ready, and you'll be fine."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_arrival_002",
+    "text": "Q: What if the immigration officer asks me questions I don't understand?\nA: It's totally okay to ask them to repeat the question or speak more slowly. You can say 'I'm sorry, could you repeat that?' or 'Could you speak a bit slower, please?' Immigration officers deal with international students all the time and understand that English might not be your first language. They're usually patient. Don't guess at answers - if you're not sure what they're asking, it's better to ask for clarification than to give a wrong answer. Remember, you have every right to be here as a student, so there's no reason to be afraid.",
+    "category": "Arrival in the U.S. (Airport, Immigration, First Week)",
+    "topic": "What if the immigration officer asks me questions I don't understand?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "What if the immigration officer asks me questions I don't understand?",
+      "answer": "It's totally okay to ask them to repeat the question or speak more slowly. You can say 'I'm sorry, could you repeat that?' or 'Could you speak a bit slower, please?' Immigration officers deal with international students all the time and understand that English might not be your first language. They're usually patient. Don't guess at answers - if you're not sure what they're asking, it's better to ask for clarification than to give a wrong answer. Remember, you have every right to be here as a student, so there's no reason to be afraid."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_arrival_003",
+    "text": "Q: What is the I-94 and do I need to worry about it?\nA: The I-94 is your electronic arrival record that the US government creates when you enter the country. You don't need to do anything special to get it - it's automatically created when you go through immigration. It's basically proof of when you entered and in what status (F-1 student). You can look it up online later if you need it for something. For now, just know it exists and that it's connected to your passport. You might need to show it when you apply for things like a driver's license or Social Security Number later, but your university will help you with that when the time comes.",
+    "category": "Arrival in the U.S. (Airport, Immigration, First Week)",
+    "topic": "What is the I-94 and do I need to worry about it?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "What is the I-94 and do I need to worry about it?",
+      "answer": "The I-94 is your electronic arrival record that the US government creates when you enter the country. You don't need to do anything special to get it - it's automatically created when you go through immigration. It's basically proof of when you entered and in what status (F-1 student). You can look it up online later if you need it for something. For now, just know it exists and that it's connected to your passport. You might need to show it when you apply for things like a driver's license or Social Security Number later, but your university will help you with that when the time comes."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_arrival_004",
+    "text": "Q: What should I do in my first week at the university?\nA: Your first week will be busy but organized. There will be orientation events where you'll learn about campus, meet other students, and get important information. Go to everything you can - even if you're tired or overwhelmed. This is when you'll meet people, learn where things are, and start feeling comfortable. You'll probably get your student ID, set up your email and online accounts, maybe open a bank account, and learn about campus resources. Don't try to do everything perfectly - just show up, be friendly, and ask questions. Everyone else is new too, so you're all in the same boat.",
+    "category": "Arrival in the U.S. (Airport, Immigration, First Week)",
+    "topic": "What should I do in my first week at the university?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "What should I do in my first week at the university?",
+      "answer": "Your first week will be busy but organized. There will be orientation events where you'll learn about campus, meet other students, and get important information. Go to everything you can - even if you're tired or overwhelmed. This is when you'll meet people, learn where things are, and start feeling comfortable. You'll probably get your student ID, set up your email and online accounts, maybe open a bank account, and learn about campus resources. Don't try to do everything perfectly - just show up, be friendly, and ask questions. Everyone else is new too, so you're all in the same boat."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_arrival_005",
+    "text": "Q: What if I feel lost or overwhelmed when I first arrive?\nA: Feeling lost and overwhelmed is completely normal - almost everyone feels this way. You're in a new country, maybe a new language, definitely a new culture, and everything is unfamiliar. That's a lot to handle at once. The good news is that your university expects this and has people ready to help. Find the international student office on your first day and introduce yourself. They'll give you a checklist of things to do and can answer your questions. Also, remember that you don't have to figure everything out in the first day or even the first week. Give yourself time to adjust, and be patient with yourself.",
+    "category": "Arrival in the U.S. (Airport, Immigration, First Week)",
+    "topic": "What if I feel lost or overwhelmed when I first arrive?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "What if I feel lost or overwhelmed when I first arrive?",
+      "answer": "Feeling lost and overwhelmed is completely normal - almost everyone feels this way. You're in a new country, maybe a new language, definitely a new culture, and everything is unfamiliar. That's a lot to handle at once. The good news is that your university expects this and has people ready to help. Find the international student office on your first day and introduce yourself. They'll give you a checklist of things to do and can answer your questions. Also, remember that you don't have to figure everything out in the first day or even the first week. Give yourself time to adjust, and be patient with yourself."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_housing_001",
+    "text": "Q: Should I live on campus or off campus my first year?\nA: Most universities require first-year students to live on campus, and honestly, that's usually the best choice for international students. Living on campus means you're close to everything - classes, dining halls, the library, and other students. You'll meet people more easily, feel more connected to campus life, and have less to worry about (no utility bills, no finding an apartment, no dealing with landlords). Off-campus housing can be cheaper in some places, but it also means more responsibility and more isolation, especially in your first year when you're still adjusting. If you have the choice, start on campus.",
+    "category": "Living on Campus vs Off Campus",
+    "topic": "Should I live on campus or off campus my first year?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "Should I live on campus or off campus my first year?",
+      "answer": "Most universities require first-year students to live on campus, and honestly, that's usually the best choice for international students. Living on campus means you're close to everything - classes, dining halls, the library, and other students. You'll meet people more easily, feel more connected to campus life, and have less to worry about (no utility bills, no finding an apartment, no dealing with landlords). Off-campus housing can be cheaper in some places, but it also means more responsibility and more isolation, especially in your first year when you're still adjusting. If you have the choice, start on campus."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_housing_002",
+    "text": "Q: What is dorm life really like?\nA: Dorm life is like living in a small community. You'll have a room (maybe shared with a roommate, maybe your own depending on your university), and you'll share bathrooms, common areas, and maybe a kitchen with other students on your floor. It can be noisy sometimes, and you'll need to learn to live with other people's habits, but it's also where you'll make some of your closest friends. There are usually Resident Advisors (RAs) who are older students trained to help with problems and organize activities. It's not always perfect, but it's a real experience of American college life and a great way to meet people.",
+    "category": "Living on Campus vs Off Campus",
+    "topic": "What is dorm life really like?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "What is dorm life really like?",
+      "answer": "Dorm life is like living in a small community. You'll have a room (maybe shared with a roommate, maybe your own depending on your university), and you'll share bathrooms, common areas, and maybe a kitchen with other students on your floor. It can be noisy sometimes, and you'll need to learn to live with other people's habits, but it's also where you'll make some of your closest friends. There are usually Resident Advisors (RAs) who are older students trained to help with problems and organize activities. It's not always perfect, but it's a real experience of American college life and a great way to meet people."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_housing_003",
+    "text": "Q: What if I don't like my roommate?\nA: Roommate conflicts happen, and they're usually not as big a deal as they feel at the time. Most problems can be solved by talking honestly about expectations - things like quiet hours, visitors, sharing space. Your RA can help mediate if you need it. If things really don't work out, you can usually request a room change, though this might take some time. Remember that your roommate is probably also nervous and adjusting, just like you. Give it some time - many roommate relationships that start awkwardly turn into great friendships. And if it doesn't work out, that's okay too - you're not stuck forever.",
+    "category": "Living on Campus vs Off Campus",
+    "topic": "What if I don't like my roommate?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "What if I don't like my roommate?",
+      "answer": "Roommate conflicts happen, and they're usually not as big a deal as they feel at the time. Most problems can be solved by talking honestly about expectations - things like quiet hours, visitors, sharing space. Your RA can help mediate if you need it. If things really don't work out, you can usually request a room change, though this might take some time. Remember that your roommate is probably also nervous and adjusting, just like you. Give it some time - many roommate relationships that start awkwardly turn into great friendships. And if it doesn't work out, that's okay too - you're not stuck forever."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_housing_004",
+    "text": "Q: What should I know about living off campus?\nA: If you do live off campus, you'll need to handle things like rent, utilities (electricity, water, internet), finding roommates, signing leases, and getting to campus. It's more independent but also more responsibility. You'll need to budget carefully, learn about tenant rights, and make sure you can get to campus easily (public transportation or a car). Many international students find it easier to start on campus and move off campus later once they're more comfortable with the area and have made friends who might want to be roommates. There's no rush - take your time to figure out what works for you.",
+    "category": "Living on Campus vs Off Campus",
+    "topic": "What should I know about living off campus?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "What should I know about living off campus?",
+      "answer": "If you do live off campus, you'll need to handle things like rent, utilities (electricity, water, internet), finding roommates, signing leases, and getting to campus. It's more independent but also more responsibility. You'll need to budget carefully, learn about tenant rights, and make sure you can get to campus easily (public transportation or a car). Many international students find it easier to start on campus and move off campus later once they're more comfortable with the area and have made friends who might want to be roommates. There's no rush - take your time to figure out what works for you."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_classes_001",
+    "text": "Q: How do American university classes work?\nA: American classes are usually more interactive than classes in many other countries. Professors expect you to participate - to ask questions, share your thoughts, and engage in discussions. Classes might be large lectures with hundreds of students, or small seminars with just 15-20 people. You'll have assignments throughout the semester (not just one big exam at the end), and your grade will be based on multiple things: homework, quizzes, papers, presentations, and exams. Attendance usually matters. The pace can feel fast, but there's help available - office hours with professors, tutoring centers, study groups. Don't be afraid to ask for help if you're struggling.",
+    "category": "Understanding Classes, Credits, and Professors",
+    "topic": "How do American university classes work?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "How do American university classes work?",
+      "answer": "American classes are usually more interactive than classes in many other countries. Professors expect you to participate - to ask questions, share your thoughts, and engage in discussions. Classes might be large lectures with hundreds of students, or small seminars with just 15-20 people. You'll have assignments throughout the semester (not just one big exam at the end), and your grade will be based on multiple things: homework, quizzes, papers, presentations, and exams. Attendance usually matters. The pace can feel fast, but there's help available - office hours with professors, tutoring centers, study groups. Don't be afraid to ask for help if you're struggling."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_classes_002",
+    "text": "Q: What are credits and how many do I need?\nA: Credits are like points that measure how much work a class requires. Most classes are worth 3 credits, which usually means about 3 hours of class time per week. Full-time students typically take 12-15 credits per semester (that's 4-5 classes). You need a certain number of credits to graduate - usually around 120 for a bachelor's degree, which takes about 4 years if you take a full course load each semester. Don't worry about the exact numbers right now - your academic advisor will help you plan your schedule. The important thing is to stay full-time (usually 12 credits minimum) to maintain your student status.",
+    "category": "Understanding Classes, Credits, and Professors",
+    "topic": "What are credits and how many do I need?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "What are credits and how many do I need?",
+      "answer": "Credits are like points that measure how much work a class requires. Most classes are worth 3 credits, which usually means about 3 hours of class time per week. Full-time students typically take 12-15 credits per semester (that's 4-5 classes). You need a certain number of credits to graduate - usually around 120 for a bachelor's degree, which takes about 4 years if you take a full course load each semester. Don't worry about the exact numbers right now - your academic advisor will help you plan your schedule. The important thing is to stay full-time (usually 12 credits minimum) to maintain your student status."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_classes_003",
+    "text": "Q: How do I talk to professors?\nA: Professors are people, and most of them want to help you succeed. You can call them 'Professor [Last Name]' or 'Dr. [Last Name]' if they have a doctorate. They have office hours (specific times when they're available to meet with students) - use these! Go with questions about assignments, ask for clarification on concepts, or just introduce yourself. Sending emails is fine too, but be polite and professional. Don't be intimidated - they chose to teach because they like students and want to help you learn. Building relationships with professors can lead to research opportunities, recommendation letters, and mentorship.",
+    "category": "Understanding Classes, Credits, and Professors",
+    "topic": "How do I talk to professors?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "How do I talk to professors?",
+      "answer": "Professors are people, and most of them want to help you succeed. You can call them 'Professor [Last Name]' or 'Dr. [Last Name]' if they have a doctorate. They have office hours (specific times when they're available to meet with students) - use these! Go with questions about assignments, ask for clarification on concepts, or just introduce yourself. Sending emails is fine too, but be polite and professional. Don't be intimidated - they chose to teach because they like students and want to help you learn. Building relationships with professors can lead to research opportunities, recommendation letters, and mentorship."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_classes_004",
+    "text": "Q: What if I'm struggling with my classes?\nA: Struggling is normal, especially in your first semester when you're adjusting to a new language, new teaching style, and new expectations. The important thing is to get help early, not wait until you're failing. Your university has tutoring centers, writing centers, and academic support services - use them. Talk to your professors during office hours. Form study groups with classmates. Your academic advisor can help you figure out if you're taking too many hard classes at once. Remember, asking for help is a sign of strength, not weakness. Many successful students struggled in their first semester - what matters is that you don't give up and that you use the resources available to you.",
+    "category": "Understanding Classes, Credits, and Professors",
+    "topic": "What if I'm struggling with my classes?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "What if I'm struggling with my classes?",
+      "answer": "Struggling is normal, especially in your first semester when you're adjusting to a new language, new teaching style, and new expectations. The important thing is to get help early, not wait until you're failing. Your university has tutoring centers, writing centers, and academic support services - use them. Talk to your professors during office hours. Form study groups with classmates. Your academic advisor can help you figure out if you're taking too many hard classes at once. Remember, asking for help is a sign of strength, not weakness. Many successful students struggled in their first semester - what matters is that you don't give up and that you use the resources available to you."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_classes_005",
+    "text": "Q: What does 'full-time enrollment' mean and why does it matter?\nA: Full-time enrollment means taking enough credits each semester - usually 12 credits for undergraduates. This matters because as an international student, you need to maintain full-time status to keep your student visa valid. It's not just about academics - it's a requirement of your immigration status. If you drop below full-time without permission (like for medical reasons), you could lose your student status. But don't worry - as long as you're taking a normal course load, you'll be fine. Your academic advisor and international student office will help make sure you're on track.",
+    "category": "Understanding Classes, Credits, and Professors",
+    "topic": "What does 'full-time enrollment' mean and why does it matter?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "What does 'full-time enrollment' mean and why does it matter?",
+      "answer": "Full-time enrollment means taking enough credits each semester - usually 12 credits for undergraduates. This matters because as an international student, you need to maintain full-time status to keep your student visa valid. It's not just about academics - it's a requirement of your immigration status. If you drop below full-time without permission (like for medical reasons), you could lose your student status. But don't worry - as long as you're taking a normal course load, you'll be fine. Your academic advisor and international student office will help make sure you're on track."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_social_001",
+    "text": "Q: How do I make friends as an international student?\nA: Making friends takes time, but it will happen. Start by being open and friendly - say hello to people in your classes, in your dorm, at campus events. Join clubs or organizations that interest you (sports, music, cultural groups, academic clubs). Go to orientation events and social activities, even if you feel shy. Remember that many American students are also looking to make friends and are curious about international students. Don't be afraid to ask questions about American culture, and be ready to share about your own culture. Also, connect with other international students - they understand what you're going through and can become some of your closest friends.",
+    "category": "Making Friends & Culture Shock",
+    "topic": "How do I make friends as an international student?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "How do I make friends as an international student?",
+      "answer": "Making friends takes time, but it will happen. Start by being open and friendly - say hello to people in your classes, in your dorm, at campus events. Join clubs or organizations that interest you (sports, music, cultural groups, academic clubs). Go to orientation events and social activities, even if you feel shy. Remember that many American students are also looking to make friends and are curious about international students. Don't be afraid to ask questions about American culture, and be ready to share about your own culture. Also, connect with other international students - they understand what you're going through and can become some of your closest friends."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_social_002",
+    "text": "Q: What is culture shock and will I experience it?\nA: Culture shock is the feeling of disorientation and discomfort when you're in a new culture where things work differently than you're used to. You'll probably experience it - most international students do. It might hit you right away, or it might come in waves over your first few months. You might feel homesick, frustrated, confused, or like you don't fit in. This is completely normal and temporary. It doesn't mean you made a mistake or that you don't belong. Give yourself time to adjust, stay connected with family and friends back home, and remember that it gets easier. Most students start feeling more comfortable after a few months.",
+    "category": "Making Friends & Culture Shock",
+    "topic": "What is culture shock and will I experience it?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "What is culture shock and will I experience it?",
+      "answer": "Culture shock is the feeling of disorientation and discomfort when you're in a new culture where things work differently than you're used to. You'll probably experience it - most international students do. It might hit you right away, or it might come in waves over your first few months. You might feel homesick, frustrated, confused, or like you don't fit in. This is completely normal and temporary. It doesn't mean you made a mistake or that you don't belong. Give yourself time to adjust, stay connected with family and friends back home, and remember that it gets easier. Most students start feeling more comfortable after a few months."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_social_003",
+    "text": "Q: What if I feel lonely or isolated?\nA: Feeling lonely is really common, especially in your first few weeks or months. You're far from home, maybe in a different time zone, and everything is new. This doesn't mean there's something wrong with you. Reach out to people - join study groups, go to campus events, talk to your roommate or people in your dorm. Many universities have international student organizations or mentorship programs. Also, it's okay to stay connected with friends and family back home through video calls - just make sure you're also building new connections where you are. If you're really struggling, your university's counseling center can help. You're not alone in feeling this way.",
+    "category": "Making Friends & Culture Shock",
+    "topic": "What if I feel lonely or isolated?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "What if I feel lonely or isolated?",
+      "answer": "Feeling lonely is really common, especially in your first few weeks or months. You're far from home, maybe in a different time zone, and everything is new. This doesn't mean there's something wrong with you. Reach out to people - join study groups, go to campus events, talk to your roommate or people in your dorm. Many universities have international student organizations or mentorship programs. Also, it's okay to stay connected with friends and family back home through video calls - just make sure you're also building new connections where you are. If you're really struggling, your university's counseling center can help. You're not alone in feeling this way."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_social_004",
+    "text": "Q: How do I handle differences in communication styles?\nA: American communication can feel very direct compared to many cultures. People might seem informal (calling professors by first names in some cases, casual greetings), or they might be very direct in giving feedback. This doesn't mean they're being rude - it's just a different style. Also, Americans often use a lot of small talk and ask 'How are you?' as a greeting (they don't always want a detailed answer). Don't take things personally if the communication style feels different. You'll get used to it, and people will understand that you're adjusting. When in doubt, be polite and ask questions - most people appreciate the effort to understand.",
+    "category": "Making Friends & Culture Shock",
+    "topic": "How do I handle differences in communication styles?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "How do I handle differences in communication styles?",
+      "answer": "American communication can feel very direct compared to many cultures. People might seem informal (calling professors by first names in some cases, casual greetings), or they might be very direct in giving feedback. This doesn't mean they're being rude - it's just a different style. Also, Americans often use a lot of small talk and ask 'How are you?' as a greeting (they don't always want a detailed answer). Don't take things personally if the communication style feels different. You'll get used to it, and people will understand that you're adjusting. When in doubt, be polite and ask questions - most people appreciate the effort to understand."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_social_005",
+    "text": "Q: Should I only hang out with other international students?\nA: It's natural to gravitate toward other international students because you share similar experiences and challenges. These friendships are valuable and important. But also try to make friends with American students and students from other countries. This will help you practice English, learn about American culture, and feel more integrated into campus life. You don't have to choose one or the other - you can have both types of friendships. The best approach is to be open to connecting with all kinds of people. Everyone has something interesting to share, and diverse friendships will enrich your experience.",
+    "category": "Making Friends & Culture Shock",
+    "topic": "Should I only hang out with other international students?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "Should I only hang out with other international students?",
+      "answer": "It's natural to gravitate toward other international students because you share similar experiences and challenges. These friendships are valuable and important. But also try to make friends with American students and students from other countries. This will help you practice English, learn about American culture, and feel more integrated into campus life. You don't have to choose one or the other - you can have both types of friendships. The best approach is to be open to connecting with all kinds of people. Everyone has something interesting to share, and diverse friendships will enrich your experience."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_money_001",
+    "text": "Q: How do I open a bank account in the US?\nA: Opening a bank account is pretty straightforward. Most universities have a relationship with a local bank and can help you set one up during orientation. You'll need your passport, your I-20, your I-94 (which you can print online), and sometimes proof of address (like a letter from your university with your dorm address). Many banks have special accounts for students with low or no fees. Once you have an account, you'll get a debit card that you can use almost everywhere. Your university's international student office can guide you through this process - it's something they help students with all the time.",
+    "category": "Money Basics (Banking, Cards, Everyday Costs)",
+    "topic": "How do I open a bank account in the US?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "How do I open a bank account in the US?",
+      "answer": "Opening a bank account is pretty straightforward. Most universities have a relationship with a local bank and can help you set one up during orientation. You'll need your passport, your I-20, your I-94 (which you can print online), and sometimes proof of address (like a letter from your university with your dorm address). Many banks have special accounts for students with low or no fees. Once you have an account, you'll get a debit card that you can use almost everywhere. Your university's international student office can guide you through this process - it's something they help students with all the time."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_money_002",
+    "text": "Q: What's the difference between a debit card and credit card?\nA: A debit card takes money directly from your bank account - when you spend $20, that $20 comes out of your account right away. A credit card lets you borrow money that you pay back later (usually monthly). As an international student, you'll probably start with just a debit card, which is fine for everyday needs. Credit cards can be harder to get without a credit history in the US, and they can lead to debt if you're not careful. Start with a debit card and learn to manage your money well. You can always consider a credit card later if you need one and can get approved.",
+    "category": "Money Basics (Banking, Cards, Everyday Costs)",
+    "topic": "What's the difference between a debit card and credit card?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "What's the difference between a debit card and credit card?",
+      "answer": "A debit card takes money directly from your bank account - when you spend $20, that $20 comes out of your account right away. A credit card lets you borrow money that you pay back later (usually monthly). As an international student, you'll probably start with just a debit card, which is fine for everyday needs. Credit cards can be harder to get without a credit history in the US, and they can lead to debt if you're not careful. Start with a debit card and learn to manage your money well. You can always consider a credit card later if you need one and can get approved."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_money_003",
+    "text": "Q: How much money do I need for everyday expenses?\nA: This depends a lot on where you are and your lifestyle, but here's a general idea: food (if not on a meal plan) might be $200-400 per month, transportation $50-100, phone plan $30-60, personal items and entertainment $100-200. Textbooks can be expensive ($100-300 per class, though you can often buy used or rent). The good news is that many universities include meals and housing in their costs, so your main expenses might already be covered. Create a simple budget, track your spending for the first month to see what things actually cost, and adjust from there. Don't be afraid to ask other students what they spend - people are usually happy to share.",
+    "category": "Money Basics (Banking, Cards, Everyday Costs)",
+    "topic": "How much money do I need for everyday expenses?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "How much money do I need for everyday expenses?",
+      "answer": "This depends a lot on where you are and your lifestyle, but here's a general idea: food (if not on a meal plan) might be $200-400 per month, transportation $50-100, phone plan $30-60, personal items and entertainment $100-200. Textbooks can be expensive ($100-300 per class, though you can often buy used or rent). The good news is that many universities include meals and housing in their costs, so your main expenses might already be covered. Create a simple budget, track your spending for the first month to see what things actually cost, and adjust from there. Don't be afraid to ask other students what they spend - people are usually happy to share."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_money_004",
+    "text": "Q: How do I send money back home or receive money from home?\nA: There are several ways to transfer money internationally. Banks can do wire transfers, but they often have high fees. Services like Wise (formerly TransferWise), Remitly, or Western Union are often cheaper and easier. You can also use apps like PayPal or Venmo for smaller amounts. Your family can send money to your US bank account, or you can use international money transfer services. Ask your bank about their international transfer options and fees. Also, check exchange rates - they change daily, so timing can matter. Your international student office might have recommendations for services that other students use successfully.",
+    "category": "Money Basics (Banking, Cards, Everyday Costs)",
+    "topic": "How do I send money back home or receive money from home?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "How do I send money back home or receive money from home?",
+      "answer": "There are several ways to transfer money internationally. Banks can do wire transfers, but they often have high fees. Services like Wise (formerly TransferWise), Remitly, or Western Union are often cheaper and easier. You can also use apps like PayPal or Venmo for smaller amounts. Your family can send money to your US bank account, or you can use international money transfer services. Ask your bank about their international transfer options and fees. Also, check exchange rates - they change daily, so timing can matter. Your international student office might have recommendations for services that other students use successfully."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_money_005",
+    "text": "Q: What if I run out of money or have financial problems?\nA: If you're having money problems, talk to someone right away - don't wait until it's a crisis. Your international student office can help you understand your options. Some universities have emergency funds for students in difficult situations. You might be able to find on-campus jobs (which are allowed for international students), though there are limits on how much you can work. The important thing is to be honest about your situation and ask for help early. Financial stress is really common for students, and there are usually resources available. Don't let embarrassment prevent you from getting the help you need.",
+    "category": "Money Basics (Banking, Cards, Everyday Costs)",
+    "topic": "What if I run out of money or have financial problems?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "What if I run out of money or have financial problems?",
+      "answer": "If you're having money problems, talk to someone right away - don't wait until it's a crisis. Your international student office can help you understand your options. Some universities have emergency funds for students in difficult situations. You might be able to find on-campus jobs (which are allowed for international students), though there are limits on how much you can work. The important thing is to be honest about your situation and ask for help early. Financial stress is really common for students, and there are usually resources available. Don't let embarrassment prevent you from getting the help you need."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_health_001",
+    "text": "Q: Do I need health insurance and how do I get it?\nA: Yes, you absolutely need health insurance. Medical care in the US is very expensive without insurance - a simple doctor visit can cost hundreds of dollars, and an emergency can cost thousands. Most universities require international students to have health insurance and often offer a student health insurance plan. This is usually the easiest option - you just sign up and pay the fee with your tuition. The university's plan is designed for students and is usually affordable. You can also get private insurance, but make sure it meets your university's requirements. Your international student office will explain your options during orientation.",
+    "category": "Health Insurance & Staying Healthy",
+    "topic": "Do I need health insurance and how do I get it?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "Do I need health insurance and how do I get it?",
+      "answer": "Yes, you absolutely need health insurance. Medical care in the US is very expensive without insurance - a simple doctor visit can cost hundreds of dollars, and an emergency can cost thousands. Most universities require international students to have health insurance and often offer a student health insurance plan. This is usually the easiest option - you just sign up and pay the fee with your tuition. The university's plan is designed for students and is usually affordable. You can also get private insurance, but make sure it meets your university's requirements. Your international student office will explain your options during orientation."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_health_002",
+    "text": "Q: What if I get sick or need to see a doctor?\nA: If you get sick, your university likely has a student health center on campus where you can see a doctor, usually for free or a small fee. For minor illnesses, this is your best first stop. For emergencies, go to the hospital emergency room (but be aware this can be expensive even with insurance). If you have a regular medication you need, bring a prescription from home and have your doctor write a note explaining what it is. A US doctor can then prescribe it here. Keep your insurance card with you, and don't be afraid to seek medical help when you need it - your health is important.",
+    "category": "Health Insurance & Staying Healthy",
+    "topic": "What if I get sick or need to see a doctor?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "What if I get sick or need to see a doctor?",
+      "answer": "If you get sick, your university likely has a student health center on campus where you can see a doctor, usually for free or a small fee. For minor illnesses, this is your best first stop. For emergencies, go to the hospital emergency room (but be aware this can be expensive even with insurance). If you have a regular medication you need, bring a prescription from home and have your doctor write a note explaining what it is. A US doctor can then prescribe it here. Keep your insurance card with you, and don't be afraid to seek medical help when you need it - your health is important."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_health_003",
+    "text": "Q: How do I take care of my mental health?\nA: Taking care of your mental health is just as important as physical health. Adjusting to a new country, being away from home, and dealing with academic pressure can be really stressful. Most universities have free or low-cost counseling services for students - use them. There's no shame in talking to a counselor about stress, homesickness, anxiety, or any other concerns. Also, make sure you're getting enough sleep, eating well, exercising, and taking breaks from studying. Stay connected with people - isolation makes everything harder. If you're really struggling, reach out for help. Your university wants you to succeed and has resources to support you.",
+    "category": "Health Insurance & Staying Healthy",
+    "topic": "How do I take care of my mental health?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "How do I take care of my mental health?",
+      "answer": "Taking care of your mental health is just as important as physical health. Adjusting to a new country, being away from home, and dealing with academic pressure can be really stressful. Most universities have free or low-cost counseling services for students - use them. There's no shame in talking to a counselor about stress, homesickness, anxiety, or any other concerns. Also, make sure you're getting enough sleep, eating well, exercising, and taking breaks from studying. Stay connected with people - isolation makes everything harder. If you're really struggling, reach out for help. Your university wants you to succeed and has resources to support you."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_health_004",
+    "text": "Q: What about medications I take regularly?\nA: If you take regular medications, bring enough for your first few months, along with copies of your prescriptions and a letter from your doctor explaining what the medications are for. Once you're in the US, you'll need to see a US doctor to get new prescriptions. Your student health center can usually help with this. Some medications available in your home country might not be available in the US (or might have different names), so research this ahead of time if possible. Also, make sure your health insurance covers prescription medications. Don't skip medications because you're worried about cost - there are usually ways to make it work.",
+    "category": "Health Insurance & Staying Healthy",
+    "topic": "What about medications I take regularly?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "What about medications I take regularly?",
+      "answer": "If you take regular medications, bring enough for your first few months, along with copies of your prescriptions and a letter from your doctor explaining what the medications are for. Once you're in the US, you'll need to see a US doctor to get new prescriptions. Your student health center can usually help with this. Some medications available in your home country might not be available in the US (or might have different names), so research this ahead of time if possible. Also, make sure your health insurance covers prescription medications. Don't skip medications because you're worried about cost - there are usually ways to make it work."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_help_001",
+    "text": "Q: What is a DSO and when should I talk to them?\nA: DSO stands for Designated School Official - these are staff members in your international student office who are authorized to help with immigration and visa matters. They're your main resource for questions about your student status, travel, documents, employment rules, and anything related to being an international student. You should talk to them whenever you have questions about your visa status, need to update your address, want to travel outside the US, have questions about working, or are confused about any immigration-related rules. They're there to help you, and no question is too small or too silly. It's better to ask than to guess and make a mistake.",
+    "category": "Who Helps You When You're Confused (DSO, Advisors, RAs)",
+    "topic": "What is a DSO and when should I talk to them?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "What is a DSO and when should I talk to them?",
+      "answer": "DSO stands for Designated School Official - these are staff members in your international student office who are authorized to help with immigration and visa matters. They're your main resource for questions about your student status, travel, documents, employment rules, and anything related to being an international student. You should talk to them whenever you have questions about your visa status, need to update your address, want to travel outside the US, have questions about working, or are confused about any immigration-related rules. They're there to help you, and no question is too small or too silly. It's better to ask than to guess and make a mistake."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_help_002",
+    "text": "Q: What is an academic advisor and what do they do?\nA: An academic advisor helps you plan your classes, choose your major, understand degree requirements, and make sure you're on track to graduate. They're usually a professor or staff member in your department or college. You'll meet with them regularly (maybe once a semester) to plan your course schedule. They can help you understand which classes to take, when to take them, and how to balance your workload. If you're struggling academically or thinking about changing your major, they're a great resource. Don't be afraid to ask them questions - that's literally their job.",
+    "category": "Who Helps You When You're Confused (DSO, Advisors, RAs)",
+    "topic": "What is an academic advisor and what do they do?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "What is an academic advisor and what do they do?",
+      "answer": "An academic advisor helps you plan your classes, choose your major, understand degree requirements, and make sure you're on track to graduate. They're usually a professor or staff member in your department or college. You'll meet with them regularly (maybe once a semester) to plan your course schedule. They can help you understand which classes to take, when to take them, and how to balance your workload. If you're struggling academically or thinking about changing your major, they're a great resource. Don't be afraid to ask them questions - that's literally their job."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_help_003",
+    "text": "Q: What is an RA and how can they help me?\nA: RA stands for Resident Advisor - these are older students who live in your dorm and are trained to help with dorm life. They organize activities, help resolve conflicts (like roommate problems), enforce dorm rules, and are generally there to support you. If you have questions about campus, need someone to talk to, or have problems in your dorm, your RA is a good first person to reach out to. They're students too, so they understand what you're going through and can give practical advice. They're not there to get you in trouble - they're there to help make your dorm experience positive.",
+    "category": "Who Helps You When You're Confused (DSO, Advisors, RAs)",
+    "topic": "What is an RA and how can they help me?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "What is an RA and how can they help me?",
+      "answer": "RA stands for Resident Advisor - these are older students who live in your dorm and are trained to help with dorm life. They organize activities, help resolve conflicts (like roommate problems), enforce dorm rules, and are generally there to support you. If you have questions about campus, need someone to talk to, or have problems in your dorm, your RA is a good first person to reach out to. They're students too, so they understand what you're going through and can give practical advice. They're not there to get you in trouble - they're there to help make your dorm experience positive."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_help_004",
+    "text": "Q: Who else can help me on campus?\nA: Your university has lots of people ready to help. There are tutoring centers for academic support, writing centers to help with papers, career centers for job and internship advice, counseling centers for mental health support, and student organizations for social connections. There are also usually international student clubs or associations. Don't try to figure everything out alone - universities are set up to support students, and there are resources for almost everything you might need. If you're not sure who to ask, start with your international student office - they can point you in the right direction. Remember, asking for help is smart, not weak.",
+    "category": "Who Helps You When You're Confused (DSO, Advisors, RAs)",
+    "topic": "Who else can help me on campus?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "Who else can help me on campus?",
+      "answer": "Your university has lots of people ready to help. There are tutoring centers for academic support, writing centers to help with papers, career centers for job and internship advice, counseling centers for mental health support, and student organizations for social connections. There are also usually international student clubs or associations. Don't try to figure everything out alone - universities are set up to support students, and there are resources for almost everything you might need. If you're not sure who to ask, start with your international student office - they can point you in the right direction. Remember, asking for help is smart, not weak."
+    }
+  },
+  {
+    "id": "mentorstyle__p1_help_005",
+    "text": "Q: What if I'm too embarrassed to ask for help?\nA: It's really common to feel embarrassed about asking for help, especially if you're used to being independent or if you feel like you should know something. But here's the truth: everyone needs help sometimes, and the people whose job it is to help students have seen every question and every situation before. Nothing you can ask will surprise them or make them think less of you. In fact, asking for help shows maturity and intelligence - it means you know when you don't know something. The people on campus who help students chose those jobs because they want to help. Let them do their job by asking your questions. You'll feel better once you do.",
+    "category": "Who Helps You When You're Confused (DSO, Advisors, RAs)",
+    "topic": "What if I'm too embarrassed to ask for help?",
+    "type": "qa",
+    "source": "mentorstyle",
+    "metadata": {
+      "phase": "phase_1_beginner",
+      "tone": "reassuring_practical_non_legal",
+      "question": "What if I'm too embarrassed to ask for help?",
+      "answer": "It's really common to feel embarrassed about asking for help, especially if you're used to being independent or if you feel like you should know something. But here's the truth: everyone needs help sometimes, and the people whose job it is to help students have seen every question and every situation before. Nothing you can ask will surprise them or make them think less of you. In fact, asking for help shows maturity and intelligence - it means you know when you don't know something. The people on campus who help students chose those jobs because they want to help. Let them do their job by asking your questions. You'll feel better once you do."
+    }
+  }
+]

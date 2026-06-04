@@ -39,12 +39,30 @@
               "text": "All SEVP-certified schools must use SEVIS to report student enrollment and status changes."
             }
           ],
-          "related_forms": ["I-20", "I-17"],
-          "related_visa_types": ["F-1", "M-1", "J-1"],
-          "source_urls": ["https://studyinthestates.dhs.gov/sevis"],
+          "related_forms": [
+            "I-20",
+            "I-17"
+          ],
+          "related_visa_types": [
+            "F-1",
+            "M-1",
+            "J-1"
+          ],
+          "source_urls": [
+            "https://studyinthestates.dhs.gov/sevis"
+          ],
           "last_updated": "2026-01-06",
-          "audience": ["prospective_students", "current_f1", "current_m1", "school_officials"],
-          "tags": ["SEVIS", "student_tracking", "DSO"]
+          "audience": [
+            "prospective_students",
+            "current_f1",
+            "current_m1",
+            "school_officials"
+          ],
+          "tags": [
+            "SEVIS",
+            "student_tracking",
+            "DSO"
+          ]
         },
         {
           "id": "sevp_certification",
@@ -64,12 +82,26 @@
               ]
             }
           ],
-          "related_forms": ["I-17"],
-          "related_visa_types": ["F-1", "M-1"],
-          "source_urls": ["https://studyinthestates.dhs.gov/sevp"],
+          "related_forms": [
+            "I-17"
+          ],
+          "related_visa_types": [
+            "F-1",
+            "M-1"
+          ],
+          "source_urls": [
+            "https://studyinthestates.dhs.gov/sevp"
+          ],
           "last_updated": "2026-01-06",
-          "audience": ["prospective_students", "school_officials"],
-          "tags": ["SEVP", "certification", "DSO"]
+          "audience": [
+            "prospective_students",
+            "school_officials"
+          ],
+          "tags": [
+            "SEVP",
+            "certification",
+            "DSO"
+          ]
         }
       ]
     },
@@ -96,12 +128,26 @@
               ]
             }
           ],
-          "related_forms": ["I-20", "I-901"],
-          "related_visa_types": ["F-1"],
-          "source_urls": ["https://studyinthestates.dhs.gov/f-1"],
+          "related_forms": [
+            "I-20",
+            "I-901"
+          ],
+          "related_visa_types": [
+            "F-1"
+          ],
+          "source_urls": [
+            "https://studyinthestates.dhs.gov/f-1"
+          ],
           "last_updated": "2026-01-06",
-          "audience": ["prospective_students", "current_f1"],
-          "tags": ["F-1", "academic", "status_maintenance"]
+          "audience": [
+            "prospective_students",
+            "current_f1"
+          ],
+          "tags": [
+            "F-1",
+            "academic",
+            "status_maintenance"
+          ]
         },
         {
           "id": "m1_status",
@@ -121,12 +167,26 @@
               ]
             }
           ],
-          "related_forms": ["I-20", "I-901"],
-          "related_visa_types": ["M-1"],
-          "source_urls": ["https://studyinthestates.dhs.gov/m-1"],
+          "related_forms": [
+            "I-20",
+            "I-901"
+          ],
+          "related_visa_types": [
+            "M-1"
+          ],
+          "source_urls": [
+            "https://studyinthestates.dhs.gov/m-1"
+          ],
           "last_updated": "2026-01-06",
-          "audience": ["prospective_students", "current_m1"],
-          "tags": ["M-1", "vocational", "status_maintenance"]
+          "audience": [
+            "prospective_students",
+            "current_m1"
+          ],
+          "tags": [
+            "M-1",
+            "vocational",
+            "status_maintenance"
+          ]
         },
         {
           "id": "j1_status",
@@ -146,12 +206,25 @@
               ]
             }
           ],
-          "related_forms": ["DS-2019"],
-          "related_visa_types": ["J-1"],
-          "source_urls": ["https://j1visa.state.gov/"],
+          "related_forms": [
+            "DS-2019"
+          ],
+          "related_visa_types": [
+            "J-1"
+          ],
+          "source_urls": [
+            "https://j1visa.state.gov/"
+          ],
           "last_updated": "2026-01-06",
-          "audience": ["prospective_students", "current_j1"],
-          "tags": ["J-1", "exchange", "cultural"]
+          "audience": [
+            "prospective_students",
+            "current_j1"
+          ],
+          "tags": [
+            "J-1",
+            "exchange",
+            "cultural"
+          ]
         },
         {
           "id": "change_of_status",
@@ -172,19 +245,34 @@
               ]
             }
           ],
-          "related_forms": ["I-539", "I-20"],
-          "related_visa_types": ["F-1", "M-1", "B-2", "H-1B"],
-          "source_urls": ["https://studyinthestates.dhs.gov/status_change"],
+          "related_forms": [
+            "I-539",
+            "I-20"
+          ],
+          "related_visa_types": [
+            "F-1",
+            "M-1",
+            "B-2",
+            "H-1B"
+          ],
+          "source_urls": [
+            "https://studyinthestates.dhs.gov/status_change"
+          ],
           "last_updated": "2026-01-06",
-          "audience": ["current_f1", "current_m1", "prospective_students"],
-          "tags": ["change_of_status", "B-2", "H-1B", "M-1 bridging"]
+          "audience": [
+            "current_f1",
+            "current_m1",
+            "prospective_students"
+          ],
+          "tags": [
+            "change_of_status",
+            "B-2",
+            "H-1B",
+            "M-1 bridging"
+          ]
         }
       ]
-    }
-  ]
-}
-{
-  "categories": [
+    },
     {
       "id": "form_i20",
       "title": "Form I-20",
@@ -208,12 +296,28 @@
               ]
             }
           ],
-          "related_forms": ["I-20", "I-901"],
-          "related_visa_types": ["F-1", "M-1"],
-          "source_urls": ["https://studyinthestates.dhs.gov/i-20"],
+          "related_forms": [
+            "I-20",
+            "I-901"
+          ],
+          "related_visa_types": [
+            "F-1",
+            "M-1"
+          ],
+          "source_urls": [
+            "https://studyinthestates.dhs.gov/i-20"
+          ],
           "last_updated": "2026-01-06",
-          "audience": ["prospective_students", "current_f1", "current_m1"],
-          "tags": ["I-20", "DSO", "documentation"]
+          "audience": [
+            "prospective_students",
+            "current_f1",
+            "current_m1"
+          ],
+          "tags": [
+            "I-20",
+            "DSO",
+            "documentation"
+          ]
         },
         {
           "id": "i20_request_new",
@@ -233,12 +337,26 @@
               ]
             }
           ],
-          "related_forms": ["I-20"],
-          "related_visa_types": ["F-1", "M-1"],
-          "source_urls": ["https://studyinthestates.dhs.gov/i-20"],
+          "related_forms": [
+            "I-20"
+          ],
+          "related_visa_types": [
+            "F-1",
+            "M-1"
+          ],
+          "source_urls": [
+            "https://studyinthestates.dhs.gov/i-20"
+          ],
           "last_updated": "2026-01-06",
-          "audience": ["current_f1", "current_m1"],
-          "tags": ["I-20", "replacement", "program_change"]
+          "audience": [
+            "current_f1",
+            "current_m1"
+          ],
+          "tags": [
+            "I-20",
+            "replacement",
+            "program_change"
+          ]
         }
       ]
     },
@@ -269,12 +387,29 @@
               "text": "Students exempt from the fee or changing status may have special instructions."
             }
           ],
-          "related_forms": ["I-901", "I-20"],
-          "related_visa_types": ["F-1", "M-1"],
-          "source_urls": ["https://fmjfee.com", "https://studyinthestates.dhs.gov/i-901"],
+          "related_forms": [
+            "I-901",
+            "I-20"
+          ],
+          "related_visa_types": [
+            "F-1",
+            "M-1"
+          ],
+          "source_urls": [
+            "https://fmjfee.com",
+            "https://studyinthestates.dhs.gov/i-901"
+          ],
           "last_updated": "2026-01-06",
-          "audience": ["prospective_students", "current_f1", "current_m1"],
-          "tags": ["I-901", "SEVIS Fee", "payment"]
+          "audience": [
+            "prospective_students",
+            "current_f1",
+            "current_m1"
+          ],
+          "tags": [
+            "I-901",
+            "SEVIS Fee",
+            "payment"
+          ]
         }
       ]
     },
@@ -302,12 +437,29 @@
               ]
             }
           ],
-          "related_forms": ["I-20", "I-94", "I-515A"],
-          "related_visa_types": ["F-1", "M-1"],
-          "source_urls": ["https://studyinthestates.dhs.gov/entry"],
+          "related_forms": [
+            "I-20",
+            "I-94",
+            "I-515A"
+          ],
+          "related_visa_types": [
+            "F-1",
+            "M-1"
+          ],
+          "source_urls": [
+            "https://studyinthestates.dhs.gov/entry"
+          ],
           "last_updated": "2026-01-06",
-          "audience": ["prospective_students", "current_f1", "current_m1"],
-          "tags": ["travel", "entry", "documentation"]
+          "audience": [
+            "prospective_students",
+            "current_f1",
+            "current_m1"
+          ],
+          "tags": [
+            "travel",
+            "entry",
+            "documentation"
+          ]
         }
       ]
     },
@@ -334,19 +486,29 @@
               ]
             }
           ],
-          "related_forms": ["I-20"],
-          "related_visa_types": ["F-1", "M-1"],
-          "source_urls": ["https://studyinthestates.dhs.gov/programs"],
+          "related_forms": [
+            "I-20"
+          ],
+          "related_visa_types": [
+            "F-1",
+            "M-1"
+          ],
+          "source_urls": [
+            "https://studyinthestates.dhs.gov/programs"
+          ],
           "last_updated": "2026-01-06",
-          "audience": ["prospective_students"],
-          "tags": ["programs", "STEM", "vocational", "ESL"]
+          "audience": [
+            "prospective_students"
+          ],
+          "tags": [
+            "programs",
+            "STEM",
+            "vocational",
+            "ESL"
+          ]
         }
       ]
-    }
-  ]
-}
-{
-  "categories": [
+    },
     {
       "id": "practical_training_employment",
       "title": "Practical Training and Employment",
@@ -372,12 +534,24 @@
               ]
             }
           ],
-          "related_forms": ["I-20"],
-          "related_visa_types": ["F-1"],
-          "source_urls": ["https://studyinthestates.dhs.gov/curricular-practical-training"],
+          "related_forms": [
+            "I-20"
+          ],
+          "related_visa_types": [
+            "F-1"
+          ],
+          "source_urls": [
+            "https://studyinthestates.dhs.gov/curricular-practical-training"
+          ],
           "last_updated": "2026-01-06",
-          "audience": ["current_f1"],
-          "tags": ["CPT", "employment", "F-1"]
+          "audience": [
+            "current_f1"
+          ],
+          "tags": [
+            "CPT",
+            "employment",
+            "F-1"
+          ]
         },
         {
           "id": "opt_guidance",
@@ -399,12 +573,26 @@
               ]
             }
           ],
-          "related_forms": ["I-20", "I-765"],
-          "related_visa_types": ["F-1"],
-          "source_urls": ["https://studyinthestates.dhs.gov/optional-practical-training"],
+          "related_forms": [
+            "I-20",
+            "I-765"
+          ],
+          "related_visa_types": [
+            "F-1"
+          ],
+          "source_urls": [
+            "https://studyinthestates.dhs.gov/optional-practical-training"
+          ],
           "last_updated": "2026-01-06",
-          "audience": ["current_f1", "graduating"],
-          "tags": ["OPT", "employment", "F-1"]
+          "audience": [
+            "current_f1",
+            "graduating"
+          ],
+          "tags": [
+            "OPT",
+            "employment",
+            "F-1"
+          ]
         },
         {
           "id": "stem_opt",
@@ -426,12 +614,27 @@
               ]
             }
           ],
-          "related_forms": ["I-20", "I-765", "I-983"],
-          "related_visa_types": ["F-1"],
-          "source_urls": ["https://studyinthestates.dhs.gov/stem-opt-extension"],
+          "related_forms": [
+            "I-20",
+            "I-765",
+            "I-983"
+          ],
+          "related_visa_types": [
+            "F-1"
+          ],
+          "source_urls": [
+            "https://studyinthestates.dhs.gov/stem-opt-extension"
+          ],
           "last_updated": "2026-01-06",
-          "audience": ["current_f1", "graduating"],
-          "tags": ["STEM OPT", "employment", "F-1"]
+          "audience": [
+            "current_f1",
+            "graduating"
+          ],
+          "tags": [
+            "STEM OPT",
+            "employment",
+            "F-1"
+          ]
         }
       ]
     },
@@ -455,11 +658,22 @@
             }
           ],
           "related_forms": [],
-          "related_visa_types": ["F-1", "M-1", "J-1"],
-          "source_urls": ["https://www.educationusa.state.gov/scholarships"],
+          "related_visa_types": [
+            "F-1",
+            "M-1",
+            "J-1"
+          ],
+          "source_urls": [
+            "https://www.educationusa.state.gov/scholarships"
+          ],
           "last_updated": "2026-01-06",
-          "audience": ["prospective_students"],
-          "tags": ["scholarships", "financial_aid"]
+          "audience": [
+            "prospective_students"
+          ],
+          "tags": [
+            "scholarships",
+            "financial_aid"
+          ]
         },
         {
           "id": "financial_aid_types",
@@ -477,11 +691,25 @@
             }
           ],
           "related_forms": [],
-          "related_visa_types": ["F-1", "M-1", "J-1"],
-          "source_urls": ["https://www.educationusa.state.gov/financial-aid"],
+          "related_visa_types": [
+            "F-1",
+            "M-1",
+            "J-1"
+          ],
+          "source_urls": [
+            "https://www.educationusa.state.gov/financial-aid"
+          ],
           "last_updated": "2026-01-06",
-          "audience": ["prospective_students", "current_f1", "current_m1"],
-          "tags": ["financial_aid", "grants", "loans"]
+          "audience": [
+            "prospective_students",
+            "current_f1",
+            "current_m1"
+          ],
+          "tags": [
+            "financial_aid",
+            "grants",
+            "loans"
+          ]
         }
       ]
     },
@@ -510,12 +738,27 @@
               ]
             }
           ],
-          "related_forms": ["I-20", "I-539"],
-          "related_visa_types": ["F-1", "M-1"],
-          "source_urls": ["https://studyinthestates.dhs.gov/maintaining-status"],
+          "related_forms": [
+            "I-20",
+            "I-539"
+          ],
+          "related_visa_types": [
+            "F-1",
+            "M-1"
+          ],
+          "source_urls": [
+            "https://studyinthestates.dhs.gov/maintaining-status"
+          ],
           "last_updated": "2026-01-06",
-          "audience": ["current_f1", "current_m1"],
-          "tags": ["status", "compliance", "DSO"]
+          "audience": [
+            "current_f1",
+            "current_m1"
+          ],
+          "tags": [
+            "status",
+            "compliance",
+            "DSO"
+          ]
         },
         {
           "id": "ssn_guidance",
@@ -536,12 +779,26 @@
               ]
             }
           ],
-          "related_forms": ["I-20"],
-          "related_visa_types": ["F-1", "M-1"],
-          "source_urls": ["https://www.ssa.gov/ssnumber/"],
+          "related_forms": [
+            "I-20"
+          ],
+          "related_visa_types": [
+            "F-1",
+            "M-1"
+          ],
+          "source_urls": [
+            "https://www.ssa.gov/ssnumber/"
+          ],
           "last_updated": "2026-01-06",
-          "audience": ["current_f1", "current_m1"],
-          "tags": ["SSN", "employment", "tax"]
+          "audience": [
+            "current_f1",
+            "current_m1"
+          ],
+          "tags": [
+            "SSN",
+            "employment",
+            "tax"
+          ]
         },
         {
           "id": "tax_obligations",
@@ -562,12 +819,27 @@
               ]
             }
           ],
-          "related_forms": ["8843", "1040NR"],
-          "related_visa_types": ["F-1", "M-1"],
-          "source_urls": ["https://www.irs.gov/individuals/international-taxpayers"],
+          "related_forms": [
+            "8843",
+            "1040NR"
+          ],
+          "related_visa_types": [
+            "F-1",
+            "M-1"
+          ],
+          "source_urls": [
+            "https://www.irs.gov/individuals/international-taxpayers"
+          ],
           "last_updated": "2026-01-06",
-          "audience": ["current_f1", "current_m1"],
-          "tags": ["tax", "ITIN", "compliance"]
+          "audience": [
+            "current_f1",
+            "current_m1"
+          ],
+          "tags": [
+            "tax",
+            "ITIN",
+            "compliance"
+          ]
         },
         {
           "id": "health_insurance",
@@ -589,11 +861,22 @@
             }
           ],
           "related_forms": [],
-          "related_visa_types": ["F-1", "M-1"],
-          "source_urls": ["https://studyinthestates.dhs.gov/health-insurance"],
+          "related_visa_types": [
+            "F-1",
+            "M-1"
+          ],
+          "source_urls": [
+            "https://studyinthestates.dhs.gov/health-insurance"
+          ],
           "last_updated": "2026-01-06",
-          "audience": ["current_f1", "current_m1"],
-          "tags": ["health insurance", "compliance"]
+          "audience": [
+            "current_f1",
+            "current_m1"
+          ],
+          "tags": [
+            "health insurance",
+            "compliance"
+          ]
         },
         {
           "id": "emergency_reinstatement",
@@ -614,12 +897,26 @@
               ]
             }
           ],
-          "related_forms": ["I-539"],
-          "related_visa_types": ["F-1", "M-1"],
-          "source_urls": ["https://studyinthestates.dhs.gov/emergency-procedures"],
+          "related_forms": [
+            "I-539"
+          ],
+          "related_visa_types": [
+            "F-1",
+            "M-1"
+          ],
+          "source_urls": [
+            "https://studyinthestates.dhs.gov/emergency-procedures"
+          ],
           "last_updated": "2026-01-06",
-          "audience": ["current_f1", "current_m1"],
-          "tags": ["emergency", "reinstatement", "status"]
+          "audience": [
+            "current_f1",
+            "current_m1"
+          ],
+          "tags": [
+            "emergency",
+            "reinstatement",
+            "status"
+          ]
         }
       ]
     }
