@@ -89,26 +89,23 @@ def build_store(docs, persist_dir=None, reset=False):
     """Dedup → chunk → embed → write a persisted Chroma collection.
 
     `docs` is the raw list of normalized dicts. Returns the Chroma store.
+    When `reset` is True, any existing collection is cleared first so repeated
+    rebuilds are idempotent (they do not accumulate duplicates).
     """
     persist_dir = persist_dir or str(config.CHROMA_DIR)
     prepared = chunk_docs(deduplicate(docs))
     documents = _to_documents(prepared)
+    embeddings = _get_embeddings()
 
+    store = Chroma(
+        collection_name=config.COLLECTION_NAME,
+        embedding_function=embeddings,
+        persist_directory=persist_dir,
+    )
     if reset:
-        # Fresh build: Chroma.from_documents overwrites the collection contents.
-        store = Chroma.from_documents(
-            documents=documents,
-            embedding=_get_embeddings(),
-            collection_name=config.COLLECTION_NAME,
-            persist_directory=persist_dir,
-        )
-    else:
-        store = Chroma(
-            collection_name=config.COLLECTION_NAME,
-            embedding_function=_get_embeddings(),
-            persist_directory=persist_dir,
-        )
-        store.add_documents(documents)
+        # Clear any existing data so a rebuild is idempotent.
+        store.reset_collection()
+    store.add_documents(documents)
     return store
 
 
