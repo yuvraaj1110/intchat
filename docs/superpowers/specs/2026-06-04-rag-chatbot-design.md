@@ -50,6 +50,7 @@ modular so each scaling step is a single-file change.
 langchain>=0.3.0,<0.4
 langchain-groq>=0.2.0,<0.3
 langchain-chroma>=0.2.0,<0.3
+langchain-huggingface>=0.1.0,<0.3
 langchain-community>=0.3.0,<0.4
 chromadb>=0.5.0,<0.6
 sentence-transformers>=3.0.0,<4
