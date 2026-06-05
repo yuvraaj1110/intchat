@@ -12,15 +12,13 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from app import config
 from app.chain import RAGChain
 
-MAX_QUERY_LEN = 500
-
 
 def validate_query(raw: str) -> str | None:
     """Return a cleaned query, or None if it is empty."""
     cleaned = raw.strip()
     if not cleaned:
         return None
-    return cleaned[:MAX_QUERY_LEN]
+    return cleaned[: config.MAX_QUERY_LEN]
 
 
 def load_store() -> Chroma:
@@ -62,11 +60,13 @@ def main() -> None:
         if query is None:
             continue
         try:
-            answer = rag.answer(query)
+            print("\nAssistant: ", end="", flush=True)
+            for piece in rag.answer_stream(query):
+                print(piece, end="", flush=True)
+            print()
         except Exception as exc:  # noqa: BLE001 - surface a friendly message
             print(f"\nSorry, something went wrong: {exc}\nPlease try again in a moment.")
             continue
-        print(f"\nAssistant: {answer}")
 
 
 if __name__ == "__main__":

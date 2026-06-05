@@ -35,6 +35,9 @@ CHUNK_OVERLAP = 50
 SEMANTIC_K = 8   # candidates pulled by semantic search before merge
 TOP_K = 5        # final documents passed to the LLM as context
 
+# ── Input handling ───────────────────────────────────────────────────────
+MAX_QUERY_LEN = 500  # user queries are truncated to this many characters
+
 # ── LLM ──────────────────────────────────────────────────────────────────
 # Groq hosts third-party open models and deprecates them periodically, so no
 # single model name is permanently valid. Instead of hardcoding one, we keep a

@@ -5,7 +5,6 @@ immigration domain: answer only from context, never invent rules, cite topics,
 and append a legal disclaimer.
 """
 
-from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_core.prompts import ChatPromptTemplate
 
 SYSTEM_PROMPT = """You are an assistant for international students in the United States.

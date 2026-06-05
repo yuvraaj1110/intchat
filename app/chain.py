@@ -1,8 +1,10 @@
-"""Assemble retriever + prompt + LLM + memory into a single answer() call.
+"""Assemble retriever + prompt + LLM + memory into the RAG chain.
 
 A lightweight `ConversationWindow` holds the last N exchanges (bounding the
-context window). `RAGChain.answer` retrieves context, renders the prompt, and
-invokes the LLM. Memory is in-process; swap for Redis/Postgres in production.
+context window). `RAGChain.answer_stream` retrieves context, renders the prompt,
+and streams the LLM response token-by-token for responsive CLI output;
+`RAGChain.answer` is a convenience that collects the stream into a full string.
+Memory is in-process; swap for Redis/Postgres in production.
 """
 
 from collections import deque
@@ -42,10 +44,15 @@ class RAGChain:
 
     def __init__(self, store, llm=None):
         self.retriever = build_retriever(store)
-        self.llm = llm or build_llm(streaming=False)
+        self.llm = llm or build_llm(streaming=True)
         self.memory = ConversationWindow()
 
-    def answer(self, question: str) -> str:
+    def answer_stream(self, question: str):
+        """Stream the answer token-by-token, yielding text chunks.
+
+        The full answer is accumulated and stored in memory once the stream
+        completes, so conversation history stays intact.
+        """
         docs = self.retriever.invoke(question)
         context = format_context(docs)
         messages = prompts.build_prompt(
@@ -53,7 +60,14 @@ class RAGChain:
             chat_history=self.memory.render(),
             question=question,
         )
-        response = self.llm.invoke(messages)
-        text = response.content if hasattr(response, "content") else str(response)
-        self.memory.add(question, text)
-        return text
+        collected = []
+        for chunk in self.llm.stream(messages):
+            piece = chunk.content if hasattr(chunk, "content") else str(chunk)
+            if piece:
+                collected.append(piece)
+                yield piece
+        self.memory.add(question, "".join(collected))
+
+    def answer(self, question: str) -> str:
+        """Return the full answer as a single string (collects the stream)."""
+        return "".join(self.answer_stream(question))
