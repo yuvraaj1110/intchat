@@ -17,7 +17,7 @@
 
 - name: "USCIS — STEM OPT Extension"
   type: html
-  url: "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment/stem-opt"
+  url: "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-extension-for-stem-students-stem-opt"
   category: "STEM_OPT"
 
 - name: "USCIS — Students and Exchange Visitors"
@@ -27,27 +27,32 @@
 
 - name: "Study in the States — Maintaining Status"
   type: html
-  url: "https://studyinthestates.dhs.gov/students/maintaining-your-status"
+  url: "https://studyinthestates.dhs.gov/students/maintaining-status"
   category: "MAINTAINING_STATUS"
 
-- name: "Study in the States — SEVIS Overview"
+- name: "Study in the States — SEVIS & Form I-20"
   type: html
-  url: "https://studyinthestates.dhs.gov/school-officials/sevis-overview"
+  url: "https://studyinthestates.dhs.gov/students/prepare/students-and-the-form-i-20"
   category: "SEVIS System Overview"
 
 - name: "Study in the States — Employment"
   type: html
-  url: "https://studyinthestates.dhs.gov/students/employment"
+  url: "https://studyinthestates.dhs.gov/students/work/working-in-the-united-states"
   category: "EMPLOYMENT"
 
-- name: "Study in the States — Travel"
+- name: "Study in the States — F-1 Guide"
   type: html
-  url: "https://studyinthestates.dhs.gov/students/travel"
-  category: "Travel and Entry"
+  url: "https://studyinthestates.dhs.gov/guide/f-1/f-1-postsecondary"
+  category: "Student Visas and Status"
 
-- name: "SSA — Social Security for Noncitizens"
+- name: "SSA — Social Security for International Students"
   type: html
-  url: "https://www.ssa.gov/pubs/EN-05-10096.pdf"
+  url: "https://www.ssa.gov/pubs/EN-05-10181.pdf"
+  category: "SSN"
+
+- name: "SSA — Social Security for Noncitizens FAQ"
+  type: html
+  url: "https://www.ssa.gov/faqs/en/questions/KA-02178.html"
   category: "SSN"
 
 - name: "State Dept — Student Visa"
