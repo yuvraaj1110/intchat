@@ -1,0 +1,88 @@
+# Knowledge sources for the international student chatbot.
+# Add entries here, then run: python3 -m app.build_kb --reset
+#
+# Fields:
+#   name     – human-readable label (shown in citations)
+#   type     – "html" or "pdf"
+#   url      – full URL (required for html)
+#   path     – local path relative to project root (required for pdf)
+#   category – maps to the chatbot's topic categories
+
+# ── Government sources (universal) ──────────────────────────────────────
+
+- name: "USCIS — OPT for F-1 Students"
+  type: html
+  url: "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-opt-for-f-1-students"
+  category: "OPT"
+
+- name: "USCIS — STEM OPT Extension"
+  type: html
+  url: "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment/stem-opt"
+  category: "STEM_OPT"
+
+- name: "USCIS — Students and Exchange Visitors"
+  type: html
+  url: "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors"
+  category: "Student Visas and Status"
+
+- name: "Study in the States — Maintaining Status"
+  type: html
+  url: "https://studyinthestates.dhs.gov/students/maintaining-your-status"
+  category: "MAINTAINING_STATUS"
+
+- name: "Study in the States — SEVIS Overview"
+  type: html
+  url: "https://studyinthestates.dhs.gov/school-officials/sevis-overview"
+  category: "SEVIS System Overview"
+
+- name: "Study in the States — Employment"
+  type: html
+  url: "https://studyinthestates.dhs.gov/students/employment"
+  category: "EMPLOYMENT"
+
+- name: "Study in the States — Travel"
+  type: html
+  url: "https://studyinthestates.dhs.gov/students/travel"
+  category: "Travel and Entry"
+
+- name: "SSA — Social Security for Noncitizens"
+  type: html
+  url: "https://www.ssa.gov/pubs/EN-05-10096.pdf"
+  category: "SSN"
+
+- name: "State Dept — Student Visa"
+  type: html
+  url: "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html"
+  category: "Student Visas and Status"
+
+# ── Purdue-specific sources ─────────────────────────────────────────────
+
+- name: "Purdue ISS — F-1 Employment Overview"
+  type: html
+  url: "https://www.purdue.edu/iss/employment/index.php"
+  category: "EMPLOYMENT"
+
+- name: "Purdue ISS — CPT"
+  type: html
+  url: "https://www.purdue.edu/iss/employment/f1cpt.php"
+  category: "CPT"
+
+- name: "Purdue ISS — OPT"
+  type: html
+  url: "https://www.purdue.edu/iss/employment/f1opt.php"
+  category: "OPT"
+
+- name: "Purdue ISS — Maintaining Status"
+  type: html
+  url: "https://www.purdue.edu/iss/immigration/maintain.php"
+  category: "MAINTAINING_STATUS"
+
+- name: "Purdue ISS — Travel"
+  type: html
+  url: "https://www.purdue.edu/iss/immigration/travel.php"
+  category: "Travel and Entry"
+
+- name: "Purdue ISS — New Students"
+  type: html
+  url: "https://www.purdue.edu/iss/new/index.php"
+  category: "Arrival in the U.S. (Airport, Immigration, First Week)"

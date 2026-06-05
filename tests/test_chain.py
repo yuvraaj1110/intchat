@@ -19,6 +19,31 @@ def test_format_context_lists_topics():
     assert "CPT is part of your curriculum." in ctx
 
 
+class _FakeDocWithProvenance:
+    def __init__(self, text, topic, source_url, fetched_at):
+        self.page_content = text
+        self.metadata = {
+            "topic": topic,
+            "source_url": source_url,
+            "fetched_at": fetched_at,
+        }
+
+
+def test_format_context_includes_provenance():
+    docs = [
+        _FakeDocWithProvenance(
+            "OPT lasts 12 months.",
+            "OPT",
+            "https://www.uscis.gov/opt",
+            "2026-06-05",
+        ),
+    ]
+    ctx = chain.format_context(docs)
+    assert "https://www.uscis.gov/opt" in ctx
+    assert "2026-06-05" in ctx
+    assert "OPT lasts 12 months." in ctx
+
+
 def test_memory_window_keeps_last_n_pairs():
     mem = chain.ConversationWindow(max_pairs=2)
     mem.add("q1", "a1")

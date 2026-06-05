@@ -71,16 +71,25 @@ def _to_documents(docs: list[dict[str, Any]]) -> list[Document]:
     """
     documents = []
     for d in docs:
+        meta = {
+            "doc_id": d["id"],
+            "category": d.get("category", ""),
+            "topic": d.get("topic", ""),
+            "type": d.get("type", ""),
+            "source": d.get("source", ""),
+            "chunk_index": d.get("chunk_index", 0),
+        }
+        # Provenance fields from web/PDF sources (Chroma needs flat scalars)
+        inner_meta = d.get("metadata", {})
+        if inner_meta.get("source_url"):
+            meta["source_url"] = inner_meta["source_url"]
+        if inner_meta.get("source_name"):
+            meta["source_name"] = inner_meta["source_name"]
+        if inner_meta.get("fetched_at"):
+            meta["fetched_at"] = inner_meta["fetched_at"]
         documents.append(Document(
             page_content=d["text"],
-            metadata={
-                "doc_id": d["id"],
-                "category": d.get("category", ""),
-                "topic": d.get("topic", ""),
-                "type": d.get("type", ""),
-                "source": d.get("source", ""),
-                "chunk_index": d.get("chunk_index", 0),
-            },
+            metadata=meta,
         ))
     return documents
 

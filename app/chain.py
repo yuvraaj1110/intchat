@@ -15,11 +15,19 @@ from app.retriever import build_retriever
 
 
 def format_context(docs) -> str:
-    """Render retrieved docs as a context block with topic labels."""
+    """Render retrieved docs as a context block with topic + provenance labels."""
     blocks = []
     for d in docs:
         topic = d.metadata.get("topic", "")
-        label = f"[{topic}] " if topic else ""
+        source_url = d.metadata.get("source_url", "")
+        fetched_at = d.metadata.get("fetched_at", "")
+        # Build label: [Topic | source_url | date] or [Topic] for hand-written
+        if source_url:
+            label = f"[{topic} | {source_url} | {fetched_at}] "
+        elif topic:
+            label = f"[{topic}] "
+        else:
+            label = ""
         blocks.append(f"{label}{d.page_content}")
     return "\n\n".join(blocks)
 

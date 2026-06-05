@@ -14,6 +14,9 @@ load_dotenv()
 # ── Paths ────────────────────────────────────────────────────────────────
 BASE_DIR = Path(__file__).resolve().parent.parent
 NORMALIZED_DATASET = BASE_DIR / "datasets" / "normalized_dataset.json"
+NORMALIZED_ALL = BASE_DIR / "datasets" / "normalized_all.json"
+SOURCES_YAML = BASE_DIR / "sources.yaml"
+PDFS_DIR = BASE_DIR / "datasets" / "pdfs"
 CHROMA_DIR = BASE_DIR / "chroma_db"
 
 # ── Vector store ─────────────────────────────────────────────────────────
@@ -72,7 +75,9 @@ DEDUP_EXCLUDE_IDS = {
 
 # Known immigration terms used by the metadata-filter half of hybrid retrieval.
 KNOWN_TERMS = [
-    "I-765", "I-20", "I-983", "I-901", "I-17",
-    "F-1", "M-1", "J-1",
+    "I-765", "I-20", "I-983", "I-901", "I-17", "I-94",
+    "F-1", "M-1", "J-1", "H-1B",
     "OPT", "CPT", "STEM", "SEVIS", "SEVP", "EAD", "SSN", "DSO",
+    "FICA", "1040-NR", "W-4", "W-8BEN", "ITIN",
+    "Glacier", "Sprintax",
 ]
