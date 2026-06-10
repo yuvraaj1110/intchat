@@ -16,6 +16,11 @@ def test_config_has_expected_constants():
     assert config.CHROMA_DIR.name == "chroma_db"
 
 
+def test_web_config_present():
+    assert config.RATE_LIMIT == "20/hour"
+    assert str(config.FEEDBACK_LOG).endswith("feedback.jsonl")
+
+
 def test_dedup_exclusions_are_the_eight_overlap_docs():
     assert config.DEDUP_EXCLUDE_IDS == {
         "dataset_A__cpt_guidance__0",

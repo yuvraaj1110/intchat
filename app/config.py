@@ -41,6 +41,10 @@ TOP_K = 5        # final documents passed to the LLM as context
 # ── Input handling ───────────────────────────────────────────────────────
 MAX_QUERY_LEN = 500  # user queries are truncated to this many characters
 
+# ── Web server ───────────────────────────────────────────────────────────
+RATE_LIMIT = "20/hour"  # per-IP limit on /chat/stream
+FEEDBACK_LOG = BASE_DIR / "feedback.jsonl"  # thumbs up/down log (gitignored)
+
 # ── LLM ──────────────────────────────────────────────────────────────────
 # Groq hosts third-party open models and deprecates them periodically, so no
 # single model name is permanently valid. Instead of hardcoding one, we keep a
