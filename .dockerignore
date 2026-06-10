@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+.git/
+chroma_db/
+feedback.jsonl
+datasets/normalized_all.json
+docs/
+tests/
+.pytest_cache/
