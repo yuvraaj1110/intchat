@@ -79,3 +79,23 @@ class RAGChain:
     def answer(self, question: str) -> str:
         """Return the full answer as a single string (collects the stream)."""
         return "".join(self.answer_stream(question))
+
+    def retrieve(self, question: str):
+        """Return the retrieved documents for a question (for source display)."""
+        return self.retriever.invoke(question)
+
+    def answer_stream_stateless(self, question: str, docs=None):
+        """Stream an answer without reading or writing conversation memory.
+
+        Used by the web server, where many users share one RAGChain instance
+        and must not share conversation history.
+        """
+        docs = docs if docs is not None else self.retrieve(question)
+        context = format_context(docs)
+        messages = prompts.build_prompt(
+            context=context, chat_history="", question=question
+        )
+        for chunk in self.llm.stream(messages):
+            piece = chunk.content if hasattr(chunk, "content") else str(chunk)
+            if piece:
+                yield piece

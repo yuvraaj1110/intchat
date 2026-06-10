@@ -88,3 +88,18 @@ def test_answer_stream_yields_pieces_and_stores_memory():
 def test_answer_collects_stream_into_string():
     rag = chain.RAGChain(_FakeStore(), llm=_FakeStreamingLLM())
     assert rag.answer("Can I work on OPT?") == "OPT lets you work."
+
+
+def test_retrieve_returns_docs():
+    rag = chain.RAGChain(_FakeStore(), llm=_FakeStreamingLLM())
+    docs = rag.retrieve("Can I work on OPT?")
+    assert len(docs) >= 1
+    assert docs[0].page_content
+
+
+def test_answer_stream_stateless_does_not_touch_memory():
+    rag = chain.RAGChain(_FakeStore(), llm=_FakeStreamingLLM())
+    pieces = list(rag.answer_stream_stateless("Can I work on OPT?"))
+    assert pieces == ["OPT ", "lets you ", "work."]
+    # Memory must stay empty — stateless
+    assert rag.memory.render() == ""
