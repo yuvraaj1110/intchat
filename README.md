@@ -11,7 +11,26 @@ provenance (source URL + fetch date) in every answer.
 1. `pip install -r requirements.txt`
 2. `cp .env.example .env` and add your free key from https://console.groq.com/keys
 3. `python3 -m app.build_kb --reset`  # fetch sources + build vector store (~60s)
-4. `python3 -m app.chat`              # start chatting
+4. `python3 -m app.chat`              # start chatting (CLI)
+
+## Running the web interface
+
+Local:
+```bash
+uvicorn app.server:app --reload --port 8000
+# open http://localhost:8000
+```
+
+Deploy to Railway (free tier):
+1. Push to GitHub `main`.
+2. On railway.app, create a new project from your repo.
+3. Set the `GROQ_API_KEY` environment variable in Railway.
+4. Railway builds the Dockerfile (Chroma is baked in) and gives you a public URL.
+
+The web UI is **stateless** (no cross-question memory) and rate-limited to
+20 questions per IP per hour to protect the shared Groq quota. Thumbs up/down
+feedback is logged to `feedback.jsonl` on the server. Answers stream token by
+token (SSE) and show source URLs + fetch dates in a sidebar.
 
 ## Architecture
 
@@ -41,6 +60,8 @@ question
 | `app/llm.py` | Groq client; auto-selects a live model from a preference list |
 | `app/chain.py` | Wires retriever + prompt + LLM + memory into `RAGChain.answer()` |
 | `app/chat.py` | CLI REPL with input validation and startup checks |
+| `app/server.py` | FastAPI web server: SSE streaming, rate limiting, feedback |
+| `app/static/` | Q&A web UI (HTML/CSS/JS) with source sidebar |
 
 ## Knowledge base
 
@@ -54,9 +75,9 @@ Answers cite source URLs and retrieval dates for verifiability.
 
 ## Tests
 
-- `pytest -m "not slow"`  — fast unit tests (44)
+- `pytest -m "not slow"`  — fast unit tests (54)
 - `pytest -m slow`        — tests that build a real vector store (4)
-- `pytest`                — full suite (48)
+- `pytest`                — full suite (58)
 
 ## Notes on the Groq model
 
@@ -75,7 +96,9 @@ Every component is a single-file swap:
 | Vector DB | ChromaDB (embedded) | Qdrant (`app/retriever.py`) |
 | Embeddings | `all-MiniLM-L6-v2` | `bge-large-en-v1.5` / API (`app/config.py`) |
 | LLM | Groq free tier | Groq paid / OpenAI / Claude (`app/llm.py`) |
-| Memory | in-process window | Redis / Postgres (`app/chain.py`) |
-| Frontend | CLI | FastAPI + web UI (new entry point) |
+| Memory | in-process window (CLI) / stateless (web) | Redis / Postgres (`app/chain.py`) |
+| Frontend | CLI + FastAPI web UI | + per-session memory, auth, custom domain |
+| Hosting | Railway free tier (Docker) | Fly.io / VPS with autoscaling |
+| Rate limiting | in-memory per-IP (`slowapi`) | Redis-backed distributed limits |
 
 See `docs/superpowers/specs/2026-06-04-rag-chatbot-design.md` for the full design.
