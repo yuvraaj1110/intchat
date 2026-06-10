@@ -1,0 +1,48 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #1a1a2e; background: #f4f6fb; line-height: 1.6;
+}
+header {
+  background: #16213e; color: #fff; padding: 1.5rem 2rem;
+}
+header h1 { font-size: 1.4rem; }
+.subtitle { font-size: 0.9rem; opacity: 0.8; margin-top: 0.25rem; }
+
+main {
+  display: grid; grid-template-columns: 1fr 320px; gap: 1.5rem;
+  max-width: 1100px; margin: 1.5rem auto; padding: 0 1.5rem;
+}
+
+.chat { background: #fff; border-radius: 12px; padding: 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+#ask-form { display: flex; gap: 0.5rem; margin-bottom: 1.25rem; }
+#question {
+  flex: 1; padding: 0.75rem 1rem; border: 1px solid #d0d5dd;
+  border-radius: 8px; font-size: 1rem;
+}
+#question:focus { outline: none; border-color: #16213e; }
+#send-btn {
+  padding: 0.75rem 1.5rem; background: #16213e; color: #fff;
+  border: none; border-radius: 8px; font-size: 1rem; cursor: pointer;
+}
+#send-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.answer { white-space: pre-wrap; min-height: 2rem; font-size: 1rem; }
+.answer.error { color: #b42318; }
+
+.feedback { margin-top: 1.5rem; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem; color: #555; }
+.thumb { background: none; border: 1px solid #d0d5dd; border-radius: 6px; padding: 0.25rem 0.6rem; cursor: pointer; font-size: 1rem; }
+.thumb:hover { background: #f0f2f7; }
+
+.sidebar { background: #fff; border-radius: 12px; padding: 1.25rem; box-shadow: 0 1px 4px rgba(0,0,0,0.06); height: fit-content; }
+.sidebar h2 { font-size: 1rem; margin-bottom: 0.75rem; color: #16213e; }
+.source-item { border-left: 3px solid #16213e; padding: 0.5rem 0.75rem; margin-bottom: 0.75rem; background: #f8f9fc; border-radius: 4px; }
+.source-item .name { font-weight: 600; font-size: 0.88rem; }
+.source-item a { color: #2d5bd7; font-size: 0.8rem; word-break: break-all; text-decoration: none; }
+.source-item a:hover { text-decoration: underline; }
+.source-item .date { color: #888; font-size: 0.75rem; }
+.sources-empty { color: #999; font-size: 0.85rem; }
+
+@media (max-width: 768px) {
+  main { grid-template-columns: 1fr; }
+}

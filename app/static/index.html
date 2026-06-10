@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>International Student Assistant</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <h1>🎓 International Student Assistant</h1>
+    <p class="subtitle">Ask about F-1, OPT, CPT, SEVIS, employment, and student life in the U.S.</p>
+  </header>
+
+  <main>
+    <section class="chat">
+      <form id="ask-form">
+        <input id="question" type="text" placeholder="Type your question..." autocomplete="off" />
+        <button type="submit" id="send-btn">Ask</button>
+      </form>
+
+      <div id="answer" class="answer"></div>
+
+      <div id="feedback" class="feedback" hidden>
+        <span>Was this helpful?</span>
+        <button data-rating="up" class="thumb">👍</button>
+        <button data-rating="down" class="thumb">👎</button>
+        <span id="feedback-thanks" hidden>Thanks for the feedback!</span>
+      </div>
+    </section>
+
+    <aside class="sidebar">
+      <h2>Sources</h2>
+      <div id="sources" class="sources">
+        <p class="sources-empty">Sources will appear here after you ask a question.</p>
+      </div>
+    </aside>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

@@ -4,3 +4,4 @@ __pycache__/
 *.pyc
 chroma_db/
 datasets/normalized_all.json
+feedback.jsonl
