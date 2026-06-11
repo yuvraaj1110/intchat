@@ -1,3 +1,13 @@
+---
+title: International Student Assistant
+emoji: 🎓
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # International Student RAG Chatbot
 
 A free, retrieval-augmented chatbot answering F-1 / SEVIS / OPT / CPT, employment,
