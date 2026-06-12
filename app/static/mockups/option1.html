@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Option 1 — Claude Light</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f3f1ea; --surface:#ffffff; --text:#2a2724; --dim:#73706a;
+  --faint:#a8a49c; --accent:#cc785c; --accent-soft:#f5e8e2; --border:#e7e3da;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{font-family:"Inter",system-ui,sans-serif;background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased}
+.app{display:flex;flex-direction:column;height:100vh;max-width:720px;margin:0 auto}
+.top{display:flex;align-items:center;gap:.6rem;padding:1.1rem 1.5rem;border-bottom:1px solid var(--border)}
+.mark{width:30px;height:30px;border-radius:8px;background:var(--accent);display:grid;place-items:center;color:#fff;font-size:.95rem}
+.top h1{font-size:.95rem;font-weight:600}
+.top .sub{font-size:.75rem;color:var(--faint);font-weight:450}
+.thread{flex:1;overflow-y:auto;padding:1.75rem 1.5rem;display:flex;flex-direction:column;gap:1.75rem}
+.turn{display:flex;flex-direction:column;gap:.55rem;animation:rise .4s ease}
+.role{display:flex;align-items:center;gap:.5rem;font-size:.78rem;font-weight:600;color:var(--dim)}
+.avatar{width:22px;height:22px;border-radius:6px;display:grid;place-items:center;font-size:.7rem;color:#fff}
+.avatar.you{background:#7a766e}
+.avatar.bot{background:var(--accent)}
+.content{font-size:1rem;line-height:1.72;color:var(--text);padding-left:1.95rem}
+.user .content{color:#4a4640}
+.disc{font-size:.85rem;color:var(--dim);margin-top:.5rem;font-style:italic}
+.sources{margin:.85rem 0 0 1.95rem}
+.src-toggle{font-size:.8rem;font-weight:600;color:var(--accent);background:none;border:none;cursor:pointer;display:inline-flex;gap:.3rem;align-items:center;padding:0}
+.src-list{margin-top:.6rem;display:flex;flex-direction:column;gap:.5rem}
+.src{border:1px solid var(--border);background:var(--surface);border-radius:10px;padding:.6rem .8rem}
+.src .n{font-size:.82rem;font-weight:600}
+.src a{font-size:.76rem;color:var(--accent);text-decoration:none;word-break:break-all}
+.src .d{font-size:.72rem;color:var(--faint);margin-top:.15rem}
+.fb{margin:.7rem 0 0 1.95rem;display:flex;gap:.4rem}
+.fb button{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:.25rem .55rem;cursor:pointer;font-size:.9rem}
+.composer{padding:1rem 1.5rem 1.25rem}
+.cbox{display:flex;align-items:flex-end;gap:.5rem;background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:.55rem .55rem .55rem 1rem;box-shadow:0 2px 10px rgba(0,0,0,.03)}
+.cbox:focus-within{border-color:var(--accent)}
+.cbox input{flex:1;border:none;outline:none;background:none;font-family:inherit;font-size:1rem;color:var(--text);padding:.45rem 0}
+.send{width:38px;height:38px;border:none;border-radius:10px;background:var(--accent);color:#fff;cursor:pointer;display:grid;place-items:center}
+.tip{text-align:center;font-size:.74rem;color:var(--faint);margin-top:.6rem}
+@keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="top">
+    <div class="mark">🎓</div>
+    <div><h1>International Student Assistant</h1><div class="sub">Option 1 · Claude Light</div></div>
+  </div>
+  <div class="thread">
+    <div class="turn user">
+      <div class="role"><span class="avatar you">Y</span> You</div>
+      <div class="content">How many hours can I work on OPT?</div>
+    </div>
+    <div class="turn bot">
+      <div class="role"><span class="avatar bot">✦</span> Assistant</div>
+      <div class="content">On post-completion OPT, you can work full-time — there's no 20-hour weekly cap once your program is complete. During pre-completion OPT (while school is still in session), you're limited to 20 hours per week, and you can work full-time during official school breaks.<div class="disc">This is general guidance, not legal advice. Always confirm with your DSO or an immigration attorney.</div></div>
+      <div class="sources">
+        <button class="src-toggle" onclick="this.parentNode.querySelector('.src-list').style.display=this.parentNode.querySelector('.src-list').style.display==='flex'?'none':'flex'">▸ 2 sources</button>
+        <div class="src-list" style="display:flex">
+          <div class="src"><div class="n">USCIS — OPT for F-1 Students</div><a>https://www.uscis.gov/working-in-the-united-states/students…/optional-practical-training-opt-for-f-1-students</a><div class="d">retrieved 2026-06-12</div></div>
+          <div class="src"><div class="n">Study in the States — Employment</div><a>https://studyinthestates.dhs.gov/students/work/working-in-the-united-states</a><div class="d">retrieved 2026-06-12</div></div>
+        </div>
+      </div>
+      <div class="fb"><button>👍</button><button>👎</button></div>
+    </div>
+  </div>
+  <div class="composer">
+    <div class="cbox"><input placeholder="Reply to the assistant…"><button class="send">↑</button></div>
+    <div class="tip">General guidance, not legal advice — confirm with your DSO.</div>
+  </div>
+</div>
+</body>
+</html>

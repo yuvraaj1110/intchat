@@ -25,10 +25,12 @@ form.addEventListener("submit", (e) => {
 function ask(question) {
   busy = true;
   sendBtn.disabled = true;
+  document.body.classList.add("chatting");   // hide campus background + college UI
+  stopSlideshow();
   removeWelcome();
-  addUserMessage(question);
+  addUserTurn(question);
 
-  const bot = addBotMessage();            // returns handles to its parts
+  const bot = addBotTurn();
   let answer = "";
   let gotToken = false;
 
@@ -42,8 +44,7 @@ function ask(question) {
   });
 
   es.addEventListener("sources", (ev) => {
-    const sources = JSON.parse(ev.data);
-    bot.renderSources(sources);
+    bot.renderSources(JSON.parse(ev.data));
   });
 
   es.addEventListener("done", () => {
@@ -56,7 +57,7 @@ function ask(question) {
   es.addEventListener("error", (ev) => {
     es.close();
     bot.clearTyping();
-    bot.bubble.classList.add("error");
+    bot.contentEl.classList.add("error");
     bot.textEl.textContent = ev.data || "Something went wrong. Please try again.";
     finish();
   });
@@ -73,58 +74,66 @@ function removeWelcome() {
   if (w) w.remove();
 }
 
-function addUserMessage(text) {
-  const msg = el("div", "msg user");
-  const bubble = el("div", "bubble");
-  bubble.textContent = text;
-  msg.appendChild(bubble);
-  thread.appendChild(msg);
+function addUserTurn(text) {
+  const turn = el("div", "turn user");
+  const role = el("div", "role");
+  const av = el("span", "avatar you"); av.textContent = "Y";
+  role.append(av, document.createTextNode(" You"));
+  const content = el("div", "content");
+  content.textContent = text;
+  turn.append(role, content);
+  thread.appendChild(turn);
   scrollDown();
 }
 
-function addBotMessage() {
-  const msg = el("div", "msg bot");
-  const bubble = el("div", "bubble");
-  // typing indicator
+function addBotTurn() {
+  const turn = el("div", "turn bot");
+
+  const role = el("div", "role");
+  const av = el("span", "avatar bot"); av.textContent = "✦";
+  role.append(av, document.createTextNode(" Assistant"));
+
+  const contentEl = el("div", "content");
   const typing = el("div", "dots");
   typing.innerHTML = "<span></span><span></span><span></span>";
-  bubble.appendChild(typing);
+  contentEl.appendChild(typing);
+
   const textEl = el("span");
-  msg.appendChild(bubble);
-  thread.appendChild(msg);
+
+  turn.append(role, contentEl);
+  thread.appendChild(turn);
   scrollDown();
 
   return {
-    bubble,
+    turn,
+    contentEl,
     textEl,
     clearTyping() {
-      bubble.innerHTML = "";
-      bubble.appendChild(textEl);
+      contentEl.innerHTML = "";
+      contentEl.appendChild(textEl);
     },
     renderSources(sources) {
       if (!sources || !sources.length) return;
-      const wrap = el("div", "sources");
-      const toggle = el("button", "sources-toggle");
+      const wrap = el("div", "sources open");  // expanded by default (boxes shown)
+      const toggle = el("button", "src-toggle");
       toggle.innerHTML =
         `<span class="caret">▸</span> ${sources.length} source${sources.length > 1 ? "s" : ""}`;
-      const list = el("div", "sources-list");
+      const list = el("div", "src-list");
       sources.forEach((s) => {
-        const item = el("div", "source-item");
-        const name = el("div", "name");
+        const item = el("div", "src");
+        const name = el("div", "n");
         name.textContent = s.source_name || s.topic || "Source";
         const link = el("a");
-        link.href = s.source_url;
-        link.target = "_blank";
-        link.rel = "noopener";
+        link.href = s.source_url; link.target = "_blank"; link.rel = "noopener";
         link.textContent = s.source_url;
-        const date = el("div", "date");
+        const date = el("div", "d");
         date.textContent = s.fetched_at ? "retrieved " + s.fetched_at : "";
         item.append(name, link, date);
         list.appendChild(item);
       });
       toggle.addEventListener("click", () => wrap.classList.toggle("open"));
       wrap.append(toggle, list);
-      bubble.appendChild(wrap);
+      turn.appendChild(wrap);
     },
     addFeedback(question, answer) {
       const fb = el("div", "fb");
@@ -143,7 +152,7 @@ function addBotMessage() {
       up.addEventListener("click", () => send("up"));
       down.addEventListener("click", () => send("down"));
       fb.append(up, down, thanks);
-      bubble.appendChild(fb);
+      turn.appendChild(fb);
     },
   };
 }
@@ -154,6 +163,99 @@ function el(tag, className) {
   return node;
 }
 
+function escapeHtml(str) {
+  const div = document.createElement("div");
+  div.textContent = str == null ? "" : str;
+  return div.innerHTML;
+}
+
 function scrollDown() {
   thread.scrollTop = thread.scrollHeight;
 }
+
+
+/* ── Campus-photo background slideshow + "Is this your college?" ───────── */
+let slideshowTimer = null;
+let stopSlideshow = () => {};
+
+(function collegeBackground() {
+  const stage = document.getElementById("stage");
+  const layers = [document.getElementById("bg-a"), document.getElementById("bg-b")];
+  const nameEl = document.getElementById("college-name");
+  const btn = document.getElementById("college-btn");
+  const reveal = document.getElementById("college-reveal");
+  if (!stage || !btn) return;
+
+  let colleges = [];
+  let idx = 0;
+  let active = 0;
+  let current = null;
+  let locked = false;   // once the user picks their college, keep the reveal for the session
+
+  stopSlideshow = () => {
+    if (slideshowTimer) clearInterval(slideshowTimer);
+    slideshowTimer = null;
+  };
+
+  function shuffle(arr) {
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  }
+
+  function showCollege(college) {
+    // Preload, then crossfade onto the inactive layer.
+    const img = new Image();
+    img.onload = () => {
+      const next = layers[1 - active];
+      next.style.backgroundImage = `url("${college.image}")`;
+      next.classList.add("show");
+      layers[active].classList.remove("show");
+      active = 1 - active;
+      current = college;
+      // Keep the reveal pinned once the user has picked their college;
+      // hide the cycling caption so it doesn't conflict with the pinned reveal.
+      if (locked) {
+        nameEl.classList.remove("show");
+      } else {
+        nameEl.textContent = college.name;
+        nameEl.classList.add("show");
+        reveal.hidden = true;
+        btn.style.display = "";
+      }
+    };
+    img.onerror = nextCollege;  // skip broken images
+    img.src = college.image;
+  }
+
+  function nextCollege() {
+    if (!colleges.length) return;
+    idx = (idx + 1) % colleges.length;
+    showCollege(colleges[idx]);
+  }
+
+  btn.addEventListener("click", () => {
+    if (!current) return;
+    // Lock in the user's college for the whole session — the reveal stays,
+    // the button never comes back. Background photos keep cycling behind it.
+    locked = true;
+    reveal.innerHTML =
+      `🎉 Oh, so you're a ${escapeHtml(current.demonym)}!` +
+      `<span class="sub">${escapeHtml(current.name)}</span>`;
+    reveal.hidden = false;
+    btn.style.display = "none";
+  });
+
+  fetch("/static/colleges.json")
+    .then((r) => r.json())
+    .then((data) => {
+      if (!data || !data.length) { stage.style.display = "none"; return; }
+      colleges = shuffle(data.slice());
+      idx = 0;
+      showCollege(colleges[0]);
+      slideshowTimer = setInterval(nextCollege, 7000);
+    })
+    .catch(() => { stage.style.display = "none"; });
+})();

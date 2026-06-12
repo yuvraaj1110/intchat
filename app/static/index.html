@@ -6,28 +6,46 @@
   <title>International Student Assistant</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
+  <!-- Cycling campus-photo background (welcome state only) -->
+  <div id="stage" aria-hidden="true">
+    <div class="bg" id="bg-a"></div>
+    <div class="bg" id="bg-b"></div>
+    <div class="scrim"></div>
+  </div>
+
   <div class="app">
-    <header class="topbar">
+    <header class="top">
       <div class="brand">
-        <span class="logo">🎓</span>
-        <div class="brand-text">
-          <span class="brand-title">International Student Assistant</span>
-          <span class="brand-sub">F-1 · OPT · CPT · SEVIS · employment · student life</span>
+        <div class="mark">
+          <svg class="cap" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/>
+            <path d="M22 10v6"/>
+            <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/>
+          </svg>
+        </div>
+        <div>
+          <h1>International Student Assistant</h1>
+          <div class="sub">F-1 · OPT · CPT · SEVIS · employment · student life</div>
         </div>
       </div>
-      <span class="badge">Beta</span>
     </header>
 
     <main id="thread" class="thread">
       <div id="welcome" class="welcome">
-        <div class="welcome-orb">🎓</div>
-        <h1>How can I help you today?</h1>
+        <div class="welcome-mark">
+          <svg class="cap" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/>
+            <path d="M22 10v6"/>
+            <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/>
+          </svg>
+        </div>
+        <h2>How can I help you today?</h2>
         <p>Ask me anything about studying in the U.S. as an international student.
-           I answer from official sources and show you where each answer comes from.</p>
+           Every answer comes from official sources, with links so you can verify.</p>
         <div class="chips">
           <button class="chip">How many hours can I work on OPT?</button>
           <button class="chip">What's the difference between CPT and OPT?</button>
@@ -38,14 +56,19 @@
     </main>
 
     <footer class="composer">
-      <form id="ask-form" class="composer-inner">
+      <form id="ask-form" class="cbox">
         <input id="question" type="text" placeholder="Ask a question…" autocomplete="off" />
-        <button type="submit" id="send-btn" aria-label="Send">
-          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
-        </button>
+        <button type="submit" id="send-btn" class="send" aria-label="Send">↑</button>
       </form>
-      <p class="disclaimer">General guidance, not legal advice. Always confirm with your DSO or an immigration attorney.</p>
+      <p class="tip">General guidance, not legal advice — always confirm with your DSO or an immigration attorney.</p>
     </footer>
+  </div>
+
+  <!-- College guess UI (welcome state only) -->
+  <div id="college-ui">
+    <div id="college-name" class="college-name"></div>
+    <button id="college-btn" class="college-btn">Is this your college?</button>
+    <div id="college-reveal" class="college-reveal" hidden></div>
   </div>
 
   <script src="/static/app.js"></script>
