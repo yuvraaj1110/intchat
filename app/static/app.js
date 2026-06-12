@@ -1,85 +1,159 @@
 const form = document.getElementById("ask-form");
 const input = document.getElementById("question");
 const sendBtn = document.getElementById("send-btn");
-const answerEl = document.getElementById("answer");
-const sourcesEl = document.getElementById("sources");
-const feedbackEl = document.getElementById("feedback");
-const thanksEl = document.getElementById("feedback-thanks");
+const thread = document.getElementById("thread");
 
-let lastQuestion = "";
-let lastAnswer = "";
+let busy = false;
+
+// Example chips fill the input and submit immediately.
+document.querySelectorAll(".chip").forEach((chip) => {
+  chip.addEventListener("click", () => {
+    if (busy) return;
+    input.value = chip.textContent;
+    form.requestSubmit();
+  });
+});
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   const question = input.value.trim();
-  if (!question) return;
-  askQuestion(question);
+  if (!question || busy) return;
+  input.value = "";
+  ask(question);
 });
 
-function askQuestion(question) {
-  lastQuestion = question;
-  lastAnswer = "";
-  answerEl.textContent = "";
-  answerEl.classList.remove("error");
-  sourcesEl.innerHTML = "";
-  feedbackEl.hidden = true;
-  thanksEl.hidden = true;
+function ask(question) {
+  busy = true;
   sendBtn.disabled = true;
+  removeWelcome();
+  addUserMessage(question);
+
+  const bot = addBotMessage();            // returns handles to its parts
+  let answer = "";
+  let gotToken = false;
 
   const es = new EventSource("/chat/stream?q=" + encodeURIComponent(question));
 
   es.addEventListener("token", (ev) => {
-    lastAnswer += ev.data;
-    answerEl.textContent = lastAnswer;
+    if (!gotToken) { bot.clearTyping(); gotToken = true; }
+    answer += ev.data;
+    bot.textEl.textContent = answer;
+    scrollDown();
   });
 
   es.addEventListener("sources", (ev) => {
     const sources = JSON.parse(ev.data);
-    renderSources(sources);
+    bot.renderSources(sources);
   });
 
   es.addEventListener("done", () => {
     es.close();
-    sendBtn.disabled = false;
-    if (lastAnswer.trim()) feedbackEl.hidden = false;
+    finish();
+    if (answer.trim()) bot.addFeedback(question, answer);
+    scrollDown();
   });
 
   es.addEventListener("error", (ev) => {
     es.close();
+    bot.clearTyping();
+    bot.bubble.classList.add("error");
+    bot.textEl.textContent = ev.data || "Something went wrong. Please try again.";
+    finish();
+  });
+
+  function finish() {
+    busy = false;
     sendBtn.disabled = false;
-    // ev.data is set for our explicit error event; network errors have none.
-    answerEl.textContent = ev.data || "Something went wrong. Please try again.";
-    answerEl.classList.add("error");
-  });
-}
-
-function renderSources(sources) {
-  if (!sources.length) {
-    sourcesEl.innerHTML = '<p class="sources-empty">No external sources for this answer.</p>';
-    return;
+    input.focus();
   }
-  sourcesEl.innerHTML = sources.map((s) => `
-    <div class="source-item">
-      <div class="name">${escapeHtml(s.source_name || s.topic || "Source")}</div>
-      <a href="${escapeHtml(s.source_url)}" target="_blank" rel="noopener">${escapeHtml(s.source_url)}</a>
-      <div class="date">retrieved ${escapeHtml(s.fetched_at || "")}</div>
-    </div>
-  `).join("");
 }
 
-feedbackEl.addEventListener("click", (e) => {
-  const btn = e.target.closest(".thumb");
-  if (!btn) return;
-  fetch("/feedback", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ question: lastQuestion, answer: lastAnswer, rating: btn.dataset.rating }),
-  });
-  thanksEl.hidden = false;
-});
+function removeWelcome() {
+  const w = document.getElementById("welcome");
+  if (w) w.remove();
+}
 
-function escapeHtml(str) {
-  const div = document.createElement("div");
-  div.textContent = str;
-  return div.innerHTML;
+function addUserMessage(text) {
+  const msg = el("div", "msg user");
+  const bubble = el("div", "bubble");
+  bubble.textContent = text;
+  msg.appendChild(bubble);
+  thread.appendChild(msg);
+  scrollDown();
+}
+
+function addBotMessage() {
+  const msg = el("div", "msg bot");
+  const bubble = el("div", "bubble");
+  // typing indicator
+  const typing = el("div", "dots");
+  typing.innerHTML = "<span></span><span></span><span></span>";
+  bubble.appendChild(typing);
+  const textEl = el("span");
+  msg.appendChild(bubble);
+  thread.appendChild(msg);
+  scrollDown();
+
+  return {
+    bubble,
+    textEl,
+    clearTyping() {
+      bubble.innerHTML = "";
+      bubble.appendChild(textEl);
+    },
+    renderSources(sources) {
+      if (!sources || !sources.length) return;
+      const wrap = el("div", "sources");
+      const toggle = el("button", "sources-toggle");
+      toggle.innerHTML =
+        `<span class="caret">▸</span> ${sources.length} source${sources.length > 1 ? "s" : ""}`;
+      const list = el("div", "sources-list");
+      sources.forEach((s) => {
+        const item = el("div", "source-item");
+        const name = el("div", "name");
+        name.textContent = s.source_name || s.topic || "Source";
+        const link = el("a");
+        link.href = s.source_url;
+        link.target = "_blank";
+        link.rel = "noopener";
+        link.textContent = s.source_url;
+        const date = el("div", "date");
+        date.textContent = s.fetched_at ? "retrieved " + s.fetched_at : "";
+        item.append(name, link, date);
+        list.appendChild(item);
+      });
+      toggle.addEventListener("click", () => wrap.classList.toggle("open"));
+      wrap.append(toggle, list);
+      bubble.appendChild(wrap);
+    },
+    addFeedback(question, answer) {
+      const fb = el("div", "fb");
+      const up = el("button"); up.textContent = "👍";
+      const down = el("button"); down.textContent = "👎";
+      const thanks = el("span", "thanks");
+      const send = (rating) => {
+        fetch("/feedback", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ question, answer, rating }),
+        });
+        up.disabled = down.disabled = true;
+        thanks.textContent = "Thanks!";
+      };
+      up.addEventListener("click", () => send("up"));
+      down.addEventListener("click", () => send("down"));
+      fb.append(up, down, thanks);
+      bubble.appendChild(fb);
+    },
+  };
+}
+
+function el(tag, className) {
+  const node = document.createElement(tag);
+  if (className) node.className = className;
+  return node;
+}
+
+function scrollDown() {
+  thread.scrollTop = thread.scrollHeight;
 }

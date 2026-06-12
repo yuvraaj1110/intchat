@@ -4,38 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>International Student Assistant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
-  <header>
-    <h1>🎓 International Student Assistant</h1>
-    <p class="subtitle">Ask about F-1, OPT, CPT, SEVIS, employment, and student life in the U.S.</p>
-  </header>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand">
+        <span class="logo">🎓</span>
+        <div class="brand-text">
+          <span class="brand-title">International Student Assistant</span>
+          <span class="brand-sub">F-1 · OPT · CPT · SEVIS · employment · student life</span>
+        </div>
+      </div>
+      <span class="badge">Beta</span>
+    </header>
 
-  <main>
-    <section class="chat">
-      <form id="ask-form">
-        <input id="question" type="text" placeholder="Type your question..." autocomplete="off" />
-        <button type="submit" id="send-btn">Ask</button>
+    <main id="thread" class="thread">
+      <div id="welcome" class="welcome">
+        <div class="welcome-orb">🎓</div>
+        <h1>How can I help you today?</h1>
+        <p>Ask me anything about studying in the U.S. as an international student.
+           I answer from official sources and show you where each answer comes from.</p>
+        <div class="chips">
+          <button class="chip">How many hours can I work on OPT?</button>
+          <button class="chip">What's the difference between CPT and OPT?</button>
+          <button class="chip">How do I maintain my F-1 status?</button>
+          <button class="chip">When can I apply for STEM OPT?</button>
+        </div>
+      </div>
+    </main>
+
+    <footer class="composer">
+      <form id="ask-form" class="composer-inner">
+        <input id="question" type="text" placeholder="Ask a question…" autocomplete="off" />
+        <button type="submit" id="send-btn" aria-label="Send">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+        </button>
       </form>
-
-      <div id="answer" class="answer"></div>
-
-      <div id="feedback" class="feedback" hidden>
-        <span>Was this helpful?</span>
-        <button data-rating="up" class="thumb">👍</button>
-        <button data-rating="down" class="thumb">👎</button>
-        <span id="feedback-thanks" hidden>Thanks for the feedback!</span>
-      </div>
-    </section>
-
-    <aside class="sidebar">
-      <h2>Sources</h2>
-      <div id="sources" class="sources">
-        <p class="sources-empty">Sources will appear here after you ask a question.</p>
-      </div>
-    </aside>
-  </main>
+      <p class="disclaimer">General guidance, not legal advice. Always confirm with your DSO or an immigration attorney.</p>
+    </footer>
+  </div>
 
   <script src="/static/app.js"></script>
 </body>
