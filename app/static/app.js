@@ -91,7 +91,7 @@ function addBotTurn() {
 
   const role = el("div", "role");
   const av = el("span", "avatar bot"); av.textContent = "✦";
-  role.append(av, document.createTextNode(" Assistant"));
+  role.append(av, document.createTextNode(" JIG"));
 
   const contentEl = el("div", "content");
   const typing = el("div", "dots");
@@ -258,4 +258,23 @@ let stopSlideshow = () => {};
       slideshowTimer = setInterval(nextCollege, 7000);
     })
     .catch(() => { stage.style.display = "none"; });
+})();
+
+
+/* ── JIG the owl — idle tricks ──────────────────────────────────────────── */
+(function jigOwl() {
+  const owl = document.querySelector(".owl-perch");
+  if (!owl) return;
+
+  const doTrick = () => {
+    owl.classList.remove("trick");
+    void owl.offsetWidth;            // reflow so the animation restarts
+    owl.classList.add("trick");
+  };
+
+  owl.addEventListener("click", doTrick);
+  owl.addEventListener("animationend", () => owl.classList.remove("trick"));
+
+  // every so often JIG does a curious head-tilt on its own
+  setInterval(doTrick, 5000 + Math.random() * 3000);
 })();

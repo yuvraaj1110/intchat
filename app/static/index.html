@@ -36,13 +36,6 @@
 
     <main id="thread" class="thread">
       <div id="welcome" class="welcome">
-        <div class="welcome-mark">
-          <svg class="cap" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/>
-            <path d="M22 10v6"/>
-            <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/>
-          </svg>
-        </div>
         <h2>How can I help you today?</h2>
         <p>Ask me anything about studying in the U.S. as an international student.
            Every answer comes from official sources, with links so you can verify.</p>
@@ -57,6 +50,46 @@
 
     <footer class="composer">
       <form id="ask-form" class="cbox">
+        <!-- JIG the owl, perched on the left edge of the chat box -->
+        <div class="owl-perch" title="Hi, I'm JIG">
+          <svg class="owl-svg" viewBox="0 0 100 104" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="owlBody" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#f7a84a"/>
+                <stop offset="1" stop-color="#e07a26"/>
+              </linearGradient>
+            </defs>
+            <!-- toes gripping the perch -->
+            <g fill="#f4b53f" stroke="#d9772a" stroke-width="1.5" stroke-linecap="round">
+              <path d="M40 90 l-5 9 M40 90 l0 10 M40 90 l5 9"/>
+              <path d="M60 90 l-5 9 M60 90 l0 10 M60 90 l5 9"/>
+            </g>
+            <!-- ear tufts -->
+            <path d="M30 22 L26 4 L44 18 Z" fill="#e07a26"/>
+            <path d="M70 22 L74 4 L56 18 Z" fill="#e07a26"/>
+            <!-- wings -->
+            <ellipse class="wing wing-l" cx="20" cy="58" rx="9" ry="22" fill="#d9772a"/>
+            <ellipse class="wing wing-r" cx="80" cy="58" rx="9" ry="22" fill="#d9772a"/>
+            <!-- body -->
+            <ellipse cx="50" cy="56" rx="33" ry="36" fill="url(#owlBody)"/>
+            <!-- belly -->
+            <ellipse cx="50" cy="64" rx="20" ry="24" fill="#ffe1b3"/>
+            <!-- eye discs -->
+            <circle cx="37" cy="46" r="15" fill="#fff"/>
+            <circle cx="63" cy="46" r="15" fill="#fff"/>
+            <circle cx="37" cy="46" r="15" fill="none" stroke="#e07a26" stroke-width="2.5"/>
+            <circle cx="63" cy="46" r="15" fill="none" stroke="#e07a26" stroke-width="2.5"/>
+            <!-- eyes (blink) -->
+            <g class="owl-eyes">
+              <circle cx="38" cy="47" r="7" fill="#3a2410"/>
+              <circle cx="62" cy="47" r="7" fill="#3a2410"/>
+              <circle cx="40.5" cy="44.5" r="2.4" fill="#fff"/>
+              <circle cx="64.5" cy="44.5" r="2.4" fill="#fff"/>
+            </g>
+            <!-- beak -->
+            <path d="M50 52 L44 60 L56 60 Z" fill="#f4b53f" stroke="#d9772a" stroke-width="1.2" stroke-linejoin="round"/>
+          </svg>
+        </div>
         <input id="question" type="text" placeholder="Ask a question…" autocomplete="off" />
         <button type="submit" id="send-btn" class="send" aria-label="Send">↑</button>
       </form>

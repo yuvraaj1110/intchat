@@ -95,11 +95,31 @@ body.chatting #college-ui{opacity:0;pointer-events:none}
 
 /* ── Welcome / empty state ───────────────────── */
 .welcome{margin:auto;text-align:center;max-width:520px;padding:1rem;animation:fade .5s ease}
-.welcome-mark{
-  width:72px;height:72px;margin:0 auto 1.3rem;border-radius:20px;background:var(--accent);color:#2a2724;
-  display:grid;place-items:center;box-shadow:0 12px 38px rgba(212,162,127,.35);
+
+/* ── JIG — cute orange owl perched on the chat box ──── */
+.owl-perch{
+  position:absolute;left:14px;top:0;transform:translateY(-80%);
+  width:58px;height:60px;z-index:4;cursor:pointer;
 }
-.welcome-mark .cap{width:34px;height:34px}
+.owl-svg{width:58px;height:60px;display:block;transform-origin:50% 100%;
+  animation:owl-breathe 3s ease-in-out infinite;
+  filter:drop-shadow(0 4px 6px rgba(0,0,0,.35))}
+.owl-eyes{transform-box:fill-box;transform-origin:center;animation:owl-blink 4s ease-in-out infinite}
+
+@keyframes owl-breathe{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-2px) rotate(2deg)}}
+@keyframes owl-blink{0%,92%,100%{transform:scaleY(1)}96%{transform:scaleY(.1)}}
+
+/* one-shot 'trick' = curious head tilt (idle every few s, or on click) */
+.owl-perch.trick .owl-svg{animation:owl-tilt .8s ease-in-out}
+@keyframes owl-tilt{0%,100%{transform:rotate(0)}30%{transform:rotate(-13deg)}65%{transform:rotate(10deg)}}
+
+/* hover = happy hop */
+.owl-perch:hover .owl-svg{animation:owl-hop .5s ease-in-out}
+@keyframes owl-hop{0%,100%{transform:translateY(0) rotate(0)}45%{transform:translateY(-7px) rotate(-3deg)}}
+
+@media (prefers-reduced-motion:reduce){
+  .owl-svg,.owl-eyes,.owl-perch.trick .owl-svg{animation:none}
+}
 .welcome h2{font-size:1.55rem;font-weight:700;letter-spacing:-.5px;margin-bottom:.6rem;text-shadow:0 2px 16px rgba(0,0,0,.5)}
 .welcome p{color:#d8d4cc;font-size:.94rem;line-height:1.65;margin-bottom:1.7rem;text-shadow:0 1px 10px rgba(0,0,0,.5)}
 .chips{display:flex;flex-wrap:wrap;gap:.55rem;justify-content:center}
@@ -157,6 +177,7 @@ body.chatting #college-ui{opacity:0;pointer-events:none}
 /* ── Composer ────────────────────────────────── */
 .composer{padding:1rem 1.5rem 1.25rem}
 .cbox{
+  position:relative;
   display:flex;align-items:center;gap:.5rem;background:var(--surface);
   border:1px solid var(--border);border-radius:14px;padding:.5rem .5rem .5rem 1.1rem;
   transition:border-color .18s,box-shadow .18s;
